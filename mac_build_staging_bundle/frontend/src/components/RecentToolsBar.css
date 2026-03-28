@@ -1,0 +1,67 @@
+
+/* ... existing code ... */
+
+/* Recent Tools Bar */
+.recent-tools-bar {
+  padding: 16px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.recent-tools-header {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.recent-tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.recent-tool-chip {
+  display: flex;
+  align-items: center;
+  background: var(--card-bg);
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 13px;
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.recent-tool-chip:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.recent-tool-icon {
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.recent-tool-remove {
+  margin-left: 8px;
+  opacity: 0;
+  color: var(--text-secondary);
+  transition: opacity 0.2s ease, color 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.recent-tool-chip:hover .recent-tool-remove {
+  opacity: 1;
+}
+
+.recent-tool-remove:hover {
+  color: #ef4444;
+}

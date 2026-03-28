@@ -1,0 +1,707 @@
+{
+  "__continue_import": "Continuer l'importation",
+  "__clear_all": "Effacer tout",
+  "__audio_track_count": "{{count}} pistes audio",
+  "__video_has_tracks": "Cette vidéo contient {{count}} pistes audio",
+  "__progress_converting": "Conversion en cours {{current}}/{{total}}",
+  "__extract_video_frames": "Extraction de {{percent}}% des images de la vidéo originale",
+  "__set_path_count": "Définir le chemin ({{count}})",
+  "${placeholderLabel} 加载中": {
+    "": {
+      "": {
+        "": "${placeholderLabel} Chargement..."
+      }
+    }
+  },
+  "${toolName} 处理完成！": "${toolName} Traitement terminé !",
+  "(${videoInfo": {
+    "audio_tracks_count} 条音轨)": "(${videoInfo.audio_tracks_count} pistes audio)"
+  },
+  "({{videoInfo": {
+    "audio_tracks_count}} 条音轨)": "({{videoInfo.audio_tracks_count}} pistes audio)"
+  },
+  "+ 继续导入": "+ Continuer l'importation",
+  "1000k (低质量)": "1000k (qualité faible)",
+  "12000k (4K级别)": "12000k (niveau 4K)",
+  "2000k (中等质量)": "2000k (qualité moyenne)",
+  "4000k (高质量)": "4000k (qualité élevée)",
+  "6000k (超清)": "6000k (ultra HD)",
+  "8000k (极清)": "8000k (extrême clarté)",
+  "AVI To GIF 转换器": "Convertisseur AVI vers GIF",
+  "AVI To H264 转换器": "Convertisseur AVI vers H264",
+  "AVI To JPG 转换器": "Convertisseur AVI vers JPG",
+  "AVI To MKV 转换器": "Convertisseur AVI vers MKV",
+  "AVI To MOV 转换器": "Convertisseur AVI vers MOV",
+  "AVI To MP3 转换器": "Convertisseur AVI vers MP3",
+  "AVI To MP4 转换器": "Convertisseur AVI vers MP4",
+  "AVI To MPE 转换器": "Convertisseur AVI vers MPE",
+  "AVI To MPF 转换器": "Convertisseur AVI vers MPF",
+  "AVI To PNG 转换器": "Convertisseur AVI vers PNG",
+  "AVI To WAV 转换器": "Convertisseur AVI vers WAV",
+  "AVI To WEBM 转换器": "Convertisseur AVI vers WEBM",
+  "AVI 格式视频转换工具集": "Kit d'outils de conversion vidéo AVI",
+  "AVI 转换器": "Convertisseur AVI",
+  "AVI, MP4, GIF 等视频格式互转": "Conversion entre formats vidéo AVI, MP4, GIF, etc.",
+  "Base64 编码可以将图片数据直接嵌入到 HTML 或 CSS 中，减少 HTTP 请求，提高页面加载速度。": "Le codage Base64 permet d'incorporer directement les données d'image dans HTML ou CSS, réduisant les requêtes HTTP et améliorant la vitesse de chargement de la page.",
+  "FFmpeg 转换结果为空文件，请检查源 GIF 是否正常": "Le fichier de sortie de FFmpeg est vide. Veuillez vérifier si le GIF source est valide.",
+  "GIF To AVI 转换器": "Convertisseur GIF vers AVI",
+  "GIF To BASE64 转换器": "Convertisseur GIF vers Base64",
+  "GIF To HTML 转换器": "Convertisseur GIF vers HTML",
+  "GIF To JPG 转换器": "Convertisseur GIF vers JPG",
+  "GIF To MOV 转换器": "Convertisseur GIF vers MOV",
+  "GIF To MP4 转换器": "Convertisseur GIF vers MP4",
+  "GIF To PDF 转换器": "Convertisseur GIF vers PDF",
+  "GIF To PNG 转换器": "Convertisseur GIF vers PNG",
+  "GIF To WEBM 转换器": "Convertisseur GIF vers WEBM",
+  "GIF To WEBP 转换器": "Convertisseur GIF vers WEBP",
+  "GIF 动图转换工具集": "Kit d'outils de conversion d'images animées GIF",
+  "GIF 图像": "Image GIF",
+  "GIF 转换器": "Convertisseur GIF",
+  "JPG, PNG, SVG 等图片处理工具": "Outils de traitement d'images JPG, PNG, SVG, etc.",
+  "LOGO区域": "Zone LOGO",
+  "MOV To AVI 转换器": "Convertisseur MOV vers AVI",
+  "MOV To GIF 转换器": "Convertisseur MOV vers GIF",
+  "MOV To JPG 转换器": "Convertisseur MOV vers JPG",
+  "MOV To MP3 转换器": "Convertisseur MOV vers MP3",
+  "MOV To MP4 转换器": "Convertisseur MOV vers MP4",
+  "MOV To PDF 转换器": "Convertisseur MOV vers PDF",
+  "MOV To PNG 转换器": "Convertisseur MOV vers PNG",
+  "MOV To WAV 转换器": "Convertisseur MOV vers WAV",
+  "MOV To WEBM 转换器": "Convertisseur MOV vers WEBM",
+  "MOV 格式视频转换工具集": "Kit d'outils de conversion de vidéos au format MOV",
+  "MOV 视频": "Vidéo MOV",
+  "MOV 转换器": "Convertisseur MOV",
+  "MP3, WAV 等音频格式转换": "Conversion de formats audio MP3, WAV, etc.",
+  "MP4 To AVI 转换器": "Convertisseur MP4 vers AVI",
+  "MP4 To GIF 转换器": "Convertisseur MP4 vers GIF",
+  "MP4 To JPG 转换器": "Convertisseur MP4 vers JPG",
+  "MP4 To MOV 转换器": "Convertisseur MP4 vers MOV",
+  "MP4 To MP3 转换器": "Convertisseur MP4 vers MP3",
+  "MP4 To PNG 转换器": "Convertisseur MP4 vers PNG",
+  "MP4 To WEBM 转换器": "Convertisseur MP4 vers WEBM",
+  "MP4 格式视频转换工具集": "Kit d'outils de conversion de vidéos au format MP4",
+  "MP4 视频": "Vidéo MP4",
+  "MP4 转换器": "Convertisseur MP4",
+  "PDF, DOCX, JSON 等文档转换": "Conversion de documents PDF, DOCX, JSON, etc.",
+  "WEBM To AVI 转换器": "Convertisseur WEBM vers AVI",
+  "WEBM To GIF 转换器": "Convertisseur WEBM vers GIF",
+  "WEBM To JPG 转换器": "Convertisseur WEBM vers JPG",
+  "WEBM To MOV 转换器": "Convertisseur WEBM vers MOV",
+  "WEBM To MP3 转换器": "Convertisseur WEBM vers MP3",
+  "WEBM To MP4 转换器": "Convertisseur WEBM vers MP4",
+  "WEBM To PNG 转换器": "Convertisseur WEBM vers PNG",
+  "WEBM To WAV 转换器": "Convertisseur WEBM vers WAV",
+  "WEBM 格式视频转换工具集": "Kit d'outils de conversion de vidéos au format WEBM",
+  "WEBM 视频": "Vidéo WEBM",
+  "WEBM 转换器": "Convertisseur WEBM",
+  "Web 模式下无法选择目录": "Impossible de sélectionner un répertoire en mode Web",
+  "Web 模式下暂不支持预览": "La prévisualisation n'est pas encore prise en charge en mode Web",
+  "ffmpeg 已完成但输出文件为空": "ffmpeg a terminé mais le fichier de sortie est vide",
+  "{filename} - GIF 预览": "{filename} - Prévisualisation GIF",
+  "{{filename}} - GIF 预览": "{{filename}} - Prévisualisation GIF",
+  "{{placeholderLabel}} 加载中": {
+    "": {
+      "": {
+        "": "{{placeholderLabel}} Chargement..."
+      }
+    }
+  },
+  "{{toolName}} 处理完成！": "{{toolName}} traité avec succès !",
+  "—— 一款专业工具，可将 GIF 动图转换为 Base64 编码字符串，方便在代码中直接引用。": "—— Un outil professionnel permettant de convertir une animation GIF en chaîne de caractères encodée en Base64, pratique pour l'utiliser directement dans le code.",
+  "—— 一款专业工具，可将 GIF 动图转换为 JPG 图像序列，并支持自定义参数。": "—— Un outil professionnel permettant de convertir une animation GIF en séquence d'images JPG, avec prise en charge des paramètres personnalisables.",
+  "—— 一款专业工具，可将 GIF 动图转换为 MP4 视频格式，并支持自定义参数。": "—— Un outil professionnel permettant de convertir une animation GIF en vidéo MP4, avec prise en charge des paramètres personnalisables.",
+  "—— 一款专业工具，可将 GIF 动图转换为 PDF 文档，支持自定义页面方向。": "—— Un outil professionnel permettant de convertir une animation GIF en document PDF, avec prise en charge de la direction personnalisable des pages.",
+  "—— 一款专业工具，可将 GIF 动图转换为 WEBM 视频格式，并支持自定义参数。": "—— Un outil professionnel permettant de convertir une animation GIF en vidéo WEBM, avec prise en charge des paramètres personnalisables.",
+  "—— 专业级 MOV 转 AVI 工具，支持批量转换和高质量输出。": "—— Outil professionnel de conversion MOV vers AVI, prenant en charge la conversion par lots et une sortie haute qualité.",
+  "—— 专业级 MOV 转 MP3 工具，支持批量提取音频和高质量输出。": "—— Outil professionnel de conversion MOV vers MP3, prenant en charge l'extraction audio par lots et une sortie haute qualité.",
+  "—— 专业级 MOV 转 MP4 工具，支持批量转换和高质量输出。": "—— Outil professionnel de conversion MOV vers MP4, prenant en charge la conversion par lots et une sortie haute qualité.",
+  "—— 专业级 MOV 转 WEBM 工具，支持批量转换和高质量输出。": "—— Outil professionnel de conversion MOV vers WEBM, prenant en charge la conversion par lots et une sortie haute qualité.",
+  "—— 专业级 MP4 转 AVI 工具，支持批量转换和高质量输出。": "—— Outil professionnel de conversion MP4 vers AVI, prenant en charge la conversion par lots et une sortie haute qualité.",
+  "—— 专业级 MP4 转 MOV 工具，支持批量转换和高质量输出。": "—— Outil professionnel de conversion MP4 vers MOV, prenant en charge la conversion par lots et une sortie haute qualité.",
+  "—— 专业级 MP4 转 MP3 工具，支持批量提取音频和高质量输出。": "—— Outil professionnel de conversion MP4 vers MP3, prenant en charge l'extraction audio par lots et une sortie haute qualité.",
+  "—— 专业级 MP4 转 WEBM 工具，支持批量转换和高质量 WebM 格式输出。": "—— Outil professionnel de conversion MP4 vers WEBM, prenant en charge la conversion par lots et une sortie WebM haute qualité.",
+  "—— 从 MOV 视频中提取无损 WAV 音频，支持批量转换和音频设置。": "—— Extraction sans perte d'audio WAV à partir de vidéos MOV, avec prise en charge de la conversion par lots et des réglages audio.",
+  "—— 从 MP4 视频中提取高质量 JPG 序列，支持自定义提取间隔和质量。": "—— Extraction de séquences JPG haute qualité à partir de vidéos MP4, avec prise en charge des intervalles et de la qualité personnalisables.",
+  "—— 将 MOV 视频帧提取为高质量 JPG 图片，支持批量处理和参数调节。": "—— Extraction de cadres vidéo MOV sous forme d'images JPG haute qualité, avec prise en charge du traitement par lots et des paramètres ajustables.",
+  "—— 将 MOV 视频帧提取为高质量 PNG 图片，支持批量处理和参数调节。": "—— Extraction de cadres vidéo MOV sous forme d'images PNG haute qualité, avec prise en charge du traitement par lots et des paramètres ajustables.",
+  "—— 将 MOV 视频帧提取并转换为 PDF 文档，支持自定义页面方向与批量处理。": "—— Extraction et conversion de cadres vidéo MOV en documents PDF, avec prise en charge de la direction personnalisable des pages et du traitement par lots.",
+  "—— 将 MOV 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "—— Conversion de vidéos MOV en animations GIF haute qualité, avec prise en charge de la qualité, du taux de trame et de la plage horaire personnalisables.",
+  "—— 将 MP4 视频转换为 PNG 图片序列，支持自定义提取间隔和质量。": "—— Conversion de vidéos MP4 en séquence d'images PNG, avec prise en charge des intervalles et de la qualité personnalisables.",
+  "—— 将 MP4 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "—— Conversion de vidéos MP4 en animations GIF haute qualité, avec prise en charge de la qualité, du taux de trame et de la plage horaire personnalisables.",
+  "一款专业工具，可从AVI视频中提取MP3音频，并支持自定义编码参数。": "Un outil professionnel permettant d'extraire des fichiers audio MP3 à partir de vidéos AVI, avec prise en charge des paramètres de codage personnalisables.",
+  "一款专业工具，可从AVI视频中提取WAV音频，并支持自定义编码参数。": "Un outil professionnel permettant d'extraire des fichiers audio WAV à partir de vidéos AVI, avec prise en charge des paramètres de codage personnalisables.",
+  "一款专业工具，可将 GIF 动图转换为 AVI 视频格式，并支持自定义参数。": "Un outil professionnel permettant de convertir des animations GIF en vidéos AVI, avec prise en charge des paramètres personnalisables.",
+  "一款专业工具，可将 GIF 动图转换为 MOV 视频格式，并支持自定义参数。": "Un outil professionnel permettant de convertir des animations GIF en vidéos MOV, avec prise en charge des paramètres personnalisables.",
+  "一款专业工具，可将 GIF 动图转换为 PNG 图像序列，并支持自定义参数。": "Un outil professionnel permettant de convertir des animations GIF en séquence d'images PNG, avec prise en charge des paramètres personnalisables.",
+  "一款专业工具，可将 GIF 动图转换为 WEBP 图像序列，并支持自定义参数。": "Un outil professionnel permettant de convertir des animations GIF en séquence d'images WEBP, avec prise en charge des paramètres personnalisables.",
+  "一款专业工具，可将AVI 视频文件转换为GIF动图，并支持自定义参数。": "Un outil professionnel permettant de convertir des fichiers vidéo AVI en animations GIF, avec prise en charge des paramètres personnalisables.",
+  "一款专业工具，可将AVI 视频文件转换为H264(MP4)视频格式，并支持自定义编码参数。": "Un outil professionnel permettant de convertir des fichiers vidéo AVI en format vidéo H264 (MP4) et prenant en charge les paramètres d'encodage personnalisables.",
+  "一款专业工具，可将AVI 视频文件转换为JPG图像序列，并支持自定义提取参数。": "Un outil professionnel permettant de convertir des fichiers vidéo AVI en séquence d'images JPG et prenant en charge les paramètres d'extraction personnalisables.",
+  "一款专业工具，可将AVI 视频文件转换为MKV视频格式，并支持自定义编码参数。": "Un outil professionnel permettant de convertir des fichiers vidéo AVI en format vidéo MKV et prenant en charge les paramètres d'encodage personnalisables.",
+  "一款专业工具，可将AVI 视频文件转换为MOV视频格式，并支持自定义编码参数。": "Un outil professionnel permettant de convertir des fichiers vidéo AVI en format vidéo MOV et prenant en charge les paramètres d'encodage personnalisables.",
+  "一款专业工具，可将AVI 视频文件转换为MP4视频格式，并支持自定义编码参数。": "Un outil professionnel permettant de convertir des fichiers vidéo AVI en format vidéo MP4 et prenant en charge les paramètres d'encodage personnalisables.",
+  "一款专业工具，可将AVI 视频文件转换为MPE视频格式，并支持自定义编码参数。": "Un outil professionnel permettant de convertir des fichiers vidéo AVI en format vidéo MPE et prenant en charge les paramètres d'encodage personnalisables.",
+  "一款专业工具，可将AVI 视频文件转换为PNG图像序列，并支持自定义提取参数。": "Un outil professionnel permettant de convertir des fichiers vidéo AVI en séquence d'images PNG et prenant en charge les paramètres d'extraction personnalisables.",
+  "一款专业工具，可将AVI 视频文件转换为WEBM视频格式，并支持自定义编码参数。": "Un outil professionnel permettant de convertir des fichiers vidéo AVI en format vidéo WEBM et prenant en charge les paramètres d'encodage personnalisables.",
+  "一款在线${source}转${target}转换器，支持自定义参数，提供多种分辨率选项，助您轻松完成格式转换。": "Un convertisseur en ligne ${source} vers ${target} prenant en charge les paramètres personnalisables et offrant plusieurs options de résolution pour vous aider à effectuer facilement la conversion de format.",
+  "一款在线{{source}}转{{target}}转换器，支持自定义参数，提供多种分辨率选项，助您轻松完成格式转换。": "Un convertisseur en ligne {{source}} vers {{target}} prenant en charge les paramètres personnalisables et offrant plusieurs options de résolution pour vous aider à effectuer facilement la conversion de format.",
+  "下次再说": "Plus tard",
+  "下载失败: {str(e)}": "Échec du téléchargement : {str(e)}",
+  "专业级 WEBM 转 AVI 工具，支持批量转换和高质量输出。": "Outil professionnel de conversion WEBM vers AVI, prenant en charge la conversion par lots et offrant une sortie de haute qualité.",
+  "专业级 WEBM 转 MP4 工具，支持批量转换和高质量输出。": "Outil professionnel de conversion WEBM vers MP4, prenant en charge la conversion par lots et offrant une sortie de haute qualité.",
+  "中等质量": "Qualité moyenne",
+  "从 AVI 视频提取 MP3 音频": "Extraire l'audio MP3 à partir d'une vidéo AVI",
+  "从 AVI 视频提取 WAV 音频": "Extraire l'audio WAV à partir d'une vidéo AVI",
+  "从 MOV 视频提取 MP3 音频": "Extraire l'audio MP3 à partir d'une vidéo MOV",
+  "从 MOV 视频提取 WAV 音频": "Extraire l'audio WAV à partir d'une vidéo MOV",
+  "从 MP4 视频提取 MP3 音频": "Extraire l'audio MP3 à partir d'une vidéo MP4",
+  "从 WEBM 视频中提取无损 WAV 音频，支持批量转换和音频设置。": "Extraire l'audio WAV sans perte à partir d'une vidéo WEBM, avec prise en charge de la conversion par lots et des réglages audio.",
+  "从 WEBM 视频中提取高质量 JPG 序列，支持自定义提取间隔和质量。": "Extraire une séquence JPG de haute qualité à partir d'une vidéo WEBM, avec prise en charge de l'intervalle et de la qualité d'extraction personnalisables.",
+  "从 WEBM 视频中提取高质量 MP3 音频，支持批量转换和音频质量设置。": "Extraire un audio MP3 de haute qualité à partir d'une vidéo WEBM, avec prise en charge de la conversion par lots et des réglages de qualité audio.",
+  "从 WEBM 视频中提取高质量 PNG 序列，支持自定义提取间隔和质量。": "Extraire une séquence PNG de haute qualité à partir d'une vidéo WEBM, avec prise en charge de l'intervalle et de la qualité d'extraction personnalisables.",
+  "从 WEBM 视频提取 MP3 音频": "Extraire l'audio MP3 à partir d'une vidéo WEBM",
+  "从 WEBM 视频提取 WAV 音频": "Extraire l'audio WAV à partir d'une vidéo WEBM",
+  "任务中断": "Tâche interrompue",
+  "低质量": "Basse qualité",
+  "保持原样": "Conserver l'original",
+  "全局配置": "Configuration globale",
+  "全部转换": "Tout convertir",
+  "关于 GIF 转 BASE64": "À propos de la conversion GIF vers BASE64",
+  "关键帧与音频控制": "Contrôle des images clés et audio",
+  "关键帧间隔 (帧)": "Intervalle des images clés (trames)",
+  "关闭": "Fermer",
+  "关闭窗口": "Fermer la fenêtre",
+  "准备就绪": {
+    "": {
+      "": {
+        "": "Prêt..."
+      }
+    }
+  },
+  "分辨率": "Résolution",
+  "切换浅色模式": "Basculer en mode clair",
+  "切换深色模式": "Basculer en mode sombre",
+  "功能演示区域": "Zone de démonstration des fonctions",
+  "功能说明": "Description de la fonction",
+  "加载中": "Chargement...",
+  "动态码率 (VBR)": "Débit binaire variable (VBR)",
+  "单声道 (1)": "Mono (1)",
+  "单声道 (1": {
+    "0)": "Mono (1.0)"
+  },
+  "单声道 (Mono)": "Mono (Mono)",
+  "原始方向 (Original)": "Direction d'origine (Original)",
+  "原视频分辨率": "Résolution vidéo d'origine",
+  "取消": "Annuler",
+  "取消失败:": "Échec de l'annulation :",
+  "取消登录": "Annuler la connexion",
+  "取消转换": "Annuler la conversion",
+  "取消转换时发生错误": "Erreur lors de l'annulation de la conversion",
+  "取消转换时发生错误: ": "Erreur lors de l'annulation de la conversion : ",
+  "取消转换时发生错误:": "Erreur lors de l'annulation de la conversion :",
+  "只支持 MP4 文件": "Seuls les fichiers MP4 sont pris en charge",
+  "各种格式转换工具": "Outils de conversion de divers formats",
+  "否": "Non",
+  "启动失败，请手动打开程序": "Échec du démarrage, veuillez ouvrir le programme manuellement",
+  "启动登录界面失败: ${error": {
+    "message || '网络错误'}": "Échec du démarrage de l'interface de connexion : ${error.message || 'Erreur réseau'}"
+  },
+  "启动登录界面失败: {{error": {
+    "message || '网络错误'}}": "启动登录界面失败: {{error.message || '网络错误'}}"
+  },
+  "启动错误": "Erreur de démarrage",
+  "固定比特率": "Débit binaire fixe",
+  "固定码率 (CBR)": "Débit binaire fixe (CBR)",
+  "图片类": "Images",
+  "在 Web 模式下无法打开本地文件夹": "Impossible d'ouvrir un dossier local en mode Web",
+  "在 Web 模式下无法选择目录": "Impossible de sélectionner un répertoire en mode Web",
+  "在 Web 模式下无法选择输出文件夹": "Impossible de sélectionner un dossier de sortie en mode Web",
+  "声道": "Canal",
+  "声道配置": "Configuration des canaux",
+  "处理完成！成功: ${successCount} 个，失败: ${failCount} 个。": "Traitement terminé ! Réussite : ${successCount}, Échec : ${failCount}.",
+  "处理完成！成功: {{successCount}} 个，失败: {{failCount}} 个。": "Traitement terminé ! Réussite : {{successCount}}, Échec : {{failCount}}.",
+  "处理文件 ${file} 时出错: ${err": {
+    "message}": "Erreur lors du traitement du fichier ${file} : ${err.message}"
+  },
+  "处理文件 {{file}} 时出错: {{err": {
+    "message}}": "Erreur lors du traitement du fichier {{file}} : {{err.message}}"
+  },
+  "处理文件时出错: ${err": {
+    "message}": "Erreur lors du traitement du fichier : ${err.message}"
+  },
+  "处理文件时出错: {{err": {
+    "message}}": "Erreur lors du traitement du fichier : {{err.message}}"
+  },
+  "安装失败：文件被占用，请手动关闭程序后重试": "Échec de l'installation : le fichier est utilisé, veuillez fermer manuellement le programme puis réessayer",
+  "完成": "Terminé",
+  "导入文件夹": "Importer un dossier",
+  "将 AVI 视频转换为 GIF 动图": "Convertir une vidéo AVI en animation GIF",
+  "将 AVI 视频转换为 H": {
+    "264 编码": "Convertir une vidéo AVI en encodage H.264"
+  },
+  "将 AVI 视频转换为 JPG 图片序列": "Convertir une vidéo AVI en séquence d'images JPG",
+  "将 AVI 视频转换为 MKV 格式": "Convertir une vidéo AVI en format MKV",
+  "将 AVI 视频转换为 MOV 格式": "Convertir une vidéo AVI en format MOV",
+  "将 AVI 视频转换为 MP4 格式": "Convertir une vidéo AVI en format MP4",
+  "将 AVI 视频转换为 MPE 格式": "Convertir une vidéo AVI en format MPE",
+  "将 AVI 视频转换为 MPF 格式": "Convertir une vidéo AVI en format MPF",
+  "将 AVI 视频转换为 MPF 格式，支持批量转换和参数自定义。": "Convertir une vidéo AVI en format MPF, avec prise en charge de la conversion par lots et des paramètres personnalisables.",
+  "将 AVI 视频转换为 PNG 图片序列": "Convertir une vidéo AVI en séquence d'images PNG",
+  "将 AVI 视频转换为 WEBM 格式": "Convertir une vidéo AVI en format WEBM",
+  "将 GIF 动图以 Base64 编码方式嵌入到 HTML 页面中，实现单文件分发，方便在任何浏览器中查看。": "Intégrer une animation GIF au format Base64 dans une page HTML pour une distribution en un seul fichier, pratique pour visualiser dans n'importe quel navigateur.",
+  "将 GIF 动图转换为 MOV 视频": "Convertir une animation GIF en vidéo MOV",
+  "将 GIF 动图转换为 MP4 视频": "Convertir une animation GIF en vidéo MP4",
+  "将 GIF 动图转换为 PDF 文档": "Convertir une animation GIF en document PDF",
+  "将 GIF 动图转换为 PNG 图片序列": "Convertir une animation GIF en séquence d'images PNG",
+  "将 GIF 转换为 AVI 视频": "Convertir une GIF en vidéo AVI",
+  "将 GIF 转换为 Base64 编码": "Convertir une GIF en code Base64",
+  "将 GIF 转换为 HTML 动画": "Convertir une GIF en animation HTML",
+  "将 GIF 转换为 JPG 图片序列": "Convertir une GIF en séquence d'images JPG",
+  "将 GIF 转换为 WEBM 视频": "Convertir une GIF en vidéo WEBM",
+  "将 GIF 转换为 WEBP 格式": "Convertir une GIF en format WEBP",
+  "将 MOV 视频转换为 AVI 格式": "Convertir une vidéo MOV en format AVI",
+  "将 MOV 视频转换为 GIF 动图": "Convertir une vidéo MOV en animation GIF",
+  "将 MOV 视频转换为 JPG 图片序列": "Convertir une vidéo MOV en séquence d'images JPG",
+  "将 MOV 视频转换为 MP4 格式": "Convertir une vidéo MOV en format MP4",
+  "将 MOV 视频转换为 PDF 文档": "Convertir une vidéo MOV en document PDF",
+  "将 MOV 视频转换为 PNG 图片序列": "Convertir une vidéo MOV en séquence d'images PNG",
+  "将 MOV 视频转换为 WEBM 格式": "Convertir une vidéo MOV en format WEBM",
+  "将 MP4 视频转换为 AVI 格式": "Convertir une vidéo MP4 en format AVI",
+  "将 MP4 视频转换为 GIF 动图": "Convertir une vidéo MP4 en animation GIF",
+  "将 MP4 视频转换为 JPG 图片序列": "Convertir une vidéo MP4 en séquence d'images JPG",
+  "将 MP4 视频转换为 MOV 格式": "Convertir une vidéo MP4 en format MOV",
+  "将 MP4 视频转换为 PNG 图片序列": "Convertir une vidéo MP4 en séquence d'images PNG",
+  "将 MP4 视频转换为 WEBM 格式": "Convertir une vidéo MP4 en format WEBM",
+  "将 WEBM 视频转换为 AVI 格式": "Convertir une vidéo WEBM en format AVI",
+  "将 WEBM 视频转换为 GIF 动图": "Convertir une vidéo WEBM en animation GIF",
+  "将 WEBM 视频转换为 JPG 图片序列": "Convertir une vidéo WEBM en séquence d'images JPG",
+  "将 WEBM 视频转换为 MOV 格式": "Convertir une vidéo WEBM en format MOV",
+  "将 WEBM 视频转换为 MP4 格式": "Convertir une vidéo WEBM au format MP4",
+  "将 WEBM 视频转换为 PNG 图片序列": "Convertir une vidéo WEBM en séquence d'images PNG",
+  "将 WEBM 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "Convertir une vidéo WEBM en GIF haute qualité, avec prise en charge de la qualité personnalisée, du taux de trames et de la plage horaire.",
+  "将 WebM 视频转换为 Apple 设备兼容性更好的 MOV 格式，支持自定义质量、分辨率和音频比特率。": "Convertir une vidéo WebM en format MOV compatible avec les appareils Apple, avec prise en charge de la qualité personnalisée, de la résolution et du débit audio.",
+  "将您的 AVI 文件拖拽到此处": "Faites glisser votre fichier AVI ici",
+  "将您的 GIF 文件拖拽到此处": "Faites glisser votre fichier GIF ici",
+  "将您的 MOV 文件拖拽到此处": "Faites glisser votre fichier MOV ici",
+  "将您的 MP4 文件拖拽到此处": "Faites glisser votre fichier MP4 ici",
+  "将您的 WEBM 文件拖拽到此处": "Faites glisser votre fichier WEBM ici",
+  "将您的AVI文件拖拽到此处": "Faites glisser votre fichier AVI ici",
+  "将您的MOV文件拖拽到此处": "Faites glisser votre fichier MOV ici",
+  "将您的WEBM文件拖拽到此处": "Faites glisser votre fichier WEBM ici",
+  "将您的文件拖拽到此处": "Faites glisser vos fichiers ici",
+  "工具": "Outils",
+  "已取消": "Annulé",
+  "已取消登录": "Déconnexion annulée",
+  "已取消转换并删除未完成文件": "Conversion annulée et fichiers incomplets supprimés",
+  "已取消转换并删除本地文件": "Conversion annulée et fichiers locaux supprimés",
+  "已登录鲲穹账户": "Connecté au compte Kunqiong",
+  "已设置自定义路径": "Chemin personnalisé défini",
+  "已退出登录": "Déconnecté",
+  "帧率": "Taux de trames",
+  "应用配置": "Configuration de l'application",
+  "开始处理": "Commencer le traitement",
+  "开始时间 (秒)": "Heure de départ (secondes)",
+  "强制横向 (Landscape)": "Forcer l'orientation paysage (Landscape)",
+  "强制纵向 (Portrait)": "Forcer l'orientation portrait (Portrait)",
+  "当前全局路径: ${globalPath}": "Chemin global actuel : ${globalPath}",
+  "当前全局路径: {{globalPath}}": "Chemin global actuel : {{globalPath}}",
+  "当前已是最新版本": "Vous êtes déjà à la dernière version",
+  "快速预设": "Préréglages rapides",
+  "总时长": "Durée totale",
+  "您确定要取消当前的转换任务吗？未完成的文件将被删除。": "Êtes-vous sûr de vouloir annuler la conversion en cours ? Les fichiers incomplets seront supprimés.",
+  "成功": "Succès",
+  "成功转换 ${selectedFiles": {
+    "length} 个文件！": "Conversion réussie de ${selectedFiles.length} fichiers !"
+  },
+  "成功转换 ${successCount} 个文件！": "Conversion réussie de ${successCount} fichiers !",
+  "成功转换 {{selectedFiles": {
+    "length}} 个文件！": "Conversion réussie de {{selectedFiles.length}} fichiers !"
+  },
+  "成功转换 {{successCount}} 个文件！": "Conversion réussie de {{successCount}} fichiers !",
+  "或者点击浏览文件": "Ou cliquez pour parcourir les fichiers",
+  "所有 GIF 已成功转换为 AVI 视频！": "Tous les GIF ont été convertis en vidéos AVI avec succès !",
+  "所有 GIF 已成功转换为 BASE64 文件！": "Tous les GIF ont été convertis avec succès en fichiers BASE64 !",
+  "所有 GIF 已成功转换为 HTML 文件！": "Tous les GIF ont été convertis avec succès en fichiers HTML !",
+  "所有 GIF 已成功转换为 JPG 序列并打包为 ZIP！": "Tous les GIF ont été convertis avec succès en séquence JPG et compressés dans un ZIP !",
+  "所有 GIF 已成功转换为 MOV 文件！": "Tous les GIF ont été convertis avec succès en fichiers MOV !",
+  "所有 GIF 已成功转换为 MP4 文件！": "Tous les GIF ont été convertis avec succès en fichiers MP4 !",
+  "所有 GIF 已成功转换为 PDF 文件！": "Tous les GIF ont été convertis avec succès en fichiers PDF !",
+  "所有 GIF 已成功转换为 PNG 序列并打包为 ZIP！": "Tous les GIF ont été convertis avec succès en séquence PNG et compressés dans un ZIP !",
+  "所有 GIF 已成功转换为 WEBM！": "Tous les GIF ont été convertis avec succès en WEBM !",
+  "所有 GIF 已成功转换为 WEBP 文件！": "Tous les GIF ont été convertis avec succès en fichiers WEBP !",
+  "所有 MOV 已成功转换为 GIF！": "Tous les MOV ont été convertis avec succès en GIF !",
+  "所有 MOV 已成功转换为 PDF 文件！": "Tous les MOV ont été convertis avec succès en fichiers PDF !",
+  "所有 MOV 已成功转换为 PNG 序列并打包！": "Tous les MOV ont été convertis avec succès en séquence PNG et compressés !",
+  "所有 WEBM 已成功转换为 GIF！": "Tous les WEBM ont été convertis avec succès en GIF !",
+  "所有 WEBM 已成功转换为 PNG 序列并打包！": "Tous les WEBM ont été convertis avec succès en séquence PNG et compressés !",
+  "所有任务处理完成！": "Toutes les tâches ont été traitées avec succès !",
+  "所有文件转换完成": "Toutes les conversions de fichiers sont terminées",
+  "所有文件转换成功！": "Toutes les conversions de fichiers ont réussi !",
+  "打开结果文件夹": "Ouvrir le dossier des résultats",
+  "提取原 GIF 的 ${interval}% 帧": "Extraire ${interval}% des images de l'original GIF",
+  "提取原 GIF 的 {{interval}}% 帧": "Extraire {{interval}}% des images de l'original GIF",
+  "提取原视频的 ${frameInterval}% 帧": "Extraire ${frameInterval}% des images de la vidéo originale",
+  "提取原视频的 ${interval}% 帧": "Extraire ${interval}% des images de la vidéo originale",
+  "提取原视频的 {{frameInterval}}% 帧": "Extraire {{frameInterval}}% des images de la vidéo originale",
+  "提取原视频的 {{interval}}% 帧": "Extraire {{interval}}% des images de la vidéo originale",
+  "提取密度": "Densité d'extraction",
+  "提示": "Astuce",
+  "提示：Base64 编码会使文件体积增大约 33%，建议仅对较小的 GIF 或需要减少请求数的场景使用。": "Astuce : Le codage Base64 augmente approximativement la taille du fichier de 33 %, il est recommandé de l'utiliser uniquement pour les petits GIF ou lorsque vous souhaitez réduire le nombre de requêtes.",
+  "提示：WAV 格式将采用无损 PCM (S16LE) 编码，提供最高保真度。": "Astuce : Le format WAV utilise un encodage sans perte PCM (S16LE), offrant la meilleure fidélité possible.",
+  "提示：WAV 格式通常存储为无损 PCM 音频，提供最高保真度，完美还原原始音质。": "Astuce : Le format WAV stocke généralement des données audio sans perte PCM, offrant la meilleure fidélité et une restitution parfaite de la qualité sonore d'origine.",
+  "提示：较高的比特率通常意味着更好的音质，但文件体积也会相应增大。": "Astuce : Un débit binaire plus élevé signifie généralement une meilleure qualité audio, mais cela augmente également la taille du fichier.",
+  "搜索功能": {
+    "": {
+      "": {
+        "": "Fonction de recherche..."
+      }
+    }
+  },
+  "文件 ${baseName} 没有音轨，无法转换为音频格式。": "Le fichier ${baseName} ne contient pas de piste audio, impossible de le convertir en format audio.",
+  "文件 ${file": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "Le fichier ${file.split(/[\\\\/]/).pop()} ne contient pas de piste audio, impossible de le convertir en format audio."
+    }
+  },
+  "文件 ${filePath": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "Le fichier ${filePath.split(/[\\\\/]/).pop()} ne contient pas de piste audio, impossible de le convertir en format audio."
+    }
+  },
+  "文件 ${key": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "Le fichier ${key.split(/[\\\\/]/).pop()} ne contient pas de piste audio, impossible de le convertir en format audio."
+    }
+  },
+  "文件 {{baseName}} 没有音轨，无法转换为音频格式。": "Le fichier {{baseName}} ne contient pas de piste audio, impossible de le convertir en format audio.",
+  "文件 {{file": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "Le fichier {{file.split(/[\\\\/]/).pop()}} ne contient pas de piste audio, impossible de le convertir en format audio."
+    }
+  },
+  "文件 {{filePath": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "Le fichier {{filePath.split(/[\\\\/]/).pop()}} ne contient pas de piste audio, impossible de le convertir en format audio."
+    }
+  },
+  "文件 {{key": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "Le fichier {{key.split(/[\\\\/]/).pop()}} ne contient pas de piste audio, impossible de le convertir en format audio."
+    }
+  },
+  "文件不存在": "Le fichier n'existe pas",
+  "文件内容为空 (0字节)": "Contenu du fichier vide (0 octet)",
+  "文件名": "Nom du fichier",
+  "文件名: {filename}": {
+    "gif": "Nom du fichier : {filename}.gif"
+  },
+  "文件大小": "Taille du fichier",
+  "文档类": "Type de document",
+  "方向": "Orientation",
+  "无法获取文件信息:": "Impossible d'obtenir les informations du fichier :",
+  "无法获取视频信息:": "Impossible d'obtenir les informations vidéo :",
+  "无法获取视频时长，暂不支持裁剪": "Impossible d'obtenir la durée vidéo, la fonction de découpage n'est pas prise en charge pour le moment",
+  "无法验证输出文件大小": "Impossible de vérifier la taille du fichier de sortie",
+  "无音轨": "Pas de piste audio",
+  "无音频": "Pas d'audio",
+  "是": "Oui",
+  "是否取消当前转换任务并删除未完成文件？": "Voulez-vous annuler la tâche de conversion en cours et supprimer les fichiers incomplets ?",
+  "是否取消当前转换任务？": "Voulez-vous annuler la tâche de conversion en cours ?",
+  "是否取消转换并删除本地文件？": "Voulez-vous annuler la conversion et supprimer les fichiers locaux ?",
+  "是否取消转换？": "Voulez-vous annuler la conversion ?",
+  "是否立即更新？": "Voulez-vous mettre à jour immédiatement ?",
+  "更新出错: {str(e)}": "Erreur lors de la mise à jour : {str(e)}",
+  "更新功能不可用 (Electron environment missing)": "Fonction de mise à jour indisponible (environnement Electron manquant)",
+  "更新程序参数错误。\\n\\n原始参数: {sys": {
+    "argv}": "Erreur de paramètres du programme de mise à jour。\\n\\nParamètres initiaux : {sys.argv}"
+  },
+  "更新程序启动失败": "Échec du démarrage du programme de mise à jour",
+  "更新错误": "Erreur de mise à jour",
+  "最大化/还原": "Maximiser/Restaurer",
+  "最小化": "Minimiser",
+  "最近使用": "Utilisé récemment",
+  "未找到主程序": "Programme principal introuvable",
+  "未找到相关功能": "Fonction associée introuvable",
+  "未知": "Inconnu",
+  "未知错误": "Erreur inconnue",
+  "未设置输出路径": "Chemin de sortie non défini",
+  "未设置输出路径: ${file}": "Chemin de sortie non défini : ${file}",
+  "未设置输出路径: {{file}}": "Chemin de sortie non défini : {{file}}",
+  "校验失败：下载文件损坏": "Échec de la vérification : fichier téléchargé corrompu",
+  "检查更新": "Vérifier les mises à jour",
+  "检查更新中": {
+    "": {
+      "": {
+        "": "Vérification des mises à jour..."
+      }
+    }
+  },
+  "检查更新出错: ": "Erreur lors de la vérification des mises à jour :",
+  "检查更新出错:": "Erreur lors de la vérification des mises à jour :",
+  "检查更新失败: ": "Échec de la vérification des mises à jour :",
+  "检查更新失败:": "Échec de la vérification des mises à jour :",
+  "检测到新版本，但下载地址无效。请联系客服。": "Une nouvelle version a été détectée, mais l'adresse de téléchargement est invalide. Veuillez contacter le service client.",
+  "正在下载更新包": {
+    "": {
+      "": {
+        "": "Téléchargement du package de mise à jour..."
+      }
+    }
+  },
+  "正在关闭主程序": {
+    "": {
+      "": {
+        "": "Fermeture du programme principal..."
+      }
+    }
+  },
+  "正在升级系统": "Mise à niveau du système",
+  "正在启动更新程序，请留意 UAC 弹窗": {
+    "": {
+      "": {
+        "": "Démarrage du programme de mise à jour, veuillez surveiller la fenêtre UAC..."
+      }
+    }
+  },
+  "正在安装更新": {
+    "": {
+      "": {
+        "": "Installation de la mise à jour..."
+      }
+    }
+  },
+  "正在更新": {
+    "": {
+      "": {
+        "": "Mise à jour en cours..."
+      }
+    }
+  },
+  "正在生成预览": {
+    "": {
+      "": {
+        "": "Génération de l'aperçu..."
+      }
+    }
+  },
+  "正在转换 ${convertCount?": {
+    "current || 0}/${convertCount?": {
+      "total || 0}": "Conversion en cours de ${convertCount?.current || 0}/${convertCount?.total || 0}"
+    }
+  },
+  "正在转换 {{convertCount?": {
+    "current || 0}}/{{convertCount?": {
+      "total || 0}}": "Conversion en cours de {{convertCount?.current || 0}}/{{convertCount?.total || 0}}"
+    }
+  },
+  "正在重试 ({i+1}/{max_retries})": {
+    "": {
+      "": {
+        "": "Réessai ({i+1}/{max_retries})..."
+      }
+    }
+  },
+  "此组件位于 src/components/features/DemoFeature": {
+    "jsx。": "Ce composant se trouve dans src/components/features/DemoFeature.jsx."
+  },
+  "浏览器不支持直接播放此 AVI 编码格式": "Le navigateur ne prend pas en charge la lecture directe de ce format AVI.",
+  "清理并重启": {
+    "": {
+      "": {
+        "": "Nettoyage et redémarrage..."
+      }
+    }
+  },
+  "清空全部": "Vider tout",
+  "生成的 ": {
+    "base64 文件包含完整的 Data URL（例如：data:image/gif;base64,": {
+      "": {
+        "": {
+          "），您可以直接将其复制到代码中使用。": "Le fichier .base64 généré contient une URL Data complète (par exemple : data:image/gif;base64,...), vous pouvez directement le copier dans votre code."
+        }
+      }
+    }
+  },
+  "界面渲染出错": "Erreur lors du rendu de l'interface",
+  "登录": "Se connecter",
+  "登录中": {
+    "": {
+      "": {
+        "": "Connexion en cours..."
+      }
+    }
+  },
+  "登录后即可保存您的个性设置并享受更多高级功能": "Connectez-vous pour sauvegarder vos paramètres personnalisés et profiter de fonctions avancées supplémentaires",
+  "登录成功": "Connexion réussie",
+  "登录请求已超时，请重试": "La demande de connexion a expiré. Veuillez réessayer.",
+  "登录鲲穹账户": "Se connecter au compte Kunqiong",
+  "目标视频码率": "Débit vidéo cible",
+  "确定": "Confirmer",
+  "确定裁剪": "Confirmer le découpage",
+  "确定要取消当前的转换任务吗？": "Êtes-vous sûr de vouloir annuler la tâche de conversion actuelle ?",
+  "确定要取消当前的转换任务吗？已生成的文件可能会被删除。": "Êtes-vous sûr de vouloir annuler la tâche de conversion actuelle ? Les fichiers déjà générés pourraient être supprimés.",
+  "确定要取消当前的转换任务吗？已生成的文件将保留。": "Êtes-vous sûr de vouloir annuler la tâche de conversion actuelle ? Les fichiers déjà générés seront conservés.",
+  "确定要取消当前的转换任务吗？已生成的文件将被删除。": "Êtes-vous sûr de vouloir annuler la tâche de conversion actuelle ? Les fichiers déjà générés seront supprimés.",
+  "确定要取消当前的转换任务吗？已转换的部分将被删除。": "Êtes-vous sûr de vouloir annuler la tâche de conversion actuelle ? Les parties déjà converties seront supprimées.",
+  "确定要取消当前的转换任务吗？未完成的文件将被删除。": "Êtes-vous sûr de vouloir annuler la tâche de conversion actuelle ? Les fichiers non terminés seront supprimés.",
+  "确定要移除所有文件吗？": "Êtes-vous sûr de vouloir supprimer tous les fichiers ?",
+  "确认取消": "Confirmer l'annulation",
+  "确认清空": "Confirmer la suppression",
+  "示例工具": "Outils d'exemple",
+  "社交媒体": "Réseaux sociaux",
+  "移除": "Supprimer",
+  "移除文件": "Supprimer le fichier",
+  "程序将自动关闭以完成安装": "Le programme se fermera automatiquement pour terminer l'installation",
+  "立体声 (2)": "Stéréo (2)",
+  "立体声 (2": {
+    "0)": "Stéréo (2.0)"
+  },
+  "立体声 (Stereo)": "Stéréo (Stereo)",
+  "立即更新": "Mettre à jour maintenant",
+  "立即登录": "Se connecter maintenant",
+  "等待登录": {
+    "": {
+      "": {
+        "": "En attente de connexion..."
+      }
+    }
+  },
+  "简单、高效的在线文件格式转换工具集": "Un ensemble d'outils en ligne simples et efficaces pour la conversion de formats de fichiers",
+  "终止任务": "Arrêter la tâche",
+  "结束时间 (秒)": "Heure de fin (secondes)",
+  "结果文件夹": "Dossier de résultats",
+  "继续导入": "Continuer l'importation",
+  "继续转换": "Continuer la conversion",
+  "自定义": "Personnaliser",
+  "自定义采样率和声道": "Configurer le taux d'échantillonnage et les canaux",
+  "获取文件信息失败:": "Échec de l'obtention des informations du fichier :",
+  "获取视频信息失败:": "Échec de l'obtention des informations vidéo :",
+  "视频压缩模式": "Mode de compression vidéo",
+  "视频处理": "Traitement vidéo",
+  "视频格式转换大师": "Maître de la conversion de formats vidéo",
+  "视频类": "Catégorie vidéo",
+  "视频编码": "Encodage vidéo",
+  "视频裁剪": "Coupure vidéo",
+  "视频质量": "Qualité vidéo",
+  "视频预览与信息": "Aperçu et informations vidéo",
+  "让办公更高效": "Rendre le travail plus efficace",
+  "设置全局输出路径": "Définir le chemin de sortie global",
+  "该 WEBM 文件没有音轨，无法导出音频": "Ce fichier WEBM ne contient pas de piste audio, impossible d'exporter l'audio",
+  "该功能尚未实现 UI，请先试用 AVI To JPG": "Cette fonctionnalité n'a pas encore été implémentée dans l'interface utilisateur, veuillez d'abord essayer AVI To JPG",
+  "该视频包含 ${trackCount} 条音轨": "Cette vidéo contient ${trackCount} pistes audio",
+  "该视频包含 {{trackCount}} 条音轨": "Cette vidéo contient {{trackCount}} pistes audio",
+  "请先转换文件以确定输出目录": "Veuillez d'abord convertir un fichier pour déterminer le répertoire de sortie",
+  "请先选择 GIF 文件": "Veuillez d'abord sélectionner un fichier GIF",
+  "请先选择 MOV 文件": "Veuillez d'abord sélectionner un fichier MOV",
+  "请先选择 MP4 文件": "Veuillez d'abord sélectionner un fichier MP4",
+  "请先选择 WEBM 文件": "Veuillez d'abord sélectionner un fichier WEBM",
+  "请先选择文件": "Veuillez d'abord sélectionner un fichier",
+  "请先选择要转换的文件": "Veuillez d'abord sélectionner le fichier à convertir",
+  "请先选择输出目录或进行转换": "Veuillez d'abord sélectionner le répertoire de sortie ou effectuer une conversion",
+  "请先选择需要转换的 AVI 文件": "Veuillez d'abord sélectionner le fichier AVI à convertir",
+  "请关闭当前窗口后重新打开工具。": "Veuillez fermer la fenêtre actuelle puis rouvrir l'outil.",
+  "请在浏览器中完成登录验证": "Veuillez terminer la vérification de connexion dans le navigateur",
+  "请根据你的实际业务逻辑（如 PDF 处理、图像转换等）修改此文件，或创建新的组件并在 MainPage": {
+    "jsx 中进行路由映射。": "Veuillez modifier ce fichier en fonction de votre logique métier réelle (par exemple, traitement PDF, conversion d'images, etc.) ou créer un nouveau composant et effectuer une carte de routage dans MainPage.jsx."
+  },
+  "请设置输出路径（全局或自定义）": "Veuillez définir le chemin de sortie (global ou personnalisé)",
+  "质量": "Qualité",
+  "转换中": {
+    "": {
+      "": {
+        "": "Conversion en cours..."
+      }
+    }
+  },
+  "转换任务已取消并清理临时文件": "La tâche de conversion a été annulée et les fichiers temporaires ont été nettoyés",
+  "转换任务已取消，相关文件已清理。": "La tâche de conversion a été annulée, les fichiers associés ont été nettoyés.",
+  "转换器": "Convertisseur",
+  "转换失败": "Échec de la conversion",
+  "转换失败:": "Échec de la conversion :",
+  "转换失败: {fileName}\\n{errorMessage}": "Échec de la conversion : {fileName}\\n{errorMessage}",
+  "转换完成": "Conversion terminée",
+  "转换完成（演示模式）": "Conversion terminée (mode démo)",
+  "转换成功:": "Conversion réussie :",
+  "转换文件失败: ${result": {
+    "error || result": {
+      "message}": "Échec de la conversion du fichier : ${result.error || result.message}"
+    }
+  },
+  "转换文件失败: {{result": {
+    "error || result": {
+      "message}}": "Échec de la conversion du fichier : {{result.error || result.message}}"
+    }
+  },
+  "转换设置": "Paramètres de conversion",
+  "转换说明": "Instructions de conversion",
+  "转换过程中出现错误: ${err": {
+    "message}": "Erreur survenue pendant la conversion : ${err.message}"
+  },
+  "转换过程中出现错误: {{err": {
+    "message}}": "Erreur survenue pendant la conversion : {{err.message}}"
+  },
+  "转换过程中发生错误: ": "Erreur survenue pendant la conversion : ",
+  "转换过程中发生错误:": "Erreur survenue pendant la conversion :",
+  "转换过程中发生错误: ${err": {
+    "message}": "Erreur survenue pendant la conversion : ${err.message}"
+  },
+  "转换过程中发生错误: {{err": {
+    "message}}": "Erreur survenue pendant la conversion : {{err.message}}"
+  },
+  "转换选项": "Options de conversion",
+  "软件定制": "Personnalisation logicielle",
+  "软件更新": "Mise à jour logicielle",
+  "输出文件为空": "Le fichier de sortie est vide",
+  "输出文件落盘失败: {e}": "Échec de l'enregistrement du fichier de sortie : {e}",
+  "返回首页": "Retour à la page d'accueil",
+  "这是一个专业工具，用于 ${toolName}，支持批量处理和自定义参数设置。": "C'est un outil professionnel utilisé pour ${toolName}, prenant en charge le traitement par lots et la configuration personnalisée des paramètres.",
+  "这是一个专业工具，用于 {{toolName}}，支持批量处理和自定义参数设置。": "C'est un outil professionnel utilisé pour {{toolName}}, prenant en charge le traitement par lots et la configuration personnalisée des paramètres.",
+  "这是一个通用模板组件。当前选中的工具是：": "Ceci est un composant modèle générique. L'outil actuellement sélectionné est :",
+  "退出当前账号": "Déconnexion du compte actuel",
+  "选择文件": "Sélectionner un fichier",
+  "选择音轨": "Sélectionner une piste audio",
+  "部分文件已忽略，仅支持 AVI 格式": "Certains fichiers ont été ignorés, format AVI uniquement pris en charge",
+  "部分文件已忽略，仅支持 GIF 格式": "Certains fichiers ont été ignorés, format GIF uniquement pris en charge",
+  "部分文件已忽略，仅支持 MOV 格式": "Certains fichiers ont été ignorés, format MOV uniquement pris en charge",
+  "部分文件已忽略，仅支持 MP4 格式": "Certains fichiers ont été ignorés, format MP4 uniquement pris en charge",
+  "部分文件已忽略，仅支持 WEBM 格式": "Certains fichiers ont été ignorés, seul le format WEBM est pris en charge",
+  "部分文件转换失败，已完成 {finishedCount}/{totalCount} 个。": "Certaines conversions de fichiers ont échoué, {finishedCount}/{totalCount} ont été terminées.",
+  "采样率": "Fréquence d'échantillonnage",
+  "错误": "Erreur",
+  "问题反馈": "Signaler un problème",
+  "音轨 ${i + 1}": "Piste audio ${i + 1}",
+  "音轨 ${i + 1} ${i === 0 ? '(默认)' : ''}": "Piste audio ${i + 1} ${i === 0 ? '(par défaut)' : ''}",
+  "音轨 ${i + 2}": "Piste audio ${i + 2}",
+  "音轨 ${idx + 1}": "Piste audio ${idx + 1}",
+  "音轨 ${index + 1} ${index === 0 ? '(默认)' : ''}": "Piste audio ${index + 1} ${index === 0 ? '(par défaut)' : ''}",
+  "音轨 1 (默认)": "Piste audio 1 (par défaut)",
+  "音轨 {{i + 1}}": "Piste audio {{i + 1}}",
+  "音轨 {{i + 1}} {{i === 0 ? '(默认)' : ''}}": "音轨 {{i + 1}} {{i === 0 ? '(默认)' : ''}}",
+  "音轨 {{i + 2}}": "Piste audio {{i + 2}}",
+  "音轨 {{idx + 1}}": "Piste audio {{idx + 1}}",
+  "音轨 {{index + 1}} {{index === 0 ? '(默认)' : ''}}": "音轨 {{index + 1}} {{index === 0 ? '(默认)' : ''}}",
+  "音轨选择": "Sélection de la piste audio",
+  "音频比特率": "Débit binaire audio",
+  "音频比特率 (kbps)": "Débit binaire audio (kbps)",
+  "音频类": "Classe audio",
+  "音频编码": "Encodage audio",
+  "音频采样率": "Fréquence d'échantillonnage audio",
+  "预览生成失败，但您可以正常查看信息并设置裁剪范围": "Échec de génération de l'aperçu, mais vous pouvez voir normalement les informations et définir la zone de découpage",
+  "预览视频": "Aperçu vidéo",
+  "预设": "Préréglages",
+  "高级编码参数": "Paramètres avancés d'encodage",
+  "高级设置": "Paramètres avancés",
+  "高质量": "Haute qualité",
+  "鲲穹AI": "Kunqiong AI",
+  "鲲穹AI旗下产品": "Produits sous la marque Kunqiong AI",
+  "默认": "Par défaut",
+  "🌐 全局配置": "🌐 Configuration globale",
+  "🎧 {trackCount}音轨": "🎧 {trackCount} pistes audio",
+  "👨‍💻 开发者提示:": "👨‍💻 Astuce développeur :",
+  "📂 导入文件夹": "📂 Importer un dossier",
+  "📂 结果文件夹": "📂 Dossier de résultat",
+  "📍 设置路径 ({selectedForPath": {
+    "size})": "📍 Chemin des paramètres ({selectedForPath.size})"
+  },
+  "🗑️ 清空全部": "🗑️ Tout effacer"
+}

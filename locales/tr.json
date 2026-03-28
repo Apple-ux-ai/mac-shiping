@@ -1,0 +1,707 @@
+{
+  "__continue_import": "İçe aktarmaya devam et",
+  "__clear_all": "Tümünü temizle",
+  "__audio_track_count": "{{count}} ses parçası",
+  "__video_has_tracks": "Bu video {{count}} ses parçası içeriyor",
+  "__progress_converting": "{{current}}/{{total}} dönüştürülüyor",
+  "__extract_video_frames": "Orijinal videonun {{percent}}% karesi çıkarılıyor",
+  "__set_path_count": "Yolu ayarla ({{count}})",
+  "${placeholderLabel} 加载中": {
+    "": {
+      "": {
+        "": "${placeholderLabel} yükleniyor..."
+      }
+    }
+  },
+  "${toolName} 处理完成！": "${toolName} işlemi tamamlandı!",
+  "(${videoInfo": {
+    "audio_tracks_count} 条音轨)": "(${videoInfo.audio_tracks_count} ses parçası)"
+  },
+  "({{videoInfo": {
+    "audio_tracks_count}} 条音轨)": "({{videoInfo.audio_tracks_count}} ses parçası)"
+  },
+  "+ 继续导入": "+ İçe aktarmaya devam et",
+  "1000k (低质量)": "1000k (düşük kalite)",
+  "12000k (4K级别)": "12000k (4K seviyesi)",
+  "2000k (中等质量)": "2000k (orta kalite)",
+  "4000k (高质量)": "4000k (yüksek kalite)",
+  "6000k (超清)": "6000k (çok net)",
+  "8000k (极清)": "8000k (en net)",
+  "AVI To GIF 转换器": "AVI'den GIF Çevirici",
+  "AVI To H264 转换器": "AVI'den H264 Çevirici",
+  "AVI To JPG 转换器": "AVI'den JPG Çevirici",
+  "AVI To MKV 转换器": "AVI'den MKV Çevirici",
+  "AVI To MOV 转换器": "AVI'den MOV Çevirici",
+  "AVI To MP3 转换器": "AVI'den MP3 Çevirici",
+  "AVI To MP4 转换器": "AVI'den MP4 Çevirici",
+  "AVI To MPE 转换器": "AVI'den MPE Çevirici",
+  "AVI To MPF 转换器": "AVI'den MPF Çevirici",
+  "AVI To PNG 转换器": "AVI'den PNG Çevirici",
+  "AVI To WAV 转换器": "AVI'den WAV Çevirici",
+  "AVI To WEBM 转换器": "AVI'den WEBM Çevirici",
+  "AVI 格式视频转换工具集": "AVI formatlı video dönüştürme araç seti",
+  "AVI 转换器": "AVI Çevirici",
+  "AVI, MP4, GIF 等视频格式互转": "AVI, MP4, GIF ve diğer video formatları arasında dönüşüm",
+  "Base64 编码可以将图片数据直接嵌入到 HTML 或 CSS 中，减少 HTTP 请求，提高页面加载速度。": "Base64 kodlama, resim verilerini doğrudan HTML veya CSS içine gömebilir, HTTP isteklerini azaltır ve sayfa yükleme hızını artırır.",
+  "FFmpeg 转换结果为空文件，请检查源 GIF 是否正常": "FFmpeg dönüştürme sonucu boş dosya, lütfen kaynak GIF'in doğru olup olmadığını kontrol edin",
+  "GIF To AVI 转换器": "GIF'ten AVI Çevirici",
+  "GIF To BASE64 转换器": "GIF'ten BASE64 Çevirici",
+  "GIF To HTML 转换器": "GIF'ten HTML Çevirici",
+  "GIF To JPG 转换器": "GIF'ten JPG Çevirici",
+  "GIF To MOV 转换器": "GIF'ten MOV Çevirici",
+  "GIF To MP4 转换器": "GIF'ten MP4 Çevirici",
+  "GIF To PDF 转换器": "GIF'ten PDF Çevirici",
+  "GIF To PNG 转换器": "GIF'ten PNG Çevirici",
+  "GIF To WEBM 转换器": "GIF'ten WEBM Çevirici",
+  "GIF To WEBP 转换器": "GIF'ten WEBP Çevirici",
+  "GIF 动图转换工具集": "GIF Animasyon Dönüştürme Araç Seti",
+  "GIF 图像": "GIF Görüntüleri",
+  "GIF 转换器": "GIF Çevirici",
+  "JPG, PNG, SVG 等图片处理工具": "JPG, PNG, SVG gibi resim işleme araçları",
+  "LOGO区域": "LOGO Alanı",
+  "MOV To AVI 转换器": "MOV'den AVI Çevirici",
+  "MOV To GIF 转换器": "MOV'den GIF Çevirici",
+  "MOV To JPG 转换器": "MOV'den JPG Çevirici",
+  "MOV To MP3 转换器": "MOV'den MP3 Çevirici",
+  "MOV To MP4 转换器": "MOV'den MP4 Çevirici",
+  "MOV To PDF 转换器": "MOV'den PDF Çevirici",
+  "MOV To PNG 转换器": "MOV'den PNG Çevirici",
+  "MOV To WAV 转换器": "MOV'den WAV Çevirici",
+  "MOV To WEBM 转换器": "MOV'den WEBM Çevirici",
+  "MOV 格式视频转换工具集": "MOV Formatlı Video Dönüştürme Araç Seti",
+  "MOV 视频": "MOV Videoları",
+  "MOV 转换器": "MOV Çevirici",
+  "MP3, WAV 等音频格式转换": "MP3, WAV gibi ses formatı dönüşümleri",
+  "MP4 To AVI 转换器": "MP4'ten AVI Çevirici",
+  "MP4 To GIF 转换器": "MP4'ten GIF Çevirici",
+  "MP4 To JPG 转换器": "MP4'ten JPG Çevirici",
+  "MP4 To MOV 转换器": "MP4'ten MOV Çevirici",
+  "MP4 To MP3 转换器": "MP4'ten MP3 Çevirici",
+  "MP4 To PNG 转换器": "MP4'ten PNG Çevirici",
+  "MP4 To WEBM 转换器": "MP4'ten WEBM Çevirici",
+  "MP4 格式视频转换工具集": "MP4 Formatlı Video Dönüştürme Araç Seti",
+  "MP4 视频": "MP4 Videoları",
+  "MP4 转换器": "MP4 Çevirici",
+  "PDF, DOCX, JSON 等文档转换": "PDF, DOCX, JSON gibi belge dönüşümleri",
+  "WEBM To AVI 转换器": "WEBM'den AVI Çevirici",
+  "WEBM To GIF 转换器": "WEBM'den GIF Çevirici",
+  "WEBM To JPG 转换器": "WEBM'den JPG Çevirici",
+  "WEBM To MOV 转换器": "WEBM'den MOV Çevirici",
+  "WEBM To MP3 转换器": "WEBM'den MP3 Çevirici",
+  "WEBM To MP4 转换器": "WEBM'den MP4 Çevirici",
+  "WEBM To PNG 转换器": "WEBM'den PNG'ye Dönüştürücü",
+  "WEBM To WAV 转换器": "WEBM'den WAV'ye Dönüştürücü",
+  "WEBM 格式视频转换工具集": "WEBM formatlı video dönüştürme araç seti",
+  "WEBM 视频": "WEBM video",
+  "WEBM 转换器": "WEBM dönüştürücü",
+  "Web 模式下无法选择目录": "Web modunda dizin seçilemez",
+  "Web 模式下暂不支持预览": "Web modunda önizleme şu anda desteklenmiyor",
+  "ffmpeg 已完成但输出文件为空": "ffmpeg tamamlandı ancak çıktı dosyası boş",
+  "{filename} - GIF 预览": "{filename} - GIF önizlemesi",
+  "{{filename}} - GIF 预览": "{{filename}} - GIF önizlemesi",
+  "{{placeholderLabel}} 加载中": {
+    "": {
+      "": {
+        "": "{{placeholderLabel}} yükleniyor..."
+      }
+    }
+  },
+  "{{toolName}} 处理完成！": "{{toolName}} işlemi tamamlandı!",
+  "—— 一款专业工具，可将 GIF 动图转换为 Base64 编码字符串，方便在代码中直接引用。": "—— GIF animasyonlarını Base64 kodlu dizelere dönüştüren profesyonel bir araç, kod içinde doğrudan referans verilmesini kolaylaştırır.",
+  "—— 一款专业工具，可将 GIF 动图转换为 JPG 图像序列，并支持自定义参数。": "—— GIF animasyonlarını JPG resim serisine dönüştüren ve özel parametreleri destekleyen profesyonel bir araç.",
+  "—— 一款专业工具，可将 GIF 动图转换为 MP4 视频格式，并支持自定义参数。": "—— GIF animasyonlarını MP4 video formatına dönüştüren ve özel parametreleri destekleyen profesyonel bir araç.",
+  "—— 一款专业工具，可将 GIF 动图转换为 PDF 文档，支持自定义页面方向。": "—— GIF animasyonlarını PDF belgesine dönüştüren ve sayfa yönünü özelleştirmeyi destekleyen profesyonel bir araç.",
+  "—— 一款专业工具，可将 GIF 动图转换为 WEBM 视频格式，并支持自定义参数。": "—— GIF animasyonlarını WEBM video formatına dönüştüren ve özel parametreleri destekleyen profesyonel bir araç.",
+  "—— 专业级 MOV 转 AVI 工具，支持批量转换和高质量输出。": "—— Profesyonel seviyede MOV'den AVI'ye dönüştürme aracı, toplu dönüştürmeyi ve yüksek kaliteli çıktıyı destekler.",
+  "—— 专业级 MOV 转 MP3 工具，支持批量提取音频和高质量输出。": "—— Profesyonel seviyede MOV'den MP3'e dönüştürme aracı, toplu ses çıkarmayı ve yüksek kaliteli çıktıyı destekler.",
+  "—— 专业级 MOV 转 MP4 工具，支持批量转换和高质量输出。": "—— Profesyonel seviyede MOV'den MP4'e dönüştürme aracı, toplu dönüştürmeyi ve yüksek kaliteli çıktıyı destekler.",
+  "—— 专业级 MOV 转 WEBM 工具，支持批量转换和高质量输出。": "—— Profesyonel seviyede MOV'den WEBM'ye dönüştürme aracı, toplu dönüştürmeyi ve yüksek kaliteli çıktıyı destekler.",
+  "—— 专业级 MP4 转 AVI 工具，支持批量转换和高质量输出。": "—— Profesyonel seviyede MP4'ten AVI'ye dönüştürme aracı, toplu dönüştürmeyi ve yüksek kaliteli çıktıyı destekler.",
+  "—— 专业级 MP4 转 MOV 工具，支持批量转换和高质量输出。": "—— Profesyonel seviyede MP4'ten MOV'a dönüştürme aracı, toplu dönüştürmeyi ve yüksek kaliteli çıktıyı destekler.",
+  "—— 专业级 MP4 转 MP3 工具，支持批量提取音频和高质量输出。": "—— Profesyonel seviyede MP4'ten MP3'e dönüştürme aracı, toplu ses çıkarmayı ve yüksek kaliteli çıktıyı destekler.",
+  "—— 专业级 MP4 转 WEBM 工具，支持批量转换和高质量 WebM 格式输出。": "—— Profesyonel seviyede MP4'ten WEBM'ye dönüştürme aracı, toplu dönüştürmeyi ve yüksek kaliteli WebM formatlı çıktıyı destekler.",
+  "—— 从 MOV 视频中提取无损 WAV 音频，支持批量转换和音频设置。": "—— MOV videodan kayıpsız WAV ses çıkarma, toplu dönüştürmeyi ve ses ayarlarını destekler.",
+  "—— 从 MP4 视频中提取高质量 JPG 序列，支持自定义提取间隔和质量。": "—— MP4 videodan yüksek kaliteli JPG serisi çıkarma, özelleştirilebilir çıkarma aralığını ve kalitesini destekler.",
+  "—— 将 MOV 视频帧提取为高质量 JPG 图片，支持批量处理和参数调节。": "—— MOV video karelerini yüksek kaliteli JPG resimlere dönüştürme, toplu işlemeyi ve parametre ayarlamayı destekler.",
+  "—— 将 MOV 视频帧提取为高质量 PNG 图片，支持批量处理和参数调节。": "—— MOV video karelerini yüksek kaliteli PNG resimlere dönüştürme, toplu işlemeyi ve parametre ayarlamayı destekler.",
+  "—— 将 MOV 视频帧提取并转换为 PDF 文档，支持自定义页面方向与批量处理。": "—— MOV video karelerini PDF belgesine dönüştürme, sayfa yönünü özelleştirmeyi ve toplu işlemeyi destekler.",
+  "—— 将 MOV 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "—— MOV videolarını yüksek kaliteli GIF animasyonuna dönüştürme, kaliteyi, kare oranını ve zaman aralığını özelleştirmeyi destekler.",
+  "—— 将 MP4 视频转换为 PNG 图片序列，支持自定义提取间隔和质量。": "—— MP4 videolarını PNG resim serisine dönüştürme, özelleştirilebilir çıkarma aralığını ve kaliteyi destekler.",
+  "—— 将 MP4 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "—— MP4 videolarını yüksek kaliteli GIF animasyonuna dönüştürme, kaliteyi, kare oranını ve zaman aralığını özelleştirmeyi destekler.",
+  "一款专业工具，可从AVI视频中提取MP3音频，并支持自定义编码参数。": "AVI videodan MP3 ses çıkaran ve özel kodlama parametrelerini destekleyen profesyonel bir araç.",
+  "一款专业工具，可从AVI视频中提取WAV音频，并支持自定义编码参数。": "AVI videodan WAV ses çıkaran ve özel kodlama parametrelerini destekleyen profesyonel bir araç.",
+  "一款专业工具，可将 GIF 动图转换为 AVI 视频格式，并支持自定义参数。": "GIF animasyonlarını AVI video formatına dönüştüren ve özel parametreleri destekleyen profesyonel bir araç.",
+  "一款专业工具，可将 GIF 动图转换为 MOV 视频格式，并支持自定义参数。": "GIF animasyonlarını MOV video formatına dönüştüren ve özel parametreleri destekleyen profesyonel bir araç.",
+  "一款专业工具，可将 GIF 动图转换为 PNG 图像序列，并支持自定义参数。": "GIF animasyonlarını PNG resim serisine dönüştüren ve özel parametreleri destekleyen profesyonel bir araç.",
+  "一款专业工具，可将 GIF 动图转换为 WEBP 图像序列，并支持自定义参数。": "GIF animasyonlarını WEBP resim serisine dönüştüren ve özel parametreleri destekleyen profesyonel bir araç.",
+  "一款专业工具，可将AVI 视频文件转换为GIF动图，并支持自定义参数。": "AVI video dosyalarını GIF animasyonlarına dönüştüren ve özel parametreleri destekleyen profesyonel bir araç.",
+  "一款专业工具，可将AVI 视频文件转换为H264(MP4)视频格式，并支持自定义编码参数。": "AVI video dosyalarını H264(MP4) video formatına dönüştürmek ve özel kodlama parametrelerini desteklemek için profesyonel bir araç.",
+  "一款专业工具，可将AVI 视频文件转换为JPG图像序列，并支持自定义提取参数。": "AVI video dosyalarını JPG resim serisine dönüştürmek ve özel çıkarım parametrelerini desteklemek için profesyonel bir araç.",
+  "一款专业工具，可将AVI 视频文件转换为MKV视频格式，并支持自定义编码参数。": "AVI video dosyalarını MKV video formatına dönüştürmek ve özel kodlama parametrelerini desteklemek için profesyonel bir araç.",
+  "一款专业工具，可将AVI 视频文件转换为MOV视频格式，并支持自定义编码参数。": "AVI video dosyalarını MOV video formatına dönüştürmek ve özel kodlama parametrelerini desteklemek için profesyonel bir araç.",
+  "一款专业工具，可将AVI 视频文件转换为MP4视频格式，并支持自定义编码参数。": "AVI video dosyalarını MP4 video formatına dönüştürmek ve özel kodlama parametrelerini desteklemek için profesyonel bir araç.",
+  "一款专业工具，可将AVI 视频文件转换为MPE视频格式，并支持自定义编码参数。": "AVI video dosyalarını MPE video formatına dönüştürmek ve özel kodlama parametrelerini desteklemek için profesyonel bir araç.",
+  "一款专业工具，可将AVI 视频文件转换为PNG图像序列，并支持自定义提取参数。": "AVI video dosyalarını PNG resim serisine dönüştürmek ve özel çıkarım parametrelerini desteklemek için profesyonel bir araç.",
+  "一款专业工具，可将AVI 视频文件转换为WEBM视频格式，并支持自定义编码参数。": "AVI video dosyalarını WEBM video formatına dönüştürmek ve özel kodlama parametrelerini desteklemek için profesyonel bir araç.",
+  "一款在线${source}转${target}转换器，支持自定义参数，提供多种分辨率选项，助您轻松完成格式转换。": "Çevrimiçi bir ${source} - ${target} dönüştürücü, özel parametreleri destekler, çeşitli çözünürlük seçenekleri sunar ve format dönüşümünü kolaylaştırır.",
+  "一款在线{{source}}转{{target}}转换器，支持自定义参数，提供多种分辨率选项，助您轻松完成格式转换。": "Çevrimiçi bir {{source}} - {{target}} dönüştürücü, özel parametreleri destekler, çeşitli çözünürlük seçenekleri sunar ve format dönüşümünü kolaylaştırır.",
+  "下次再说": "Sonra yap",
+  "下载失败: {str(e)}": "İndirme başarısız: {str(e)}",
+  "专业级 WEBM 转 AVI 工具，支持批量转换和高质量输出。": "Profesyonel WEBM - AVI aracı, toplu dönüşümü ve yüksek kaliteli çıktıyı destekler.",
+  "专业级 WEBM 转 MP4 工具，支持批量转换和高质量输出。": "Profesyonel WEBM - MP4 aracı, toplu dönüşümü ve yüksek kaliteli çıktıyı destekler.",
+  "中等质量": "Orta kalite",
+  "从 AVI 视频提取 MP3 音频": "AVI videodan MP3 ses çıkarma",
+  "从 AVI 视频提取 WAV 音频": "AVI videodan WAV ses çıkarma",
+  "从 MOV 视频提取 MP3 音频": "MOV videodan MP3 ses çıkarma",
+  "从 MOV 视频提取 WAV 音频": "MOV videodan WAV ses çıkarma",
+  "从 MP4 视频提取 MP3 音频": "MP4 videodan MP3 ses çıkarma",
+  "从 WEBM 视频中提取无损 WAV 音频，支持批量转换和音频设置。": "WEBM videodan kayıpsız WAV ses çıkarma, toplu dönüşüm ve ses ayarlarını destekler.",
+  "从 WEBM 视频中提取高质量 JPG 序列，支持自定义提取间隔和质量。": "WEBM videodan yüksek kaliteli JPG serisi çıkarma, özelleştirilebilir çıkarım aralığı ve kalitesini destekler.",
+  "从 WEBM 视频中提取高质量 MP3 音频，支持批量转换和音频质量设置。": "WEBM videodan yüksek kaliteli MP3 ses çıkarma, toplu dönüşüm ve ses kalitesi ayarlarını destekler.",
+  "从 WEBM 视频中提取高质量 PNG 序列，支持自定义提取间隔和质量。": "WEBM videodan yüksek kaliteli PNG serisi çıkarma, özelleştirilebilir çıkarım aralığı ve kalitesini destekler.",
+  "从 WEBM 视频提取 MP3 音频": "WEBM videodan MP3 ses çıkarma",
+  "从 WEBM 视频提取 WAV 音频": "WEBM videodan WAV ses çıkarma",
+  "任务中断": "Görev kesintisi",
+  "低质量": "Düşük kalite",
+  "保持原样": "Olduğu gibi bırak",
+  "全局配置": "Genel yapılandırma",
+  "全部转换": "Tümünü dönüştür",
+  "关于 GIF 转 BASE64": "GIF'den BASE64'e hakkında",
+  "关键帧与音频控制": "Anahtar kare ve ses kontrolü",
+  "关键帧间隔 (帧)": "Anahtar kare aralığı (kare)",
+  "关闭": "Kapat",
+  "关闭窗口": "Pencereyi kapat",
+  "准备就绪": {
+    "": {
+      "": {
+        "": "Hazırlanıyor..."
+      }
+    }
+  },
+  "分辨率": "Çözünürlük",
+  "切换浅色模式": "Açık renk moduna geç",
+  "切换深色模式": "Koyu modu değiştir",
+  "功能演示区域": "Fonksiyon gösterim alanı",
+  "功能说明": "Fonksiyon açıklaması",
+  "加载中": "Yükleniyor",
+  "动态码率 (VBR)": "Dinamik bit hızı (VBR)",
+  "单声道 (1)": "Mono (1)",
+  "单声道 (1": {
+    "0)": "Mono (1.0)"
+  },
+  "单声道 (Mono)": "Mono (Mono)",
+  "原始方向 (Original)": "Orijinal yön (Original)",
+  "原视频分辨率": "Orijinal video çözünürlüğü",
+  "取消": "İptal et",
+  "取消失败:": "İptal başarısız:",
+  "取消登录": "Girişi iptal et",
+  "取消转换": "Dönüştürmeyi iptal et",
+  "取消转换时发生错误": "Dönüştürme iptal edilirken hata oluştu",
+  "取消转换时发生错误: ": "Dönüştürme iptal edilirken hata oluştu: ",
+  "取消转换时发生错误:": "Dönüştürme iptal edilirken hata oluştu:",
+  "只支持 MP4 文件": "Sadece MP4 dosyalarını destekler",
+  "各种格式转换工具": "Çeşitli format dönüştürme araçları",
+  "否": "Hayır",
+  "启动失败，请手动打开程序": "Başlatma başarısız, lütfen programı manuel olarak açın",
+  "启动登录界面失败: ${error": {
+    "message || '网络错误'}": "Giriş ekranını başlatma başarısız: ${error.message || 'Ağ hatası'}"
+  },
+  "启动登录界面失败: {{error": {
+    "message || '网络错误'}}": "启动登录界面失败: {{error.message || '网络错误'}}"
+  },
+  "启动错误": "Başlatma hatası",
+  "固定比特率": "Sabit bit hızı",
+  "固定码率 (CBR)": "Sabit bit hızı (CBR)",
+  "图片类": "Resimler sınıfı",
+  "在 Web 模式下无法打开本地文件夹": "Web modunda yerel klasör açılamaz",
+  "在 Web 模式下无法选择目录": "Web modunda dizin seçilemez",
+  "在 Web 模式下无法选择输出文件夹": "Web modunda çıktı klasörü seçilemez",
+  "声道": "Ses kanalları",
+  "声道配置": "Ses kanalı konfigürasyonu",
+  "处理完成！成功: ${successCount} 个，失败: ${failCount} 个。": "İşlem tamamlandı! Başarılı: ${successCount} adet, başarısız: ${failCount} adet.",
+  "处理完成！成功: {{successCount}} 个，失败: {{failCount}} 个。": "İşlem tamamlandı! Başarılı: {{successCount}} adet, başarısız: {{failCount}} adet.",
+  "处理文件 ${file} 时出错: ${err": {
+    "message}": "Dosya ${file} işlenirken hata oluştu: ${err.message}"
+  },
+  "处理文件 {{file}} 时出错: {{err": {
+    "message}}": "Dosya {{file}} işlenirken hata oluştu: {{err.message}}"
+  },
+  "处理文件时出错: ${err": {
+    "message}": "Dosya işlenirken hata oluştu: ${err.message}"
+  },
+  "处理文件时出错: {{err": {
+    "message}}": "Dosya işlenirken hata oluştu: {{err.message}}"
+  },
+  "安装失败：文件被占用，请手动关闭程序后重试": "Kurulum başarısız: Dosya kullanımda, lütfen programı manuel olarak kapatıp tekrar deneyin",
+  "完成": "Tamamlandı",
+  "导入文件夹": "Klasör İçe Aktar",
+  "将 AVI 视频转换为 GIF 动图": "AVI videolarını GIF animasyonuna dönüştür",
+  "将 AVI 视频转换为 H": {
+    "264 编码": "AVI videolarını H.264 kodlamasına dönüştür"
+  },
+  "将 AVI 视频转换为 JPG 图片序列": "AVI videolarını JPG resim serisine dönüştür",
+  "将 AVI 视频转换为 MKV 格式": "AVI videolarını MKV formatına dönüştür",
+  "将 AVI 视频转换为 MOV 格式": "AVI videolarını MOV formatına dönüştür",
+  "将 AVI 视频转换为 MP4 格式": "AVI videolarını MP4 formatına dönüştür",
+  "将 AVI 视频转换为 MPE 格式": "AVI videolarını MPE formatına dönüştür",
+  "将 AVI 视频转换为 MPF 格式": "AVI videolarını MPF formatına dönüştür",
+  "将 AVI 视频转换为 MPF 格式，支持批量转换和参数自定义。": "AVI videolarını MPF formatına dönüştür, toplu dönüştürmeyi ve parametre özelleştirmeyi destekler.",
+  "将 AVI 视频转换为 PNG 图片序列": "AVI videolarını PNG resim serisine dönüştür",
+  "将 AVI 视频转换为 WEBM 格式": "AVI videolarını WEBM formatına dönüştür",
+  "将 GIF 动图以 Base64 编码方式嵌入到 HTML 页面中，实现单文件分发，方便在任何浏览器中查看。": "GIF animasyonlarını Base64 kodlaması kullanarak HTML sayfasına gömün, tek dosya dağıtımı sağlayın ve herhangi bir tarayıcıda kolayca görüntüleyin.",
+  "将 GIF 动图转换为 MOV 视频": "GIF animasyonlarını MOV videosuna dönüştür",
+  "将 GIF 动图转换为 MP4 视频": "GIF animasyonlarını MP4 videosuna dönüştür",
+  "将 GIF 动图转换为 PDF 文档": "GIF animasyonlarını PDF belgesine dönüştür",
+  "将 GIF 动图转换为 PNG 图片序列": "GIF animasyonlarını PNG resim serisine dönüştür",
+  "将 GIF 转换为 AVI 视频": "GIF'i AVI videosuna dönüştür",
+  "将 GIF 转换为 Base64 编码": "GIF'i Base64 kodlamasına dönüştür",
+  "将 GIF 转换为 HTML 动画": "GIF'i HTML animasyonuna dönüştür",
+  "将 GIF 转换为 JPG 图片序列": "GIF'i JPG resim serisine dönüştür",
+  "将 GIF 转换为 WEBM 视频": "GIF'i WEBM videosuna dönüştür",
+  "将 GIF 转换为 WEBP 格式": "GIF'i WEBP formatına dönüştür",
+  "将 MOV 视频转换为 AVI 格式": "MOV videolarını AVI formatına dönüştür",
+  "将 MOV 视频转换为 GIF 动图": "MOV videolarını GIF animasyonuna dönüştür",
+  "将 MOV 视频转换为 JPG 图片序列": "MOV videolarını JPG resim serisine dönüştür",
+  "将 MOV 视频转换为 MP4 格式": "MOV videolarını MP4 formatına dönüştür",
+  "将 MOV 视频转换为 PDF 文档": "MOV videolarını PDF belgesine dönüştür",
+  "将 MOV 视频转换为 PNG 图片序列": "MOV videolarını PNG resim serisine dönüştür",
+  "将 MOV 视频转换为 WEBM 格式": "MOV videolarını WEBM formatına dönüştür",
+  "将 MP4 视频转换为 AVI 格式": "MP4 videolarını AVI formatına dönüştür",
+  "将 MP4 视频转换为 GIF 动图": "MP4 videolarını GIF animasyonuna dönüştür",
+  "将 MP4 视频转换为 JPG 图片序列": "MP4 videolarını JPG resim serisine dönüştür",
+  "将 MP4 视频转换为 MOV 格式": "MP4 videolarını MOV formatına dönüştür",
+  "将 MP4 视频转换为 PNG 图片序列": "MP4 videolarını PNG resim serisine dönüştür",
+  "将 MP4 视频转换为 WEBM 格式": "MP4 videolarını WEBM formatına dönüştür",
+  "将 WEBM 视频转换为 AVI 格式": "WEBM videolarını AVI formatına dönüştür",
+  "将 WEBM 视频转换为 GIF 动图": "WEBM videolarını GIF animasyonuna dönüştür",
+  "将 WEBM 视频转换为 JPG 图片序列": "WEBM videolarını JPG resim serisine dönüştür",
+  "将 WEBM 视频转换为 MOV 格式": "WEBM videolarını MOV formatına dönüştür",
+  "将 WEBM 视频转换为 MP4 格式": "WEBM videolarını MP4 formatına dönüştürün",
+  "将 WEBM 视频转换为 PNG 图片序列": "WEBM videolarını PNG resim dizisine dönüştürün",
+  "将 WEBM 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "WEBM videolarını yüksek kaliteli GIF animasyonlarına dönüştürün; kalite, kare hızı ve zaman aralığı özelleştirmelerini destekler.",
+  "将 WebM 视频转换为 Apple 设备兼容性更好的 MOV 格式，支持自定义质量、分辨率和音频比特率。": "WebM videolarını Apple cihazlarla daha iyi uyumlu MOV formatına dönüştürün; kalite, çözünürlük ve ses bit hızı özelleştirmelerini destekler.",
+  "将您的 AVI 文件拖拽到此处": "AVI dosyanızı buraya sürükleyin",
+  "将您的 GIF 文件拖拽到此处": "GIF dosyanızı buraya sürükleyin",
+  "将您的 MOV 文件拖拽到此处": "MOV dosyanızı buraya sürükleyin",
+  "将您的 MP4 文件拖拽到此处": "MP4 dosyanızı buraya sürükleyin",
+  "将您的 WEBM 文件拖拽到此处": "WEBM dosyanızı buraya sürükleyin",
+  "将您的AVI文件拖拽到此处": "AVI dosyanızı buraya sürükleyin",
+  "将您的MOV文件拖拽到此处": "MOV dosyanızı buraya sürükleyin",
+  "将您的WEBM文件拖拽到此处": "WEBM dosyanızı buraya sürükleyin",
+  "将您的文件拖拽到此处": "Dosyalarınızı buraya sürükleyin",
+  "工具": "Araçlar",
+  "已取消": "İptal edildi",
+  "已取消登录": "Oturum açma iptal edildi",
+  "已取消转换并删除未完成文件": "Dönüştürme iptal edildi ve tamamlanmamış dosyalar silindi",
+  "已取消转换并删除本地文件": "Dönüştürme iptal edildi ve yerel dosyalar silindi",
+  "已登录鲲穹账户": "Kunpeng hesabıyla oturum açıldı",
+  "已设置自定义路径": "Özel yol ayarlandı",
+  "已退出登录": "Oturum kapatıldı",
+  "帧率": "Kare hızı",
+  "应用配置": "Uygulama yapılandırması",
+  "开始处理": "İşleme başla",
+  "开始时间 (秒)": "Başlangıç zamanı (saniye)",
+  "强制横向 (Landscape)": "Yatay modu zorla (Landscape)",
+  "强制纵向 (Portrait)": "Dikey modu zorla (Portrait)",
+  "当前全局路径: ${globalPath}": "Geçerli genel yol: ${globalPath}",
+  "当前全局路径: {{globalPath}}": "Geçerli genel yol: {{globalPath}}",
+  "当前已是最新版本": "Zaten en son sürüm",
+  "快速预设": "Hızlı önayarlar",
+  "总时长": "Toplam süre",
+  "您确定要取消当前的转换任务吗？未完成的文件将被删除。": "Geçerli dönüştürme görevini iptal etmek istediğinizden emin misiniz? Tamamlanmamış dosyalar silinecektir.",
+  "成功": "Başarılı",
+  "成功转换 ${selectedFiles": {
+    "length} 个文件！": "${selectedFiles.length} dosya başarıyla dönüştürüldü!"
+  },
+  "成功转换 ${successCount} 个文件！": "${successCount} dosya başarıyla dönüştürüldü!",
+  "成功转换 {{selectedFiles": {
+    "length}} 个文件！": "{{selectedFiles.length}} dosya başarıyla dönüştürüldü!"
+  },
+  "成功转换 {{successCount}} 个文件！": "{{successCount}} dosya başarıyla dönüştürüldü!",
+  "或者点击浏览文件": "Veya dosya tarayıcıyı açmak için tıklayın",
+  "所有 GIF 已成功转换为 AVI 视频！": "Tüm GIF'ler başarıyla AVI videoya dönüştürüldü!",
+  "所有 GIF 已成功转换为 BASE64 文件！": "Tüm GIF'ler başarıyla BASE64 dosyalarına dönüştürüldü!",
+  "所有 GIF 已成功转换为 HTML 文件！": "Tüm GIF'ler başarıyla HTML dosyalarına dönüştürüldü!",
+  "所有 GIF 已成功转换为 JPG 序列并打包为 ZIP！": "Tüm GIF'ler başarıyla JPG serilerine dönüştürüldü ve ZIP olarak paketlendi!",
+  "所有 GIF 已成功转换为 MOV 文件！": "Tüm GIF'ler başarıyla MOV dosyalarına dönüştürüldü!",
+  "所有 GIF 已成功转换为 MP4 文件！": "Tüm GIF'ler başarıyla MP4 dosyalarına dönüştürüldü!",
+  "所有 GIF 已成功转换为 PDF 文件！": "Tüm GIF'ler başarıyla PDF dosyalarına dönüştürüldü!",
+  "所有 GIF 已成功转换为 PNG 序列并打包为 ZIP！": "Tüm GIF'ler başarıyla PNG serilerine dönüştürüldü ve ZIP olarak paketlendi!",
+  "所有 GIF 已成功转换为 WEBM！": "Tüm GIF'ler başarıyla WEBM formatına dönüştürüldü!",
+  "所有 GIF 已成功转换为 WEBP 文件！": "Tüm GIF'ler başarıyla WEBP dosyalarına dönüştürüldü!",
+  "所有 MOV 已成功转换为 GIF！": "Tüm MOV'ler başarıyla GIF formatına dönüştürüldü!",
+  "所有 MOV 已成功转换为 PDF 文件！": "Tüm MOV'ler başarıyla PDF dosyalarına dönüştürüldü!",
+  "所有 MOV 已成功转换为 PNG 序列并打包！": "Tüm MOV'ler başarıyla PNG serilerine dönüştürüldü ve paketlendi!",
+  "所有 WEBM 已成功转换为 GIF！": "Tüm WEBM'ler başarıyla GIF formatına dönüştürüldü!",
+  "所有 WEBM 已成功转换为 PNG 序列并打包！": "Tüm WEBM'ler başarıyla PNG serilerine dönüştürüldü ve paketlendi!",
+  "所有任务处理完成！": "Tüm görevler tamamlandı!",
+  "所有文件转换完成": "Tüm dosyalar dönüştürüldü",
+  "所有文件转换成功！": "Tüm dosyalar başarıyla dönüştürüldü!",
+  "打开结果文件夹": "Sonuç klasörünü aç",
+  "提取原 GIF 的 ${interval}% 帧": "Orjinal GIF'ten ${interval}% kare çıkar",
+  "提取原 GIF 的 {{interval}}% 帧": "Orjinal GIF'ten {{interval}}% kare çıkar",
+  "提取原视频的 ${frameInterval}% 帧": "Orjinal videodan ${frameInterval}% kare çıkar",
+  "提取原视频的 ${interval}% 帧": "Orjinal videodan ${interval}% kare çıkar",
+  "提取原视频的 {{frameInterval}}% 帧": "Orjinal videodan {{frameInterval}}% kare çıkar",
+  "提取原视频的 {{interval}}% 帧": "Orjinal videodan {{interval}}% kare çıkar",
+  "提取密度": "Çıkarma yoğunluğu",
+  "提示": "İpucu",
+  "提示：Base64 编码会使文件体积增大约 33%，建议仅对较小的 GIF 或需要减少请求数的场景使用。": "İpucu: Base64 kodlaması dosya boyutunu yaklaşık %33 artırır, bu nedenle yalnızca küçük GIF'ler veya istek sayısını azaltma ihtiyacı olan senaryolar için önerilir.",
+  "提示：WAV 格式将采用无损 PCM (S16LE) 编码，提供最高保真度。": "İpucu: WAV formatı, kayıpsız PCM (S16LE) kodlaması kullanır ve en yüksek sadakati sağlar.",
+  "提示：WAV 格式通常存储为无损 PCM 音频，提供最高保真度，完美还原原始音质。": "İpucu: WAV formatı genellikle kayıpsız PCM ses olarak saklanır, en yüksek sadakati sağlar ve orijinal ses kalitesini mükemmel şekilde geri yükler.",
+  "提示：较高的比特率通常意味着更好的音质，但文件体积也会相应增大。": "İpucu: Daha yüksek bit hızı genellikle daha iyi ses kalitesi anlamına gelir, ancak dosya boyutu da buna bağlı olarak artar.",
+  "搜索功能": {
+    "": {
+      "": {
+        "": "Arama özelliği..."
+      }
+    }
+  },
+  "文件 ${baseName} 没有音轨，无法转换为音频格式。": "${baseName} dosyasında ses izi bulunmamaktadır, ses formatına dönüştürülemez.",
+  "文件 ${file": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "${file.split(/[\\\\/]/).pop()} dosyasında ses izi bulunmamaktadır, ses formatına dönüştürülemez."
+    }
+  },
+  "文件 ${filePath": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "${filePath.split(/[\\\\/]/).pop()} dosyasında ses izi bulunmamaktadır, ses formatına dönüştürülemez."
+    }
+  },
+  "文件 ${key": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "${key.split(/[\\\\/]/).pop()} dosyasında ses izi bulunmamaktadır, ses formatına dönüştürülemez."
+    }
+  },
+  "文件 {{baseName}} 没有音轨，无法转换为音频格式。": "{{baseName}} dosyasında ses izi bulunmamaktadır, ses formatına dönüştürülemez.",
+  "文件 {{file": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "{{file.split(/[\\\\/]/).pop()}} dosyasında ses izi bulunmamaktadır, ses formatına dönüştürülemez."
+    }
+  },
+  "文件 {{filePath": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "{{filePath.split(/[\\\\/]/).pop()}} dosyasında ses izi bulunmamaktadır, ses formatına dönüştürülemez."
+    }
+  },
+  "文件 {{key": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "{{key.split(/[\\\\/]/).pop()}} dosyasında ses izi bulunmamaktadır, ses formatına dönüştürülemez."
+    }
+  },
+  "文件不存在": "Dosya mevcut değil",
+  "文件内容为空 (0字节)": "Dosya içeriği boş (0 bayt)",
+  "文件名": "Dosya adı",
+  "文件名: {filename}": {
+    "gif": "Dosya adı: {filename}.gif"
+  },
+  "文件大小": "Dosya boyutu",
+  "文档类": "Belge sınıfı",
+  "方向": "Yön",
+  "无法获取文件信息:": "Dosya bilgisi alınamıyor:",
+  "无法获取视频信息:": "Video bilgisi alınamıyor:",
+  "无法获取视频时长，暂不支持裁剪": "Video süresi alınamıyor, kesim işlemi şu anda desteklenmiyor",
+  "无法验证输出文件大小": "Çıktı dosyasının boyutu doğrulanamıyor",
+  "无音轨": "Ses parçası yok",
+  "无音频": "Ses yok",
+  "是": "Evet",
+  "是否取消当前转换任务并删除未完成文件？": "Mevcut dönüştürme görevi iptal edilsin ve tamamlanmamış dosyalar silinsin mi?",
+  "是否取消当前转换任务？": "Mevcut dönüştürme görevi iptal edilsin mi?",
+  "是否取消转换并删除本地文件？": "Dönüştürme iptal edilsin ve yerel dosyalar silinsin mi?",
+  "是否取消转换？": "Dönüştürme iptal edilsin mi?",
+  "是否立即更新？": "Güncelleme hemen yapılmalı mı?",
+  "更新出错: {str(e)}": "Güncelleme hatası: {str(e)}",
+  "更新功能不可用 (Electron environment missing)": "Güncelleme özelliği kullanılamıyor (Electron ortamı eksik)",
+  "更新程序参数错误。\\n\\n原始参数: {sys": {
+    "argv}": "Güncelleme programı argüman hatası.\\n\\nOrijinal argümanlar: {sys.argv}"
+  },
+  "更新程序启动失败": "Güncelleme programı başlatılamadı",
+  "更新错误": "Güncelleme hatası",
+  "最大化/还原": "Büyütme/Geri yükleme",
+  "最小化": "Küçültme",
+  "最近使用": "En son kullanılan",
+  "未找到主程序": "Ana program bulunamadı",
+  "未找到相关功能": "İlgili özellik bulunamadı",
+  "未知": "Bilinmeyen",
+  "未知错误": "Bilinmeyen hata",
+  "未设置输出路径": "Çıktı yolu ayarlanmamış",
+  "未设置输出路径: ${file}": "Çıktı yolu ayarlanmamış: ${file}",
+  "未设置输出路径: {{file}}": "Çıktı yolu ayarlanmamış: {{file}}",
+  "校验失败：下载文件损坏": "Doğrulama başarısız: İndirilen dosya bozuk",
+  "检查更新": "Güncellemeleri kontrol et",
+  "检查更新中": {
+    "": {
+      "": {
+        "": "Güncelleme kontrol ediliyor..."
+      }
+    }
+  },
+  "检查更新出错: ": "Güncelleme kontrolünde hata:",
+  "检查更新出错:": "Güncelleme kontrolünde hata:",
+  "检查更新失败: ": "Güncelleme kontrolü başarısız:",
+  "检查更新失败:": "Güncelleme kontrolü başarısız:",
+  "检测到新版本，但下载地址无效。请联系客服。": "Yeni bir sürüm tespit edildi, ancak indirme adresi geçersiz. Lütfen müşteri hizmetleriyle iletişime geçin.",
+  "正在下载更新包": {
+    "": {
+      "": {
+        "": "Güncelleme paketi indiriliyor..."
+      }
+    }
+  },
+  "正在关闭主程序": {
+    "": {
+      "": {
+        "": "Ana program kapatılıyor..."
+      }
+    }
+  },
+  "正在升级系统": "Sistem yükseltme işlemi sürüyor",
+  "正在启动更新程序，请留意 UAC 弹窗": {
+    "": {
+      "": {
+        "": "Güncelleme programı başlatılıyor, UAC penceresine dikkat edin..."
+      }
+    }
+  },
+  "正在安装更新": {
+    "": {
+      "": {
+        "": "Güncelleme yükleniyor..."
+      }
+    }
+  },
+  "正在更新": {
+    "": {
+      "": {
+        "": "Güncelleniyor..."
+      }
+    }
+  },
+  "正在生成预览": {
+    "": {
+      "": {
+        "": "Önizleme oluşturuluyor..."
+      }
+    }
+  },
+  "正在转换 ${convertCount?": {
+    "current || 0}/${convertCount?": {
+      "total || 0}": "${convertCount?.current || 0}/${convertCount?.total || 0} dönüştürülüyor"
+    }
+  },
+  "正在转换 {{convertCount?": {
+    "current || 0}}/{{convertCount?": {
+      "total || 0}}": "{{convertCount?.current || 0}}/{{convertCount?.total || 0}} dönüştürülüyor"
+    }
+  },
+  "正在重试 ({i+1}/{max_retries})": {
+    "": {
+      "": {
+        "": "Tekrar deneniyor ({i+1}/{max_retries})..."
+      }
+    }
+  },
+  "此组件位于 src/components/features/DemoFeature": {
+    "jsx。": "Bu bileşen src/components/features/DemoFeature.jsx dosyasındadır."
+  },
+  "浏览器不支持直接播放此 AVI 编码格式": "Tarayıcı bu AVI kodlama biçimini doğrudan oynatmayı desteklemiyor",
+  "清理并重启": {
+    "": {
+      "": {
+        "": "Temizleniyor ve yeniden başlatılıyor..."
+      }
+    }
+  },
+  "清空全部": "Tümünü temizle",
+  "生成的 ": {
+    "base64 文件包含完整的 Data URL（例如：data:image/gif;base64,": {
+      "": {
+        "": {
+          "），您可以直接将其复制到代码中使用。": "Oluşturulan .base64 dosyası tam bir Data URL içerir (örneğin: data:image/gif;base64,...) ve bunu doğrudan koda kopyalayabilirsiniz."
+        }
+      }
+    }
+  },
+  "界面渲染出错": "Arayüz oluşturma hatası",
+  "登录": "Giriş yap",
+  "登录中": {
+    "": {
+      "": {
+        "": "Giriş yapılıyor..."
+      }
+    }
+  },
+  "登录后即可保存您的个性设置并享受更多高级功能": "Giriş yaptıktan sonra kişisel ayarlarınızı kaydedebilir ve daha fazla gelişmiş özellikten yararlanabilirsiniz",
+  "登录成功": "Giriş başarılı",
+  "登录请求已超时，请重试": "Giriş isteği zaman aşımına uğradı, lütfen tekrar deneyin",
+  "登录鲲穹账户": "Kunpeng hesabına giriş yapın",
+  "目标视频码率": "Hedef video bit hızı",
+  "确定": "Tamam",
+  "确定裁剪": "Kesimi onayla",
+  "确定要取消当前的转换任务吗？": "Mevcut dönüştürme görevini iptal etmek istediğinizden emin misiniz?",
+  "确定要取消当前的转换任务吗？已生成的文件可能会被删除。": "Mevcut dönüştürme görevini iptal etmek istediğinizden emin misiniz? Oluşturulmuş dosyalar silinebilir.",
+  "确定要取消当前的转换任务吗？已生成的文件将保留。": "Mevcut dönüştürme görevini iptal etmek istediğinizden emin misiniz? Oluşturulmuş dosyalar korunacaktır.",
+  "确定要取消当前的转换任务吗？已生成的文件将被删除。": "Mevcut dönüştürme görevini iptal etmek istediğinizden emin misiniz? Oluşturulmuş dosyalar silinecektir.",
+  "确定要取消当前的转换任务吗？已转换的部分将被删除。": "Mevcut dönüştürme görevini iptal etmek istediğinizden emin misiniz? Dönüştürülmüş kısımlar silinecektir.",
+  "确定要取消当前的转换任务吗？未完成的文件将被删除。": "Mevcut dönüştürme görevini iptal etmek istediğinizden emin misiniz? Tamamlanmamış dosyalar silinecektir.",
+  "确定要移除所有文件吗？": "Tüm dosyaları kaldırmak istediğinizden emin misiniz?",
+  "确认取消": "İptali onayla",
+  "确认清空": "Temizlemeyi onayla",
+  "示例工具": "Örnek araçlar",
+  "社交媒体": "Sosyal medya",
+  "移除": "Kaldır",
+  "移除文件": "Dosyayı kaldır",
+  "程序将自动关闭以完成安装": "Program kurulumu tamamlamak için otomatik olarak kapanacak",
+  "立体声 (2)": "Stereo (2)",
+  "立体声 (2": {
+    "0)": "Stereo (2.0)"
+  },
+  "立体声 (Stereo)": "Stereo (Stereo)",
+  "立即更新": "Şimdi güncelle",
+  "立即登录": "Şimdi giriş yap",
+  "等待登录": {
+    "": {
+      "": {
+        "": "Giriş bekleniyor..."
+      }
+    }
+  },
+  "简单、高效的在线文件格式转换工具集": "Basit ve verimli çevrimiçi dosya formatı dönüştürme araçları seti",
+  "终止任务": "Görevi sonlandır",
+  "结束时间 (秒)": "Bitiş zamanı (saniye)",
+  "结果文件夹": "Sonuç klasörü",
+  "继续导入": "İçe aktarmaya devam et",
+  "继续转换": "Dönüştürmeye devam et",
+  "自定义": "Özelleştir",
+  "自定义采样率和声道": "Örneklem oranını ve kanalları özelleştir",
+  "获取文件信息失败:": "Dosya bilgisi alınamadı:",
+  "获取视频信息失败:": "Video bilgisi alınamadı:",
+  "视频压缩模式": "Video sıkıştırma modu",
+  "视频处理": "Video işleme",
+  "视频格式转换大师": "Video format dönüştürme ustası",
+  "视频类": "Video sınıfı",
+  "视频编码": "Video kodlama",
+  "视频裁剪": "Video kırpma",
+  "视频质量": "Video kalitesi",
+  "视频预览与信息": "Video önizleme ve bilgiler",
+  "让办公更高效": "Ofis işlerini daha verimli hale getirin",
+  "设置全局输出路径": "Genel çıktı yolunu ayarla",
+  "该 WEBM 文件没有音轨，无法导出音频": "Bu WEBM dosyasında ses izi bulunmamaktadır, ses dışa aktarılamaz",
+  "该功能尚未实现 UI，请先试用 AVI To JPG": "Bu özellik henüz kullanıcı arayüzüne sahip değil, lütfen önce AVI To JPG'yi deneyin",
+  "该视频包含 ${trackCount} 条音轨": "Bu video ${trackCount} adet ses izi içeriyor",
+  "该视频包含 {{trackCount}} 条音轨": "Bu video {{trackCount}} adet ses izi içeriyor",
+  "请先转换文件以确定输出目录": "Lütfen önce dosyayı dönüştürerek çıkış dizinini belirleyin",
+  "请先选择 GIF 文件": "Lütfen önce bir GIF dosyası seçin",
+  "请先选择 MOV 文件": "Lütfen önce bir MOV dosyası seçin",
+  "请先选择 MP4 文件": "Lütfen önce bir MP4 dosyası seçin",
+  "请先选择 WEBM 文件": "Lütfen önce bir WEBM dosyası seçin",
+  "请先选择文件": "Lütfen önce bir dosya seçin",
+  "请先选择要转换的文件": "Lütfen önce dönüştürülecek dosyayı seçin",
+  "请先选择输出目录或进行转换": "Lütfen önce çıkış dizinini seçin veya dönüşümü gerçekleştirin",
+  "请先选择需要转换的 AVI 文件": "Lütfen önce dönüştürülecek AVI dosyasını seçin",
+  "请关闭当前窗口后重新打开工具。": "Lütfen mevcut pencereyi kapatıp aracı yeniden açın.",
+  "请在浏览器中完成登录验证": "Lütfen giriş doğrulamasını tarayıcıda tamamlayın",
+  "请根据你的实际业务逻辑（如 PDF 处理、图像转换等）修改此文件，或创建新的组件并在 MainPage": {
+    "jsx 中进行路由映射。": "Lütfen bu dosyayı gerçek iş mantığınıza göre (ör. PDF işleme, görüntü dönüştürme vb.) değiştirin veya yeni bir bileşen oluşturun ve MainPage.jsx dosyasında yönlendirme eşlemesi yapın."
+  },
+  "请设置输出路径（全局或自定义）": "Lütfen çıktı yolunu ayarlayın (genel veya özel)",
+  "质量": "Kalite",
+  "转换中": {
+    "": {
+      "": {
+        "": "Dönüştürülüyor..."
+      }
+    }
+  },
+  "转换任务已取消并清理临时文件": "Dönüştürme görevi iptal edildi ve geçici dosyalar temizlendi",
+  "转换任务已取消，相关文件已清理。": "Dönüştürme görevi iptal edildi, ilgili dosyalar temizlendi.",
+  "转换器": "Dönüştürücü",
+  "转换失败": "Dönüştürme başarısız",
+  "转换失败:": "Dönüştürme başarısız:",
+  "转换失败: {fileName}\\n{errorMessage}": "Dönüştürme başarısız: {fileName}\\n{errorMessage}",
+  "转换完成": "Dönüştürme tamamlandı",
+  "转换完成（演示模式）": "Dönüştürme tamamlandı (demo modu)",
+  "转换成功:": "Dönüştürme başarılı:",
+  "转换文件失败: ${result": {
+    "error || result": {
+      "message}": "Dosya dönüştürme başarısız: ${result.error || result.message}"
+    }
+  },
+  "转换文件失败: {{result": {
+    "error || result": {
+      "message}}": "Dosya dönüştürme başarısız: {{result.error || result.message}}"
+    }
+  },
+  "转换设置": "Dönüştürme ayarları",
+  "转换说明": "Dönüştürme açıklaması",
+  "转换过程中出现错误: ${err": {
+    "message}": "Dönüştürme sırasında hata oluştu: ${err.message}"
+  },
+  "转换过程中出现错误: {{err": {
+    "message}}": "Dönüştürme sırasında hata oluştu: {{err.message}}"
+  },
+  "转换过程中发生错误: ": "Dönüştürme sırasında hata oluştu: ",
+  "转换过程中发生错误:": "Dönüştürme sırasında hata oluştu:",
+  "转换过程中发生错误: ${err": {
+    "message}": "Dönüştürme sırasında hata oluştu: ${err.message}"
+  },
+  "转换过程中发生错误: {{err": {
+    "message}}": "Dönüştürme sırasında hata oluştu: {{err.message}}"
+  },
+  "转换选项": "Dönüştürme seçenekleri",
+  "软件定制": "Yazılım özelleştirme",
+  "软件更新": "Yazılım güncellemesi",
+  "输出文件为空": "Çıktı dosyası boş",
+  "输出文件落盘失败: {e}": "Çıktı dosyası diske yazma başarısız: {e}",
+  "返回首页": "Ana sayfaya dön",
+  "这是一个专业工具，用于 ${toolName}，支持批量处理和自定义参数设置。": "Bu, ${toolName} için kullanılan bir profesyonel araçtır, toplu işlemeyi ve özel parametre ayarlarını destekler.",
+  "这是一个专业工具，用于 {{toolName}}，支持批量处理和自定义参数设置。": "Bu, {{toolName}} için kullanılan bir profesyonel araçtır, toplu işlemeyi ve özel parametre ayarlarını destekler.",
+  "这是一个通用模板组件。当前选中的工具是：": "Bu, genel bir şablon bileşenidir. Şu anda seçili olan araç:",
+  "退出当前账号": "Mevcut hesaptan çık",
+  "选择文件": "Dosya seç",
+  "选择音轨": "Ses izi seç",
+  "部分文件已忽略，仅支持 AVI 格式": "Bazı dosyalar yoksayıldı, yalnızca AVI formatı desteklenmektedir",
+  "部分文件已忽略，仅支持 GIF 格式": "Bazı dosyalar yoksayıldı, yalnızca GIF formatı desteklenmektedir",
+  "部分文件已忽略，仅支持 MOV 格式": "Bazı dosyalar yoksayıldı, yalnızca MOV formatı desteklenmektedir",
+  "部分文件已忽略，仅支持 MP4 格式": "Bazı dosyalar yoksayıldı, yalnızca MP4 formatı desteklenmektedir",
+  "部分文件已忽略，仅支持 WEBM 格式": "Bazı dosyalar yoksayıldı, yalnızca WEBM formatı destekleniyor",
+  "部分文件转换失败，已完成 {finishedCount}/{totalCount} 个。": "Bazı dosyaların dönüştürülmesi başarısız oldu, {finishedCount}/{totalCount} tamamlandı.",
+  "采样率": "Örnekleme oranı",
+  "错误": "Hata",
+  "问题反馈": "Sorun bildirimi",
+  "音轨 ${i + 1}": "Ses izi ${i + 1}",
+  "音轨 ${i + 1} ${i === 0 ? '(默认)' : ''}": "Ses izi ${i + 1} ${i === 0 ? '(varsayılan)' : ''}",
+  "音轨 ${i + 2}": "Ses izi ${i + 2}",
+  "音轨 ${idx + 1}": "Ses izi ${idx + 1}",
+  "音轨 ${index + 1} ${index === 0 ? '(默认)' : ''}": "Ses izi ${index + 1} ${index === 0 ? '(varsayılan)' : ''}",
+  "音轨 1 (默认)": "Ses izi 1 (varsayılan)",
+  "音轨 {{i + 1}}": "Ses izi {{i + 1}}",
+  "音轨 {{i + 1}} {{i === 0 ? '(默认)' : ''}}": "音轨 {{i + 1}} {{i === 0 ? '(默认)' : ''}}",
+  "音轨 {{i + 2}}": "Ses izi {{i + 2}}",
+  "音轨 {{idx + 1}}": "Ses izi {{idx + 1}}",
+  "音轨 {{index + 1}} {{index === 0 ? '(默认)' : ''}}": "音轨 {{index + 1}} {{index === 0 ? '(默认)' : ''}}",
+  "音轨选择": "Ses izi seçimi",
+  "音频比特率": "Ses bit hızı",
+  "音频比特率 (kbps)": "Ses bit hızı (kbps)",
+  "音频类": "Ses sınıfı",
+  "音频编码": "Ses kodlaması",
+  "音频采样率": "Ses örnekleme oranı",
+  "预览生成失败，但您可以正常查看信息并设置裁剪范围": "Önizleme oluşturma başarısız oldu, ancak bilgileri normal şekilde görüntüleyebilir ve kırpma aralığını ayarlayabilirsiniz",
+  "预览视频": "Önizleme videosu",
+  "预设": "Önayarlar",
+  "高级编码参数": "Gelişmiş kodlama parametreleri",
+  "高级设置": "Gelişmiş ayarlar",
+  "高质量": "Yüksek kalite",
+  "鲲穹AI": "KunQiong AI",
+  "鲲穹AI旗下产品": "KunQiong AI ürünleri",
+  "默认": "Varsayılan",
+  "🌐 全局配置": "🌐 Genel yapılandırma",
+  "🎧 {trackCount}音轨": "🎧 {trackCount} ses izi",
+  "👨‍💻 开发者提示:": "👨‍💻 Geliştirici ipucu:",
+  "📂 导入文件夹": "📂 Klasör içe aktar",
+  "📂 结果文件夹": "📂 Sonuç klasörü",
+  "📍 设置路径 ({selectedForPath": {
+    "size})": "📍 Yol ayarla ({selectedForPath.size})"
+  },
+  "🗑️ 清空全部": "🗑️ Tümünü temizle"
+}

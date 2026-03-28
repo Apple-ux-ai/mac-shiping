@@ -1,0 +1,707 @@
+{
+  "__continue_import": "Teruskan import",
+  "__clear_all": "Kosongkan semua",
+  "__audio_track_count": "{{count}} trek audio",
+  "__video_has_tracks": "Video ini mengandungi {{count}} trek audio",
+  "__progress_converting": "Menukar {{current}}/{{total}}",
+  "__extract_video_frames": "Mengekstrak {{percent}}% bingkai daripada video asal",
+  "__set_path_count": "Tetapkan laluan ({{count}})",
+  "${placeholderLabel} 加载中": {
+    "": {
+      "": {
+        "": "${placeholderLabel} Sedang memuat..."
+      }
+    }
+  },
+  "${toolName} 处理完成！": "${toolName} selesai diproses!",
+  "(${videoInfo": {
+    "audio_tracks_count} 条音轨)": "(${videoInfo.audio_tracks_count} trek audio)"
+  },
+  "({{videoInfo": {
+    "audio_tracks_count}} 条音轨)": "({{videoInfo.audio_tracks_count}} trek audio)"
+  },
+  "+ 继续导入": "+ Teruskan import",
+  "1000k (低质量)": "1000k (kualiti rendah)",
+  "12000k (4K级别)": "12000k (aras 4K)",
+  "2000k (中等质量)": "2000k (kualiti sederhana)",
+  "4000k (高质量)": "4000k (kualiti tinggi)",
+  "6000k (超清)": "6000k (ultra-jelas)",
+  "8000k (极清)": "8000k (ekstrem-jelas)",
+  "AVI To GIF 转换器": "Penukar AVI ke GIF",
+  "AVI To H264 转换器": "Penukar AVI ke H264",
+  "AVI To JPG 转换器": "Penukar AVI ke JPG",
+  "AVI To MKV 转换器": "Penukar AVI ke MKV",
+  "AVI To MOV 转换器": "Penukar AVI ke MOV",
+  "AVI To MP3 转换器": "Penukar AVI ke MP3",
+  "AVI To MP4 转换器": "Penukar AVI ke MP4",
+  "AVI To MPE 转换器": "Penukar AVI ke MPE",
+  "AVI To MPF 转换器": "Penukar AVI ke MPF",
+  "AVI To PNG 转换器": "Penukar AVI ke PNG",
+  "AVI To WAV 转换器": "Penukar AVI ke WAV",
+  "AVI To WEBM 转换器": "Penukar AVI ke WEBM",
+  "AVI 格式视频转换工具集": "Koleksi Alat Penukaran Video Format AVI",
+  "AVI 转换器": "Penukar AVI",
+  "AVI, MP4, GIF 等视频格式互转": "Tukar balik format video seperti AVI, MP4, GIF, dan lain-lain",
+  "Base64 编码可以将图片数据直接嵌入到 HTML 或 CSS 中，减少 HTTP 请求，提高页面加载速度。": "Pengekodan Base64 membolehkan data imej disisipkan secara langsung ke dalam HTML atau CSS, mengurangkan permintaan HTTP dan meningkatkan kelajuan pemuatan halaman.",
+  "FFmpeg 转换结果为空文件，请检查源 GIF 是否正常": "Hasil penukaran FFmpeg adalah fail kosong; sila periksa sama ada GIF sumber berfungsi dengan betul.",
+  "GIF To AVI 转换器": "Penukar GIF ke AVI",
+  "GIF To BASE64 转换器": "Penukar GIF ke BASE64",
+  "GIF To HTML 转换器": "Penukar GIF ke HTML",
+  "GIF To JPG 转换器": "Penukar GIF ke JPG",
+  "GIF To MOV 转换器": "Penukar GIF ke MOV",
+  "GIF To MP4 转换器": "Penukar GIF ke MP4",
+  "GIF To PDF 转换器": "Penukar GIF ke PDF",
+  "GIF To PNG 转换器": "Penukar GIF ke PNG",
+  "GIF To WEBM 转换器": "Penukar GIF ke WEBM",
+  "GIF To WEBP 转换器": "Penukar GIF ke WEBP",
+  "GIF 动图转换工具集": "Set Alat Penukaran GIF",
+  "GIF 图像": "Imej GIF",
+  "GIF 转换器": "Penukar GIF",
+  "JPG, PNG, SVG 等图片处理工具": "Alat Pemprosesan Imej seperti JPG, PNG, SVG",
+  "LOGO区域": "Kawasan LOGO",
+  "MOV To AVI 转换器": "Penukar MOV ke AVI",
+  "MOV To GIF 转换器": "Penukar MOV ke GIF",
+  "MOV To JPG 转换器": "Penukar MOV ke JPG",
+  "MOV To MP3 转换器": "Penukar MOV ke MP3",
+  "MOV To MP4 转换器": "Penukar MOV ke MP4",
+  "MOV To PDF 转换器": "Penukar MOV ke PDF",
+  "MOV To PNG 转换器": "Penukar MOV ke PNG",
+  "MOV To WAV 转换器": "Penukar MOV ke WAV",
+  "MOV To WEBM 转换器": "Penukar MOV ke WEBM",
+  "MOV 格式视频转换工具集": "Set Alat Penukaran Video Format MOV",
+  "MOV 视频": "Video MOV",
+  "MOV 转换器": "Penukar MOV",
+  "MP3, WAV 等音频格式转换": "Penukaran Format Audio seperti MP3, WAV",
+  "MP4 To AVI 转换器": "Penukar MP4 ke AVI",
+  "MP4 To GIF 转换器": "Penukar MP4 ke GIF",
+  "MP4 To JPG 转换器": "Penukar MP4 ke JPG",
+  "MP4 To MOV 转换器": "Penukar MP4 ke MOV",
+  "MP4 To MP3 转换器": "Penukar MP4 ke MP3",
+  "MP4 To PNG 转换器": "Penukar MP4 ke PNG",
+  "MP4 To WEBM 转换器": "Penukar MP4 ke WEBM",
+  "MP4 格式视频转换工具集": "Set Alat Penukaran Video Format MP4",
+  "MP4 视频": "Video MP4",
+  "MP4 转换器": "Penukar MP4",
+  "PDF, DOCX, JSON 等文档转换": "Penukaran Dokumen seperti PDF, DOCX, JSON",
+  "WEBM To AVI 转换器": "Penukar WEBM ke AVI",
+  "WEBM To GIF 转换器": "Penukar WEBM ke GIF",
+  "WEBM To JPG 转换器": "Penukar WEBM ke JPG",
+  "WEBM To MOV 转换器": "Penukar WEBM ke MOV",
+  "WEBM To MP3 转换器": "Penukar WEBM ke MP3",
+  "WEBM To MP4 转换器": "Penukar WEBM ke MP4",
+  "WEBM To PNG 转换器": "Penukar WEBM ke PNG",
+  "WEBM To WAV 转换器": "Penukar WEBM ke WAV",
+  "WEBM 格式视频转换工具集": "Koleksi Alat Penukaran Video Format WEBM",
+  "WEBM 视频": "Video WEBM",
+  "WEBM 转换器": "Penukar WEBM",
+  "Web 模式下无法选择目录": "Tidak boleh memilih direktori dalam Mod Web",
+  "Web 模式下暂不支持预览": "Pratonton tidak disokong buat masa ini dalam Mod Web",
+  "ffmpeg 已完成但输出文件为空": "ffmpeg telah selesai tetapi fail output kosong",
+  "{filename} - GIF 预览": "{filename} - Pratonton GIF",
+  "{{filename}} - GIF 预览": "{{filename}} - Pratonton GIF",
+  "{{placeholderLabel}} 加载中": {
+    "": {
+      "": {
+        "": "{{placeholderLabel}} Sedang memuat..."
+      }
+    }
+  },
+  "{{toolName}} 处理完成！": "{{toolName}} telah selesai diproses!",
+  "—— 一款专业工具，可将 GIF 动图转换为 Base64 编码字符串，方便在代码中直接引用。": "—— Alat profesional yang menukar animasi GIF kepada rentetan kod Base64, memudahkan rujukan langsung dalam kod.",
+  "—— 一款专业工具，可将 GIF 动图转换为 JPG 图像序列，并支持自定义参数。": "—— Alat profesional yang menukar animasi GIF kepada jujukan imej JPG, dengan sokongan parameter tersuai.",
+  "—— 一款专业工具，可将 GIF 动图转换为 MP4 视频格式，并支持自定义参数。": "—— Alat profesional yang menukar animasi GIF kepada format video MP4, dengan sokongan parameter tersuai.",
+  "—— 一款专业工具，可将 GIF 动图转换为 PDF 文档，支持自定义页面方向。": "—— Alat profesional yang menukar animasi GIF kepada dokumen PDF, dengan sokongan arah halaman tersuai.",
+  "—— 一款专业工具，可将 GIF 动图转换为 WEBM 视频格式，并支持自定义参数。": "—— Alat profesional yang menukar animasi GIF kepada format video WEBM, dengan sokongan parameter tersuai.",
+  "—— 专业级 MOV 转 AVI 工具，支持批量转换和高质量输出。": "—— Alat tahap profesional untuk menukar MOV ke AVI, menyokong penukaran pukal dan keluaran berkualiti tinggi.",
+  "—— 专业级 MOV 转 MP3 工具，支持批量提取音频和高质量输出。": "—— Alat tahap profesional untuk menukar MOV ke MP3, menyokong pengekstrakan audio pukal dan keluaran berkualiti tinggi.",
+  "—— 专业级 MOV 转 MP4 工具，支持批量转换和高质量输出。": "—— Alat tahap profesional untuk menukar MOV ke MP4, menyokong penukaran pukal dan keluaran berkualiti tinggi.",
+  "—— 专业级 MOV 转 WEBM 工具，支持批量转换和高质量输出。": "—— Alat tahap profesional untuk menukar MOV ke WEBM, menyokong penukaran pukal dan keluaran berkualiti tinggi.",
+  "—— 专业级 MP4 转 AVI 工具，支持批量转换和高质量输出。": "—— Alat tahap profesional untuk menukar MP4 ke AVI, menyokong penukaran pukal dan keluaran berkualiti tinggi.",
+  "—— 专业级 MP4 转 MOV 工具，支持批量转换和高质量输出。": "—— Alat tahap profesional untuk menukar MP4 ke MOV, menyokong penukaran pukal dan keluaran berkualiti tinggi.",
+  "—— 专业级 MP4 转 MP3 工具，支持批量提取音频和高质量输出。": "—— Alat tahap profesional untuk menukar MP4 ke MP3, menyokong pengekstrakan audio pukal dan keluaran berkualiti tinggi.",
+  "—— 专业级 MP4 转 WEBM 工具，支持批量转换和高质量 WebM 格式输出。": "—— Alat tahap profesional untuk menukar MP4 ke WEBM, menyokong penukaran pukal dan keluaran format WebM berkualiti tinggi.",
+  "—— 从 MOV 视频中提取无损 WAV 音频，支持批量转换和音频设置。": "—— Mengekstrak audio WAV tanpa kehilangan dari video MOV, dengan sokongan penukaran pukal dan tetapan audio.",
+  "—— 从 MP4 视频中提取高质量 JPG 序列，支持自定义提取间隔和质量。": "—— Mengekstrak jujukan JPG berkualiti tinggi daripada video MP4, dengan sokongan selang ekstraksi dan kualiti tersuai.",
+  "—— 将 MOV 视频帧提取为高质量 JPG 图片，支持批量处理和参数调节。": "—— Mengekstrak bingkai video MOV sebagai imej JPG berkualiti tinggi, dengan sokongan pemprosesan pukal dan pelarasan parameter.",
+  "—— 将 MOV 视频帧提取为高质量 PNG 图片，支持批量处理和参数调节。": "—— Mengekstrak bingkai video MOV sebagai imej PNG berkualiti tinggi, dengan sokongan pemprosesan pukal dan pelarasan parameter.",
+  "—— 将 MOV 视频帧提取并转换为 PDF 文档，支持自定义页面方向与批量处理。": "—— Mengekstrak dan menukar bingkai video MOV kepada dokumen PDF, dengan sokongan arah halaman tersuai dan pemprosesan pukal.",
+  "—— 将 MOV 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "—— Menukar video MOV kepada animasi GIF berkualiti tinggi, dengan sokongan kualiti, kadar bingkai dan julat masa tersuai.",
+  "—— 将 MP4 视频转换为 PNG 图片序列，支持自定义提取间隔和质量。": "—— Menukar video MP4 kepada jujukan imej PNG, dengan sokongan selang ekstraksi dan kualiti tersuai.",
+  "—— 将 MP4 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "—— Menukar video MP4 kepada animasi GIF berkualiti tinggi, dengan sokongan kualiti, kadar bingkai dan julat masa tersuai.",
+  "一款专业工具，可从AVI视频中提取MP3音频，并支持自定义编码参数。": "Alat profesional yang mengekstrak audio MP3 daripada video AVI, dengan sokongan parameter pengekodan tersuai.",
+  "一款专业工具，可从AVI视频中提取WAV音频，并支持自定义编码参数。": "Alat profesional yang mengekstrak audio WAV daripada video AVI, dengan sokongan parameter pengekodan tersuai.",
+  "一款专业工具，可将 GIF 动图转换为 AVI 视频格式，并支持自定义参数。": "Alat profesional yang menukar animasi GIF kepada format video AVI, dengan sokongan parameter tersuai.",
+  "一款专业工具，可将 GIF 动图转换为 MOV 视频格式，并支持自定义参数。": "Alat profesional yang menukar animasi GIF kepada format video MOV, dengan sokongan parameter tersuai.",
+  "一款专业工具，可将 GIF 动图转换为 PNG 图像序列，并支持自定义参数。": "Alat profesional yang menukar animasi GIF kepada jujukan imej PNG, dengan sokongan parameter tersuai.",
+  "一款专业工具，可将 GIF 动图转换为 WEBP 图像序列，并支持自定义参数。": "Alat profesional yang menukar animasi GIF kepada jujukan imej WEBP, dengan sokongan parameter tersuai.",
+  "一款专业工具，可将AVI 视频文件转换为GIF动图，并支持自定义参数。": "Alat profesional yang menukar fail video AVI kepada animasi GIF, dengan sokongan parameter tersuai.",
+  "一款专业工具，可将AVI 视频文件转换为H264(MP4)视频格式，并支持自定义编码参数。": "Alat profesional yang menukar fail video AVI kepada format video H264 (MP4), dengan sokongan parameter pengekodan tersuai.",
+  "一款专业工具，可将AVI 视频文件转换为JPG图像序列，并支持自定义提取参数。": "Alat profesional yang menukar fail video AVI kepada jujukan imej JPG, dengan sokongan parameter pengekstrakan tersuai.",
+  "一款专业工具，可将AVI 视频文件转换为MKV视频格式，并支持自定义编码参数。": "Alat profesional yang menukar fail video AVI kepada format video MKV, dengan sokongan parameter pengekodan tersuai.",
+  "一款专业工具，可将AVI 视频文件转换为MOV视频格式，并支持自定义编码参数。": "Alat profesional yang menukar fail video AVI kepada format video MOV, dengan sokongan parameter pengekodan tersuai.",
+  "一款专业工具，可将AVI 视频文件转换为MP4视频格式，并支持自定义编码参数。": "Alat profesional yang menukar fail video AVI kepada format video MP4, dengan sokongan parameter pengekodan tersuai.",
+  "一款专业工具，可将AVI 视频文件转换为MPE视频格式，并支持自定义编码参数。": "Alat profesional yang menukar fail video AVI kepada format video MPE, dengan sokongan parameter pengekodan tersuai.",
+  "一款专业工具，可将AVI 视频文件转换为PNG图像序列，并支持自定义提取参数。": "Alat profesional yang menukar fail video AVI kepada jujukan imej PNG, dengan sokongan parameter pengekstrakan tersuai.",
+  "一款专业工具，可将AVI 视频文件转换为WEBM视频格式，并支持自定义编码参数。": "Alat profesional yang menukar fail video AVI kepada format video WEBM, dengan sokongan parameter pengekodan tersuai.",
+  "一款在线${source}转${target}转换器，支持自定义参数，提供多种分辨率选项，助您轻松完成格式转换。": "Penukar dalam talian ${source} ke ${target}, menyokong parameter tersuai dan pelbagai pilihan resolusi untuk memudahkan proses penukaran format.",
+  "一款在线{{source}}转{{target}}转换器，支持自定义参数，提供多种分辨率选项，助您轻松完成格式转换。": "Penukar dalam talian {{source}} ke {{target}}, menyokong parameter tersuai dan pelbagai pilihan resolusi untuk memudahkan proses penukaran format.",
+  "下次再说": "Lain kali sahaja",
+  "下载失败: {str(e)}": "Muat turun gagal: {str(e)}",
+  "专业级 WEBM 转 AVI 工具，支持批量转换和高质量输出。": "Alat tahap profesional untuk menukar WEBM ke AVI, menyokong penukaran pukal dan output berkualiti tinggi.",
+  "专业级 WEBM 转 MP4 工具，支持批量转换和高质量输出。": "Alat tahap profesional untuk menukar WEBM ke MP4, menyokong penukaran pukal dan output berkualiti tinggi.",
+  "中等质量": "Kualiti sederhana",
+  "从 AVI 视频提取 MP3 音频": "Ekstrak audio MP3 daripada video AVI",
+  "从 AVI 视频提取 WAV 音频": "Ekstrak audio WAV daripada video AVI",
+  "从 MOV 视频提取 MP3 音频": "Ekstrak audio MP3 daripada video MOV",
+  "从 MOV 视频提取 WAV 音频": "Ekstrak audio WAV daripada video MOV",
+  "从 MP4 视频提取 MP3 音频": "Ekstrak audio MP3 daripada video MP4",
+  "从 WEBM 视频中提取无损 WAV 音频，支持批量转换和音频设置。": "Ekstrak audio WAV tanpa kehilangan daripada video WEBM, menyokong penukaran pukal dan tetapan audio.",
+  "从 WEBM 视频中提取高质量 JPG 序列，支持自定义提取间隔和质量。": "Ekstrak jujukan JPG berkualiti tinggi daripada video WEBM, menyokong selang ekstraksi dan kualiti tersuai.",
+  "从 WEBM 视频中提取高质量 MP3 音频，支持批量转换和音频质量设置。": "Ekstrak audio MP3 berkualiti tinggi daripada video WEBM, menyokong penukaran pukal dan tetapan kualiti audio.",
+  "从 WEBM 视频中提取高质量 PNG 序列，支持自定义提取间隔和质量。": "Ekstrak jujukan PNG berkualiti tinggi daripada video WEBM, menyokong selang ekstraksi dan kualiti tersuai.",
+  "从 WEBM 视频提取 MP3 音频": "Ekstrak audio MP3 daripada video WEBM",
+  "从 WEBM 视频提取 WAV 音频": "Ekstrak audio WAV daripada video WEBM",
+  "任务中断": "Tugasan terganggu",
+  "低质量": "Kualiti rendah",
+  "保持原样": "Kealkan asal",
+  "全局配置": "Konfigurasi global",
+  "全部转换": "Tukar semua",
+  "关于 GIF 转 BASE64": "Mengenai penukaran GIF ke BASE64",
+  "关键帧与音频控制": "Kawalan frame utama dan audio",
+  "关键帧间隔 (帧)": "Selang frame utama (bingkai)",
+  "关闭": "Tutup",
+  "关闭窗口": "Tutup tetingkap",
+  "准备就绪": {
+    "": {
+      "": {
+        "": "Sedia..."
+      }
+    }
+  },
+  "分辨率": "Resolusi",
+  "切换浅色模式": "Tukar ke mod cahaya",
+  "切换深色模式": "Tukar ke Mod Gelap",
+  "功能演示区域": "Kawasan Demonstrasi Fungsi",
+  "功能说明": "Penerangan Fungsi",
+  "加载中": "Sedang Memuatkan",
+  "动态码率 (VBR)": "Kadar Bit Dinamik (VBR)",
+  "单声道 (1)": "Mono (1)",
+  "单声道 (1": {
+    "0)": "Mono (1.0)"
+  },
+  "单声道 (Mono)": "Mono",
+  "原始方向 (Original)": "Arah Asal (Original)",
+  "原视频分辨率": "Resolusi Video Asal",
+  "取消": "Batalkan",
+  "取消失败:": "Gagal membatalkan:",
+  "取消登录": "Batalkan Log Masuk",
+  "取消转换": "Batalkan Penukaran",
+  "取消转换时发生错误": "Ralat berlaku semasa membatalkan penukaran",
+  "取消转换时发生错误: ": "Ralat berlaku semasa membatalkan penukaran: ",
+  "取消转换时发生错误:": "Ralat berlaku semasa membatalkan penukaran:",
+  "只支持 MP4 文件": "Hanya menyokong fail MP4",
+  "各种格式转换工具": "Pelbagai alat penukaran format",
+  "否": "Tidak",
+  "启动失败，请手动打开程序": "Gagal memulakan, sila buka program secara manual",
+  "启动登录界面失败: ${error": {
+    "message || '网络错误'}": "Gagal memulakan antara muka log masuk: ${error.message || 'Ralat rangkaian'}"
+  },
+  "启动登录界面失败: {{error": {
+    "message || '网络错误'}}": "启动登录界面失败: {{error.message || '网络错误'}}"
+  },
+  "启动错误": "Ralat pemulaan",
+  "固定比特率": "Kadar Bit Tetap",
+  "固定码率 (CBR)": "Kadar Bit Tetap (CBR)",
+  "图片类": "Jenis Gambar",
+  "在 Web 模式下无法打开本地文件夹": "Tidak dapat membuka folder tempatan dalam mod Web",
+  "在 Web 模式下无法选择目录": "Tidak dapat memilih direktori dalam mod Web",
+  "在 Web 模式下无法选择输出文件夹": "Tidak dapat memilih folder output dalam mod Web",
+  "声道": "Saluran Audio",
+  "声道配置": "Konfigurasi Saluran Audio",
+  "处理完成！成功: ${successCount} 个，失败: ${failCount} 个。": "Proses selesai! Berjaya: ${successCount} fail, gagal: ${failCount} fail.",
+  "处理完成！成功: {{successCount}} 个，失败: {{failCount}} 个。": "Proses selesai! Berjaya: {{successCount}} fail, gagal: {{failCount}} fail.",
+  "处理文件 ${file} 时出错: ${err": {
+    "message}": "Ralat berlaku semasa memproses fail ${file}: ${err.message}"
+  },
+  "处理文件 {{file}} 时出错: {{err": {
+    "message}}": "Ralat berlaku semasa memproses fail {{file}}: {{err.message}}"
+  },
+  "处理文件时出错: ${err": {
+    "message}": "Ralat berlaku semasa memproses fail: ${err.message}"
+  },
+  "处理文件时出错: {{err": {
+    "message}}": "Ralat berlaku semasa memproses fail: {{err.message}}"
+  },
+  "安装失败：文件被占用，请手动关闭程序后重试": "Pemasangan gagal: fail sedang digunakan, sila tutup program secara manual dan cuba lagi",
+  "完成": "Selesai",
+  "导入文件夹": "Import Folder",
+  "将 AVI 视频转换为 GIF 动图": "Tukar video AVI kepada animasi GIF",
+  "将 AVI 视频转换为 H": {
+    "264 编码": "Tukar video AVI kepada kod H.264"
+  },
+  "将 AVI 视频转换为 JPG 图片序列": "Tukar video AVI kepada jujukan imej JPG",
+  "将 AVI 视频转换为 MKV 格式": "Tukar video AVI kepada format MKV",
+  "将 AVI 视频转换为 MOV 格式": "Tukar video AVI kepada format MOV",
+  "将 AVI 视频转换为 MP4 格式": "Tukar video AVI kepada format MP4",
+  "将 AVI 视频转换为 MPE 格式": "Tukar video AVI kepada format MPE",
+  "将 AVI 视频转换为 MPF 格式": "Tukar video AVI kepada format MPF",
+  "将 AVI 视频转换为 MPF 格式，支持批量转换和参数自定义。": "Tukar video AVI kepada format MPF, menyokong penukaran pukal dan penyesuaian parameter.",
+  "将 AVI 视频转换为 PNG 图片序列": "Tukar video AVI kepada jujukan imej PNG",
+  "将 AVI 视频转换为 WEBM 格式": "Tukar video AVI kepada format WEBM",
+  "将 GIF 动图以 Base64 编码方式嵌入到 HTML 页面中，实现单文件分发，方便在任何浏览器中查看。": "Benamkan animasi GIF ke dalam halaman HTML menggunakan penyandian Base64 untuk pengedaran fail tunggal, memudahkan paparan dalam sebarang penyemak imbas.",
+  "将 GIF 动图转换为 MOV 视频": "Tukar animasi GIF kepada video MOV",
+  "将 GIF 动图转换为 MP4 视频": "Tukar animasi GIF kepada video MP4",
+  "将 GIF 动图转换为 PDF 文档": "Tukar animasi GIF kepada dokumen PDF",
+  "将 GIF 动图转换为 PNG 图片序列": "Tukar animasi GIF kepada jujukan imej PNG",
+  "将 GIF 转换为 AVI 视频": "Tukar GIF kepada video AVI",
+  "将 GIF 转换为 Base64 编码": "Tukar GIF kepada kod Base64",
+  "将 GIF 转换为 HTML 动画": "Tukar GIF kepada animasi HTML",
+  "将 GIF 转换为 JPG 图片序列": "Tukar GIF kepada jujukan imej JPG",
+  "将 GIF 转换为 WEBM 视频": "Tukar GIF kepada video WEBM",
+  "将 GIF 转换为 WEBP 格式": "Tukar GIF kepada format WEBP",
+  "将 MOV 视频转换为 AVI 格式": "Tukar video MOV kepada format AVI",
+  "将 MOV 视频转换为 GIF 动图": "Tukar video MOV kepada animasi GIF",
+  "将 MOV 视频转换为 JPG 图片序列": "Tukar video MOV kepada jujukan imej JPG",
+  "将 MOV 视频转换为 MP4 格式": "Tukar video MOV kepada format MP4",
+  "将 MOV 视频转换为 PDF 文档": "Tukar video MOV kepada dokumen PDF",
+  "将 MOV 视频转换为 PNG 图片序列": "Tukar video MOV kepada jujukan imej PNG",
+  "将 MOV 视频转换为 WEBM 格式": "Tukar video MOV kepada format WEBM",
+  "将 MP4 视频转换为 AVI 格式": "Tukar video MP4 kepada format AVI",
+  "将 MP4 视频转换为 GIF 动图": "Tukar video MP4 kepada animasi GIF",
+  "将 MP4 视频转换为 JPG 图片序列": "Tukar video MP4 kepada jujukan imej JPG",
+  "将 MP4 视频转换为 MOV 格式": "Tukar video MP4 kepada format MOV",
+  "将 MP4 视频转换为 PNG 图片序列": "Tukar video MP4 kepada jujukan imej PNG",
+  "将 MP4 视频转换为 WEBM 格式": "Tukar video MP4 kepada format WEBM",
+  "将 WEBM 视频转换为 AVI 格式": "Tukar video WEBM kepada format AVI",
+  "将 WEBM 视频转换为 GIF 动图": "Tukar video WEBM kepada animasi GIF",
+  "将 WEBM 视频转换为 JPG 图片序列": "Tukar video WEBM kepada jujukan imej JPG",
+  "将 WEBM 视频转换为 MOV 格式": "Tukar video WEBM kepada format MOV",
+  "将 WEBM 视频转换为 MP4 格式": "Tukar video WEBM kepada format MP4",
+  "将 WEBM 视频转换为 PNG 图片序列": "Tukar video WEBM kepada siri imej PNG",
+  "将 WEBM 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "Tukar video WEBM kepada animasi GIF berkualiti tinggi, dengan sokongan penyesuaian kualiti, kadar bingkai dan julat masa.",
+  "将 WebM 视频转换为 Apple 设备兼容性更好的 MOV 格式，支持自定义质量、分辨率和音频比特率。": "Tukar video WebM kepada format MOV yang lebih sesuai untuk peranti Apple, dengan sokongan penyesuaian kualiti, resolusi dan kadar bit audio.",
+  "将您的 AVI 文件拖拽到此处": "Seret fail AVI anda ke sini",
+  "将您的 GIF 文件拖拽到此处": "Seret fail GIF anda ke sini",
+  "将您的 MOV 文件拖拽到此处": "Seret fail MOV anda ke sini",
+  "将您的 MP4 文件拖拽到此处": "Seret fail MP4 anda ke sini",
+  "将您的 WEBM 文件拖拽到此处": "Seret fail WEBM anda ke sini",
+  "将您的AVI文件拖拽到此处": "Seret fail AVI anda ke sini",
+  "将您的MOV文件拖拽到此处": "Seret fail MOV anda ke sini",
+  "将您的WEBM文件拖拽到此处": "Seret fail WEBM anda ke sini",
+  "将您的文件拖拽到此处": "Seret fail anda ke sini",
+  "工具": "Alat",
+  "已取消": "Dibatalkan",
+  "已取消登录": "Log masuk dibatalkan",
+  "已取消转换并删除未完成文件": "Penukaran dibatalkan dan fail yang belum siap telah dipadam",
+  "已取消转换并删除本地文件": "Penukaran dibatalkan dan fail tempatan telah dipadam",
+  "已登录鲲穹账户": "Telah log masuk ke akaun Kunqiong",
+  "已设置自定义路径": "Laluan tersuai telah ditetapkan",
+  "已退出登录": "Telah keluar log masuk",
+  "帧率": "Kadar bingkai",
+  "应用配置": "Konfigurasi aplikasi",
+  "开始处理": "Mulakan pemprosesan",
+  "开始时间 (秒)": "Masa mula (saat)",
+  "强制横向 (Landscape)": "Paksakan landskap (Landscape)",
+  "强制纵向 (Portrait)": "Paksakan potret (Portrait)",
+  "当前全局路径: ${globalPath}": "Laluan global semasa: ${globalPath}",
+  "当前全局路径: {{globalPath}}": "Laluan global semasa: {{globalPath}}",
+  "当前已是最新版本": "Versi semasa sudah yang terkini",
+  "快速预设": "Pratetap pantas",
+  "总时长": "Jumlah masa",
+  "您确定要取消当前的转换任务吗？未完成的文件将被删除。": "Adakah anda pasti ingin membatalkan tugas penukaran semasa? Fail yang belum siap akan dipadam.",
+  "成功": "Berjaya",
+  "成功转换 ${selectedFiles": {
+    "length} 个文件！": "Berjaya menukar ${selectedFiles.length} fail!"
+  },
+  "成功转换 ${successCount} 个文件！": "Berjaya menukar ${successCount} fail!",
+  "成功转换 {{selectedFiles": {
+    "length}} 个文件！": "Berjaya menukar {{selectedFiles.length}} fail!"
+  },
+  "成功转换 {{successCount}} 个文件！": "Berjaya menukar {{successCount}} fail!",
+  "或者点击浏览文件": "Atau klik untuk melayari fail",
+  "所有 GIF 已成功转换为 AVI 视频！": "Semua GIF berjaya ditukar kepada video AVI!",
+  "所有 GIF 已成功转换为 BASE64 文件！": "Semua GIF berjaya ditukar kepada fail BASE64!",
+  "所有 GIF 已成功转换为 HTML 文件！": "Semua GIF berjaya ditukar kepada fail HTML!",
+  "所有 GIF 已成功转换为 JPG 序列并打包为 ZIP！": "Semua GIF berjaya ditukar kepada jujukan JPG dan dibungkus sebagai ZIP!",
+  "所有 GIF 已成功转换为 MOV 文件！": "Semua GIF berjaya ditukar kepada fail MOV!",
+  "所有 GIF 已成功转换为 MP4 文件！": "Semua GIF berjaya ditukar kepada fail MP4!",
+  "所有 GIF 已成功转换为 PDF 文件！": "Semua GIF berjaya ditukar kepada fail PDF!",
+  "所有 GIF 已成功转换为 PNG 序列并打包为 ZIP！": "Semua GIF berjaya ditukar kepada jujukan PNG dan dibungkus sebagai ZIP!",
+  "所有 GIF 已成功转换为 WEBM！": "Semua GIF berjaya ditukar kepada WEBM!",
+  "所有 GIF 已成功转换为 WEBP 文件！": "Semua GIF berjaya ditukar kepada fail WEBP!",
+  "所有 MOV 已成功转换为 GIF！": "Semua MOV berjaya ditukar kepada GIF!",
+  "所有 MOV 已成功转换为 PDF 文件！": "Semua MOV berjaya ditukar kepada fail PDF!",
+  "所有 MOV 已成功转换为 PNG 序列并打包！": "Semua MOV berjaya ditukar kepada jujukan PNG dan dibungkus!",
+  "所有 WEBM 已成功转换为 GIF！": "Semua WEBM berjaya ditukar kepada GIF!",
+  "所有 WEBM 已成功转换为 PNG 序列并打包！": "Semua WEBM berjaya ditukar kepada jujukan PNG dan dibungkus!",
+  "所有任务处理完成！": "Semua tugas selesai diproses!",
+  "所有文件转换完成": "Semua fail telah ditukar",
+  "所有文件转换成功！": "Semua fail berjaya ditukar!",
+  "打开结果文件夹": "Buka folder hasil",
+  "提取原 GIF 的 ${interval}% 帧": "Ekstrak bingkai ${interval}% daripada GIF asal",
+  "提取原 GIF 的 {{interval}}% 帧": "Ekstrak bingkai {{interval}}% daripada GIF asal",
+  "提取原视频的 ${frameInterval}% 帧": "Ekstrak bingkai ${frameInterval}% daripada video asal",
+  "提取原视频的 ${interval}% 帧": "Ekstrak bingkai ${interval}% daripada video asal",
+  "提取原视频的 {{frameInterval}}% 帧": "Ekstrak bingkai {{frameInterval}}% daripada video asal",
+  "提取原视频的 {{interval}}% 帧": "Ekstrak bingkai {{interval}}% daripada video asal",
+  "提取密度": "Ketumpatan ekstraksi",
+  "提示": "Petunjuk",
+  "提示：Base64 编码会使文件体积增大约 33%，建议仅对较小的 GIF 或需要减少请求数的场景使用。": "Petunjuk: Pengekodan Base64 akan meningkatkan saiz fail sebanyak kira-kira 33%; disyorkan hanya untuk GIF yang kecil atau dalam senario di mana bilangan permintaan perlu dikurangkan.",
+  "提示：WAV 格式将采用无损 PCM (S16LE) 编码，提供最高保真度。": "Petunjuk: Format WAV akan menggunakan pengekodan PCM tanpa kehilangan (S16LE), memberikan ketepatan audio tertinggi.",
+  "提示：WAV 格式通常存储为无损 PCM 音频，提供最高保真度，完美还原原始音质。": "Petunjuk: Format WAV biasanya disimpan sebagai audio PCM tanpa kehilangan, memberikan ketepatan tertinggi dan memulihkan kualiti audio asal secara sempurna.",
+  "提示：较高的比特率通常意味着更好的音质，但文件体积也会相应增大。": "Petunjuk: Bitrate yang lebih tinggi biasanya bermaksud kualiti audio yang lebih baik, tetapi saiz fail juga akan meningkat secara sepadan.",
+  "搜索功能": {
+    "": {
+      "": {
+        "": "Fungsi carian..."
+      }
+    }
+  },
+  "文件 ${baseName} 没有音轨，无法转换为音频格式。": "Fail ${baseName} tiada trek audio, tidak boleh ditukar kepada format audio.",
+  "文件 ${file": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "Fail ${file.split(/[\\\\/]/).pop()} tiada trek audio, tidak boleh ditukar kepada format audio."
+    }
+  },
+  "文件 ${filePath": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "Fail ${filePath.split(/[\\\\/]/).pop()} tiada trek audio, tidak boleh ditukar kepada format audio."
+    }
+  },
+  "文件 ${key": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "Fail ${key.split(/[\\\\/]/).pop()} tiada trek audio, tidak boleh ditukar kepada format audio."
+    }
+  },
+  "文件 {{baseName}} 没有音轨，无法转换为音频格式。": "Fail {{baseName}} tiada trek audio, tidak boleh ditukar kepada format audio.",
+  "文件 {{file": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "Fail {{file.split(/[\\\\/]/).pop()}} tiada trek audio, tidak boleh ditukar kepada format audio."
+    }
+  },
+  "文件 {{filePath": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "Fail {{filePath.split(/[\\\\/]/).pop()}} tiada trek audio, tidak boleh ditukar kepada format audio."
+    }
+  },
+  "文件 {{key": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "Fail {{key.split(/[\\\\/]/).pop()}} tiada trek audio, tidak boleh ditukar kepada format audio."
+    }
+  },
+  "文件不存在": "Fail tidak wujud",
+  "文件内容为空 (0字节)": "Kandungan fail kosong (0 bait)",
+  "文件名": "Nama fail",
+  "文件名: {filename}": {
+    "gif": "Nama fail: {filename}.gif"
+  },
+  "文件大小": "Saiz fail",
+  "文档类": "Jenis dokumen",
+  "方向": "Arah",
+  "无法获取文件信息:": "Tidak dapat mendapatkan maklumat fail:",
+  "无法获取视频信息:": "Tidak dapat mendapatkan maklumat video:",
+  "无法获取视频时长，暂不支持裁剪": "Tidak dapat mendapatkan jangka masa video; pemotongan tidak disokong buat masa ini",
+  "无法验证输出文件大小": "Tidak dapat mengesahkan saiz fail output",
+  "无音轨": "Tiada trek audio",
+  "无音频": "Tiada audio",
+  "是": "Ya",
+  "是否取消当前转换任务并删除未完成文件？": "Adakah anda ingin membatalkan tugas penukaran semasa dan memadamkan fail yang belum siap?",
+  "是否取消当前转换任务？": "Adakah anda ingin membatalkan tugas penukaran semasa?",
+  "是否取消转换并删除本地文件？": "Adakah anda ingin membatalkan penukaran dan memadamkan fail tempatan?",
+  "是否取消转换？": "Adakah anda ingin membatalkan penukaran?",
+  "是否立即更新？": "Adakah anda ingin mengemas kini sekarang?",
+  "更新出错: {str(e)}": "Ralat semasa mengemas kini: {str(e)}",
+  "更新功能不可用 (Electron environment missing)": "Fungsi kemas kini tidak tersedia (persekitaran Electron tidak wujud)",
+  "更新程序参数错误。\\n\\n原始参数: {sys": {
+    "argv}": "Ralat parameter program kemas kini.\\n\\nParameter asal: {sys.argv}"
+  },
+  "更新程序启动失败": "Gagal memulakan program kemas kini",
+  "更新错误": "Ralat kemas kini",
+  "最大化/还原": "Maksimumkan/Pulihkan",
+  "最小化": "Minimumkan",
+  "最近使用": "Digunakan baru-baru ini",
+  "未找到主程序": "Program utama tidak dijumpai",
+  "未找到相关功能": "Fungsi berkaitan tidak dijumpai",
+  "未知": "Tidak diketahui",
+  "未知错误": "Ralat tidak diketahui",
+  "未设置输出路径": "Laluan output belum ditetapkan",
+  "未设置输出路径: ${file}": "Laluan output belum ditetapkan: ${file}",
+  "未设置输出路径: {{file}}": "Laluan output belum ditetapkan: {{file}}",
+  "校验失败：下载文件损坏": "Pengesahan gagal: fail muat turun rosak",
+  "检查更新": "Periksa kemas kini",
+  "检查更新中": {
+    "": {
+      "": {
+        "": "Sedang memeriksa kemas kini..."
+      }
+    }
+  },
+  "检查更新出错: ": "Ralat semasa memeriksa kemas kini: ",
+  "检查更新出错:": "Ralat semasa memeriksa kemas kini:",
+  "检查更新失败: ": "Gagal memeriksa kemas kini: ",
+  "检查更新失败:": "Gagal memeriksa kemas kini:",
+  "检测到新版本，但下载地址无效。请联系客服。": "Versi baharu dikesan, tetapi pautan muat turun tidak sah. Sila hubungi khidmat pelanggan.",
+  "正在下载更新包": {
+    "": {
+      "": {
+        "": "Sedang memuat turun pakej kemas kini..."
+      }
+    }
+  },
+  "正在关闭主程序": {
+    "": {
+      "": {
+        "": "Sedang menutup program utama..."
+      }
+    }
+  },
+  "正在升级系统": "Sedang mengemaskini sistem",
+  "正在启动更新程序，请留意 UAC 弹窗": {
+    "": {
+      "": {
+        "": "Sedang melancarkan program kemas kini, sila perhatikan tetingkap UAC..."
+      }
+    }
+  },
+  "正在安装更新": {
+    "": {
+      "": {
+        "": "Sedang memasang kemas kini..."
+      }
+    }
+  },
+  "正在更新": {
+    "": {
+      "": {
+        "": "Sedang dikemaskini..."
+      }
+    }
+  },
+  "正在生成预览": {
+    "": {
+      "": {
+        "": "Sedang menjana pratonton..."
+      }
+    }
+  },
+  "正在转换 ${convertCount?": {
+    "current || 0}/${convertCount?": {
+      "total || 0}": "Sedang menukar ${convertCount?.current || 0}/${convertCount?.total || 0}"
+    }
+  },
+  "正在转换 {{convertCount?": {
+    "current || 0}}/{{convertCount?": {
+      "total || 0}}": "Sedang menukar {{convertCount?.current || 0}}/{{convertCount?.total || 0}}"
+    }
+  },
+  "正在重试 ({i+1}/{max_retries})": {
+    "": {
+      "": {
+        "": "Sedang mencuba semula ({i+1}/{max_retries})..."
+      }
+    }
+  },
+  "此组件位于 src/components/features/DemoFeature": {
+    "jsx。": "Komponen ini terletak di src/components/features/DemoFeature.jsx."
+  },
+  "浏览器不支持直接播放此 AVI 编码格式": "Pelayar tidak menyokong pemainan langsung format pengekodan AVI ini",
+  "清理并重启": {
+    "": {
+      "": {
+        "": "Membersihkan dan menyemula semula..."
+      }
+    }
+  },
+  "清空全部": "Kosongkan Semua",
+  "生成的 ": {
+    "base64 文件包含完整的 Data URL（例如：data:image/gif;base64,": {
+      "": {
+        "": {
+          "），您可以直接将其复制到代码中使用。": "Fail .base64 yang dijana mengandungi Data URL penuh (contohnya: data:image/gif;base64,...), anda boleh menyalinnya terus ke dalam kod."
+        }
+      }
+    }
+  },
+  "界面渲染出错": "Ralat dalam proses render antara muka",
+  "登录": "Log Masuk",
+  "登录中": {
+    "": {
+      "": {
+        "": "Sedang log masuk..."
+      }
+    }
+  },
+  "登录后即可保存您的个性设置并享受更多高级功能": "Selepas log masuk, tetapan peribadi anda akan disimpan dan anda boleh menikmati lebih banyak fungsi lanjutan.",
+  "登录成功": "Log masuk berjaya",
+  "登录请求已超时，请重试": "Permintaan log masuk telah tamat tempoh, sila cuba lagi",
+  "登录鲲穹账户": "Log Masuk ke Akaun Kunqiong",
+  "目标视频码率": "Kadar bit video sasaran",
+  "确定": "Ya",
+  "确定裁剪": "Sahkan Pemotongan",
+  "确定要取消当前的转换任务吗？": "Adakah anda pasti ingin membatalkan tugas penukaran semasa?",
+  "确定要取消当前的转换任务吗？已生成的文件可能会被删除。": "Adakah anda pasti ingin membatalkan tugas penukaran semasa? Fail yang telah dijana mungkin akan dipadam.",
+  "确定要取消当前的转换任务吗？已生成的文件将保留。": "Adakah anda pasti ingin membatalkan tugas penukaran semasa? Fail yang telah dijana akan dikekalkan.",
+  "确定要取消当前的转换任务吗？已生成的文件将被删除。": "Adakah anda pasti ingin membatalkan tugas penukaran semasa? Fail yang telah dijana akan dipadam.",
+  "确定要取消当前的转换任务吗？已转换的部分将被删除。": "Adakah anda pasti ingin membatalkan tugas penukaran semasa? Bahagian yang telah ditukar akan dipadam.",
+  "确定要取消当前的转换任务吗？未完成的文件将被删除。": "Adakah anda pasti ingin membatalkan tugas penukaran semasa? Fail yang belum siap akan dipadam.",
+  "确定要移除所有文件吗？": "Adakah anda pasti ingin mengalih keluar semua fail?",
+  "确认取消": "Sahkan Pembatalan",
+  "确认清空": "Sahkan Pengosongan",
+  "示例工具": "Alat Contoh",
+  "社交媒体": "Media Sosial",
+  "移除": "Alih Keluar",
+  "移除文件": "Alih Keluar Fail",
+  "程序将自动关闭以完成安装": "Program akan ditutup secara automatik untuk menyelesaikan pemasangan",
+  "立体声 (2)": "Stereo (2)",
+  "立体声 (2": {
+    "0)": "Stereo (2.0)"
+  },
+  "立体声 (Stereo)": "Stereo (Stereo)",
+  "立即更新": "Kemas Kini Sekarang",
+  "立即登录": "Log Masuk Sekarang",
+  "等待登录": {
+    "": {
+      "": {
+        "": "Menunggu log masuk..."
+      }
+    }
+  },
+  "简单、高效的在线文件格式转换工具集": "Set alat penukaran format fail dalam talian yang ringkas dan cekap",
+  "终止任务": "Hentikan Tugasan",
+  "结束时间 (秒)": "Masa Tamat (saat)",
+  "结果文件夹": "Folder Hasil",
+  "继续导入": "Teruskan Import",
+  "继续转换": "Teruskan Penukaran",
+  "自定义": "Suai",
+  "自定义采样率和声道": "Suai Kadar Persampelan dan Saluran Audio",
+  "获取文件信息失败:": "Gagal mendapatkan maklumat fail:",
+  "获取视频信息失败:": "Gagal mendapatkan maklumat video:",
+  "视频压缩模式": "Mod Pemampatan Video",
+  "视频处理": "Pemprosesan Video",
+  "视频格式转换大师": "Pakar Penukaran Format Video",
+  "视频类": "Kelas Video",
+  "视频编码": "Pengekodan Video",
+  "视频裁剪": "Pemotongan Video",
+  "视频质量": "Kualiti Video",
+  "视频预览与信息": "Pratonton & Maklumat Video",
+  "让办公更高效": "Jadikan Kerja Pejabat Lebih Cekap",
+  "设置全局输出路径": "Tetapkan Laluan Output Global",
+  "该 WEBM 文件没有音轨，无法导出音频": "Fail WEBM ini tiada trek audio, tidak dapat mengeksport audio",
+  "该功能尚未实现 UI，请先试用 AVI To JPG": "Fungsi ini belum dilaksanakan dalam UI; sila cuba AVI ke JPG terlebih dahulu",
+  "该视频包含 ${trackCount} 条音轨": "Video ini mengandungi ${trackCount} trek audio",
+  "该视频包含 {{trackCount}} 条音轨": "Video ini mengandungi {{trackCount}} trek audio",
+  "请先转换文件以确定输出目录": "Sila tukar fail terlebih dahulu untuk menentukan direktori output",
+  "请先选择 GIF 文件": "Sila pilih fail GIF terlebih dahulu",
+  "请先选择 MOV 文件": "Sila pilih fail MOV terlebih dahulu",
+  "请先选择 MP4 文件": "Sila pilih fail MP4 terlebih dahulu",
+  "请先选择 WEBM 文件": "Sila pilih fail WEBM terlebih dahulu",
+  "请先选择文件": "Sila pilih fail terlebih dahulu",
+  "请先选择要转换的文件": "Sila pilih fail yang hendak ditukar terlebih dahulu",
+  "请先选择输出目录或进行转换": "Sila pilih direktori output atau lakukan penukaran terlebih dahulu",
+  "请先选择需要转换的 AVI 文件": "Sila pilih fail AVI yang perlu ditukar terlebih dahulu",
+  "请关闭当前窗口后重新打开工具。": "Sila tutup tetingkap semasa dan buka semula alat ini.",
+  "请在浏览器中完成登录验证": "Sila lengkapkan pengesahan log masuk dalam penyemak imbas",
+  "请根据你的实际业务逻辑（如 PDF 处理、图像转换等）修改此文件，或创建新的组件并在 MainPage": {
+    "jsx 中进行路由映射。": "Sila ubah fail ini mengikut logik perniagaan sebenar anda (seperti pemprosesan PDF, penukaran imej, dll.) atau cipta komponen baharu dan petakan ia dalam routing di MainPage.jsx."
+  },
+  "请设置输出路径（全局或自定义）": "Sila tetapkan laluan output (global atau tersuai)",
+  "质量": "Kualiti",
+  "转换中": {
+    "": {
+      "": {
+        "": "Sedang menukar..."
+      }
+    }
+  },
+  "转换任务已取消并清理临时文件": "Tugas penukaran telah dibatalkan dan fail sementara telah dibersihkan",
+  "转换任务已取消，相关文件已清理。": "Tugas penukaran telah dibatalkan dan fail berkaitan telah dibersihkan.",
+  "转换器": "Penukar",
+  "转换失败": "Penukaran gagal",
+  "转换失败:": "Penukaran gagal:",
+  "转换失败: {fileName}\\n{errorMessage}": "Penukaran gagal: {fileName}\\n{errorMessage}",
+  "转换完成": "Penukaran selesai",
+  "转换完成（演示模式）": "Penukaran selesai (mod penggunaan percubaan)",
+  "转换成功:": "Penukaran berjaya:",
+  "转换文件失败: ${result": {
+    "error || result": {
+      "message}": "Gagal menukar fail: ${result.error || result.message}"
+    }
+  },
+  "转换文件失败: {{result": {
+    "error || result": {
+      "message}}": "Gagal menukar fail: {{result.error || result.message}}"
+    }
+  },
+  "转换设置": "Tetapan Penukaran",
+  "转换说明": "Penerangan Penukaran",
+  "转换过程中出现错误: ${err": {
+    "message}": "Ralat berlaku semasa proses penukaran: ${err.message}"
+  },
+  "转换过程中出现错误: {{err": {
+    "message}}": "Ralat berlaku semasa proses penukaran: {{err.message}}"
+  },
+  "转换过程中发生错误: ": "Ralat berlaku semasa proses penukaran: ",
+  "转换过程中发生错误:": "Ralat berlaku semasa proses penukaran:",
+  "转换过程中发生错误: ${err": {
+    "message}": "Ralat berlaku semasa proses penukaran: ${err.message}"
+  },
+  "转换过程中发生错误: {{err": {
+    "message}}": "Ralat berlaku semasa proses penukaran: {{err.message}}"
+  },
+  "转换选项": "Pilihan Penukaran",
+  "软件定制": "Penyesuaian Perisian",
+  "软件更新": "Kemas Kini Perisian",
+  "输出文件为空": "Fail output kosong",
+  "输出文件落盘失败: {e}": "Gagal menyimpan fail output: {e}",
+  "返回首页": "Kembali ke Halaman Utama",
+  "这是一个专业工具，用于 ${toolName}，支持批量处理和自定义参数设置。": "Ini adalah alat profesional untuk ${toolName}, menyokong pemprosesan pukal dan penetapan parameter tersuai.",
+  "这是一个专业工具，用于 {{toolName}}，支持批量处理和自定义参数设置。": "Ini adalah alat profesional untuk {{toolName}}, menyokong pemprosesan pukal dan penetapan parameter tersuai.",
+  "这是一个通用模板组件。当前选中的工具是：": "Ini adalah komponen templat umum. Alat yang dipilih semasa ialah:",
+  "退出当前账号": "Keluar dari akaun semasa",
+  "选择文件": "Pilih fail",
+  "选择音轨": "Pilih trek audio",
+  "部分文件已忽略，仅支持 AVI 格式": "Sesetengah fail telah diabaikan; hanya format AVI disokong",
+  "部分文件已忽略，仅支持 GIF 格式": "Sesetengah fail telah diabaikan; hanya format GIF disokong",
+  "部分文件已忽略，仅支持 MOV 格式": "Sesetengah fail telah diabaikan; hanya format MOV disokong",
+  "部分文件已忽略，仅支持 MP4 格式": "Sesetengah fail telah diabaikan; hanya format MP4 disokong",
+  "部分文件已忽略，仅支持 WEBM 格式": "Sesetengah fail diabaikan, hanya format WEBM yang disokong",
+  "部分文件转换失败，已完成 {finishedCount}/{totalCount} 个。": "Sesetengah fail gagal ditukar, {finishedCount}/{totalCount} telah siap.",
+  "采样率": "Kadar persampelan",
+  "错误": "Ralat",
+  "问题反馈": "Maklum balas isu",
+  "音轨 ${i + 1}": "Trek audio ${i + 1}",
+  "音轨 ${i + 1} ${i === 0 ? '(默认)' : ''}": "Trek audio ${i + 1} ${i === 0 ? '(lalai)' : ''}",
+  "音轨 ${i + 2}": "Trek audio ${i + 2}",
+  "音轨 ${idx + 1}": "Trek audio ${idx + 1}",
+  "音轨 ${index + 1} ${index === 0 ? '(默认)' : ''}": "Trek audio ${index + 1} ${index === 0 ? '(lalai)' : ''}",
+  "音轨 1 (默认)": "Trek audio 1 (lalai)",
+  "音轨 {{i + 1}}": "Trek audio {{i + 1}}",
+  "音轨 {{i + 1}} {{i === 0 ? '(默认)' : ''}}": "音轨 {{i + 1}} {{i === 0 ? '(默认)' : ''}}",
+  "音轨 {{i + 2}}": "Trek audio {{i + 2}}",
+  "音轨 {{idx + 1}}": "Trek audio {{idx + 1}}",
+  "音轨 {{index + 1}} {{index === 0 ? '(默认)' : ''}}": "音轨 {{index + 1}} {{index === 0 ? '(默认)' : ''}}",
+  "音轨选择": "Pilih trek audio",
+  "音频比特率": "Kadar bit audio",
+  "音频比特率 (kbps)": "Kadar bit audio (kbps)",
+  "音频类": "Kelas audio",
+  "音频编码": "Penyandian audio",
+  "音频采样率": "Kadar persampelan audio",
+  "预览生成失败，但您可以正常查看信息并设置裁剪范围": "Penjana pratonton gagal, tetapi anda masih boleh melihat maklumat secara normal dan menetapkan julat pemotongan",
+  "预览视频": "Pratonton video",
+  "预设": "Preset",
+  "高级编码参数": "Parameter penyandian lanjutan",
+  "高级设置": "Tetapan lanjutan",
+  "高质量": "Kualiti tinggi",
+  "鲲穹AI": "AI Kunqiong",
+  "鲲穹AI旗下产品": "Produk di bawah AI Kunqiong",
+  "默认": "Lalai",
+  "🌐 全局配置": "🌐 Konfigurasi global",
+  "🎧 {trackCount}音轨": "🎧 {trackCount} trek audio",
+  "👨‍💻 开发者提示:": "👨‍💻 Petua pembangun:",
+  "📂 导入文件夹": "📂 Import folder",
+  "📂 结果文件夹": "📂 Folder hasil",
+  "📍 设置路径 ({selectedForPath": {
+    "size})": "📍 Tetapkan laluan ({selectedForPath.size})"
+  },
+  "🗑️ 清空全部": "🗑️ Kosongkan semua"
+}

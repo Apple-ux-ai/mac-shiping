@@ -1,0 +1,52 @@
+macOS packaging analysis
+
+Project stack:
+- Electron desktop shell
+- React + Vite frontend in frontend/
+- Python backend in backend/
+- Electron Builder packaging via electron-builder.yml
+
+Current packaging status:
+- The repository is configured for Windows packaging only.
+- electron-builder.yml only defines win targets (nsis, portable).
+- electron/main.js starts backend/dist/api.exe and updater.exe when packaged.
+- build_backend.py prints and expects Windows .exe outputs.
+- updater.spec points to an absolute Windows path.
+- build resources currently include icon.ico, but macOS usually needs icon.icns.
+
+Files needed to prepare a macOS build on a Mac:
+- package.json
+- package-lock.json
+- electron-builder.yml
+- build_backend.py
+- api.spec
+- updater.spec
+- electron/
+- frontend/
+- backend/
+- build/
+- locales/
+- scripts/
+- README.md
+- mac_build_notes.txt
+
+External dependencies needed on the Mac:
+- Node.js + npm
+- Python 3
+- PyInstaller
+- ffmpeg
+- ffprobe
+
+Important compatibility issues to fix on the Mac before producing a .dmg/.app:
+- Add mac target in electron-builder.yml.
+- Replace Windows-only updater flow or disable it for macOS.
+- Change packaged backend executable path from api.exe to a macOS binary name.
+- Provide a macOS icon file such as build/icon.icns.
+- Review updater.spec because it references a Windows absolute path.
+
+Suggested build direction on the Mac:
+1. Install dependencies.
+2. Build frontend.
+3. Build Python backend with PyInstaller on macOS.
+4. Update Electron packaged backend path and mac target.
+5. Run electron-builder on macOS to generate the final app.

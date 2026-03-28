@@ -1,0 +1,707 @@
+{
+  "__continue_import": "Endelea kuleta",
+  "__clear_all": "Futa zote",
+  "__audio_track_count": "{{count}} kifani cha sauti",
+  "__video_has_tracks": "Video hii ina {{count}} kifani cha sauti",
+  "__progress_converting": "Inabadilisha {{current}}/{{total}}",
+  "__extract_video_frames": "Toa {{percent}}% ya frame kutoka kwa video ya awali",
+  "__set_path_count": "Weka njia ({{count}})",
+  "${placeholderLabel} 加载中": {
+    "": {
+      "": {
+        "": "${placeholderLabel} Inapakia..."
+      }
+    }
+  },
+  "${toolName} 处理完成！": "${toolName} Imefanywa!",
+  "(${videoInfo": {
+    "audio_tracks_count} 条音轨)": "(${videoInfo.audio_tracks_count} kifani cha sauti)"
+  },
+  "({{videoInfo": {
+    "audio_tracks_count}} 条音轨)": "({{videoInfo.audio_tracks_count}} kifani cha sauti)"
+  },
+  "+ 继续导入": "+ Endelea kuleta",
+  "1000k (低质量)": "1000k (ubora mdogo)",
+  "12000k (4K级别)": "12000k (kiwango cha 4K)",
+  "2000k (中等质量)": "2000k (ubora wa wastani)",
+  "4000k (高质量)": "4000k (ubora mwingi)",
+  "6000k (超清)": "6000k (uliozuka sana)",
+  "8000k (极清)": "8000k (uliozuka zaidi)",
+  "AVI To GIF 转换器": "Mbadilishi kutoka AVI hadi GIF",
+  "AVI To H264 转换器": "Mbadilishi kutoka AVI hadi H264",
+  "AVI To JPG 转换器": "Mbadilishi kutoka AVI hadi JPG",
+  "AVI To MKV 转换器": "Mbadilishi kutoka AVI hadi MKV",
+  "AVI To MOV 转换器": "Mbadilishi kutoka AVI hadi MOV",
+  "AVI To MP3 转换器": "Mbadilishi kutoka AVI hadi MP3",
+  "AVI To MP4 转换器": "Mbadilishi kutoka AVI hadi MP4",
+  "AVI To MPE 转换器": "Mbadilishi kutoka AVI hadi MPE",
+  "AVI To MPF 转换器": "Mbadilishi kutoka AVI hadi MPF",
+  "AVI To PNG 转换器": "Mbadilishi kutoka AVI hadi PNG",
+  "AVI To WAV 转换器": "Mbadilishi kutoka AVI hadi WAV",
+  "AVI To WEBM 转换器": "Mbadilishi kutoka AVI hadi WEBM",
+  "AVI 格式视频转换工具集": "Seti ya vifaa vya ubadilishaji video za aina ya AVI",
+  "AVI 转换器": "Mbadilishi wa AVI",
+  "AVI, MP4, GIF 等视频格式互转": "Ubadianishi wa aina tofauti za video kama AVI, MP4, na GIF",
+  "Base64 编码可以将图片数据直接嵌入到 HTML 或 CSS 中，减少 HTTP 请求，提高页面加载速度。": "Kipengele cha Base64 kinaweza kuweka data ya picha moja kwa moja ndani ya HTML au CSS, hivyo kuharakisha upakuaji wa ukurasa na kupunguza maombi ya HTTP.",
+  "FFmpeg 转换结果为空文件，请检查源 GIF 是否正常": "Matokeo ya ubadilishaji wa FFmpeg ni faili tupu, tafadhali angalia ikiwa chanzo la GIF ni sawa",
+  "GIF To AVI 转换器": "Mbadilishi kutoka GIF hadi AVI",
+  "GIF To BASE64 转换器": "Mbadilishi kutoka GIF hadi BASE64",
+  "GIF To HTML 转换器": "Mbadilishi kutoka GIF hadi HTML",
+  "GIF To JPG 转换器": "Mbadilishi kutoka GIF hadi JPG",
+  "GIF To MOV 转换器": "Mbadilishi kutoka GIF hadi MOV",
+  "GIF To MP4 转换器": "GIF To MP4 Muhandishi",
+  "GIF To PDF 转换器": "GIF To PDF Muhandishi",
+  "GIF To PNG 转换器": "GIF To PNG Muhandishi",
+  "GIF To WEBM 转换器": "GIF To WEBM Muhandishi",
+  "GIF To WEBP 转换器": "GIF To WEBP Muhandishi",
+  "GIF 动图转换工具集": "GIF Picha za Kusonga Zinazobadilika Chombo cha Hifadhi",
+  "GIF 图像": "GIF Picha",
+  "GIF 转换器": "GIF Muhandishi",
+  "JPG, PNG, SVG 等图片处理工具": "JPG, PNG, SVG na picha zingine zinazotengenezwa",
+  "LOGO区域": "Eneo la LOGO",
+  "MOV To AVI 转换器": "MOV To AVI Muhandishi",
+  "MOV To GIF 转换器": "MOV To GIF Muhandishi",
+  "MOV To JPG 转换器": "MOV To JPG Muhandishi",
+  "MOV To MP3 转换器": "MOV To MP3 Muhandishi",
+  "MOV To MP4 转换器": "MOV To MP4 Muhandishi",
+  "MOV To PDF 转换器": "MOV To PDF Muhandishi",
+  "MOV To PNG 转换器": "MOV To PNG Muhandishi",
+  "MOV To WAV 转换器": "MOV To WAV Muhandishi",
+  "MOV To WEBM 转换器": "MOV To WEBM Muhandishi",
+  "MOV 格式视频转换工具集": "Chombo cha Hifadhi cha Video ya Aina ya MOV",
+  "MOV 视频": "Video ya MOV",
+  "MOV 转换器": "Muhandishi wa MOV",
+  "MP3, WAV 等音频格式转换": "Badiliko la Mp3, WAV na aina zingine za sauti",
+  "MP4 To AVI 转换器": "MP4 To AVI Muhandishi",
+  "MP4 To GIF 转换器": "MP4 To GIF Muhandishi",
+  "MP4 To JPG 转换器": "MP4 To JPG Muhandishi",
+  "MP4 To MOV 转换器": "MP4 To MOV Muhandishi",
+  "MP4 To MP3 转换器": "MP4 To MP3 Muhandishi",
+  "MP4 To PNG 转换器": "MP4 To PNG Muhandishi",
+  "MP4 To WEBM 转换器": "MP4 To WEBM Muhandishi",
+  "MP4 格式视频转换工具集": "Chombo cha Hifadhi cha Video ya Aina ya MP4",
+  "MP4 视频": "Video ya MP4",
+  "MP4 转换器": "Muhandishi wa MP4",
+  "PDF, DOCX, JSON 等文档转换": "Badiliko la PDF, DOCX, JSON na nyaraka zingine",
+  "WEBM To AVI 转换器": "WEBM To AVI Muhandishi",
+  "WEBM To GIF 转换器": "WEBM To GIF Muhandishi",
+  "WEBM To JPG 转换器": "WEBM To JPG Muhandishi",
+  "WEBM To MOV 转换器": "WEBM To MOV Muhandishi",
+  "WEBM To MP3 转换器": "WEBM To MP3 Muhandishi",
+  "WEBM To MP4 转换器": "WEBM To MP4 Muhandishi",
+  "WEBM To PNG 转换器": "Mbadilishi wa WEBM Mpaka PNG",
+  "WEBM To WAV 转换器": "Mbadilishi wa WEBM Mpaka WAV",
+  "WEBM 格式视频转换工具集": "Seti ya vifaa vya ubadilishaji video za aina ya WEBM",
+  "WEBM 视频": "Video za WEBM",
+  "WEBM 转换器": "Mbadilishi wa WEBM",
+  "Web 模式下无法选择目录": "Haikuwezi kuchagua saraka katika mfano wa Mtandao",
+  "Web 模式下暂不支持预览": "Usimamizi wa awali hautumiki kwa sasa katika mfano wa Mtandao",
+  "ffmpeg 已完成但输出文件为空": "ffmpeg imemaliza lakini faili ya pato ni tupu",
+  "{filename} - GIF 预览": "{filename} - Usimamizi wa GIF",
+  "{{filename}} - GIF 预览": "{{filename}} - Usimamizi wa GIF",
+  "{{placeholderLabel}} 加载中": {
+    "": {
+      "": {
+        "": "{{placeholderLabel}} Inapakia..."
+      }
+    }
+  },
+  "{{toolName}} 处理完成！": "{{toolName}} Imemalizika!",
+  "—— 一款专业工具，可将 GIF 动图转换为 Base64 编码字符串，方便在代码中直接引用。": "— Kifaa cha kibunifu kinachoweza kubadilisha picha za GIF kuwa mistari ya msimbo wa Base64, inaruhusu marejeleo moja kwa moja katika msimbo.",
+  "—— 一款专业工具，可将 GIF 动图转换为 JPG 图像序列，并支持自定义参数。": "— Kifaa cha kibunifu kinachoweza kubadilisha picha za GIF kuwa mfululizo wa picha za JPG na kusaidia viwango vya maagizo.",
+  "—— 一款专业工具，可将 GIF 动图转换为 MP4 视频格式，并支持自定义参数。": "— Kifaa cha kibunifu kinachoweza kubadilisha picha za GIF kuwa video za aina ya MP4 na kusaidia viwango vya maagizo.",
+  "—— 一款专业工具，可将 GIF 动图转换为 PDF 文档，支持自定义页面方向。": "— Kifaa cha kibunifu kinachoweza kubadilisha picha za GIF kuwa nyaraka za PDF, inasaidia usanidi wa upande wa ukurasa.",
+  "—— 一款专业工具，可将 GIF 动图转换为 WEBM 视频格式，并支持自定义参数。": "— Kifaa cha kibunifu kinachoweza kubadilisha picha za GIF kuwa video za aina ya WEBM na kusaidia viwango vya maagizo.",
+  "—— 专业级 MOV 转 AVI 工具，支持批量转换和高质量输出。": "— Kifaa cha kiufundi cha ubadilishaji wa MOV hadi AVI, kinatumia ubadilishaji wa kiasi kikubwa na pato la ubora wa juu.",
+  "—— 专业级 MOV 转 MP3 工具，支持批量提取音频和高质量输出。": "— Kifaa cha kiufundi cha kutoa sauti kutoka MOV hadi MP3, kinatumia kuchambua wingi na pato la ubora wa juu.",
+  "—— 专业级 MOV 转 MP4 工具，支持批量转换和高质量输出。": "— Kifaa cha kiufundi cha ubadilishaji wa MOV hadi MP4, kinatumia ubadilishaji wa kiasi kikubwa na pato la ubora wa juu.",
+  "—— 专业级 MOV 转 WEBM 工具，支持批量转换和高质量输出。": "— Kifaa cha kiufundi cha ubadilishaji wa MOV hadi WEBM, kinatumia ubadilishaji wa kiasi kikubwa na pato la ubora wa juu.",
+  "—— 专业级 MP4 转 AVI 工具，支持批量转换和高质量输出。": "— Kifaa cha kiufundi cha ubadilishaji wa MP4 hadi AVI, kinatumia ubadilishaji wa kiasi kikubwa na pato la ubora wa juu.",
+  "—— 专业级 MP4 转 MOV 工具，支持批量转换和高质量输出。": "— Kifaa cha kiufundi cha ubadilishaji wa MP4 hadi MOV, kinatumia ubadilishaji wa kiasi kikubwa na pato la ubora wa juu.",
+  "—— 专业级 MP4 转 MP3 工具，支持批量提取音频和高质量输出。": "— Kifaa cha kiufundi cha kutoa sauti kutoka MP4 hadi MP3, kinatumia kuchambua wingi na pato la ubora wa juu.",
+  "—— 专业级 MP4 转 WEBM 工具，支持批量转换和高质量 WebM 格式输出。": "— Kifaa cha kiufundi cha ubadilishaji wa MP4 hadi WEBM, kinatumia ubadilishaji wa kiasi kikubwa na pato la ubora wa juu wa aina ya WebM.",
+  "—— 从 MOV 视频中提取无损 WAV 音频，支持批量转换和音频设置。": "— Kutoa sauti isiyo na athari ya WAV kutoka video za MOV, kinatumia uchambuzi wa wingi na mipangilio ya sauti.",
+  "—— 从 MP4 视频中提取高质量 JPG 序列，支持自定义提取间隔和质量。": "— Kutoa mfululizo wa JPG ubora wa juu kutoka video za MP4, kinatumia vipindi vya kutoa na ubora wenye maagizo.",
+  "—— 将 MOV 视频帧提取为高质量 JPG 图片，支持批量处理和参数调节。": "— Kutoa video za MOV kuwa picha za JPG ubora wa juu, kinatumia usimamizi wa kiasi kikubwa na mpangilio wa viwango.",
+  "—— 将 MOV 视频帧提取为高质量 PNG 图片，支持批量处理和参数调节。": "— Kutoa video za MOV kuwa picha za PNG ubora wa juu, kinatumia usimamizi wa kiasi kikubwa na mpangilio wa viwango.",
+  "—— 将 MOV 视频帧提取并转换为 PDF 文档，支持自定义页面方向与批量处理。": "— Kutoa na kubadilisha video za MOV kuwa nyaraka za PDF, kinatumia usanidi wa upande wa ukurasa na usimamizi wa kiasi kikubwa.",
+  "—— 将 MOV 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "— Kubadilisha video za MOV kuwa picha za haraka za GIF ubora wa juu, kinatumia ubora, kiwango cha frame na muda wenye maagizo.",
+  "—— 将 MP4 视频转换为 PNG 图片序列，支持自定义提取间隔和质量。": "— Kubadilisha video za MP4 kuwa mfululizo wa picha za PNG, kinatumia vipindi vya kutoa na ubora wenye maagizo.",
+  "—— 将 MP4 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "— Kubadilisha video za MP4 kuwa picha za haraka za GIF ubora wa juu, kinatumia ubora, kiwango cha frame na muda wenye maagizo.",
+  "一款专业工具，可从AVI视频中提取MP3音频，并支持自定义编码参数。": "Kifaa cha kiufundi kinachoweza kutoa sauti ya MP3 kutoka video za AVI, na kusaidia viwango vya msimbo wenye maagizo.",
+  "一款专业工具，可从AVI视频中提取WAV音频，并支持自定义编码参数。": "Kifaa cha kiufundi kinachoweza kutoa sauti ya WAV kutoka video za AVI, na kusaidia viwango vya msimbo wenye maagizo.",
+  "一款专业工具，可将 GIF 动图转换为 AVI 视频格式，并支持自定义参数。": "Kifaa cha kiufundi kinachoweza kubadilisha picha za GIF kuwa video za aina ya AVI na kusaidia viwango vya maagizo.",
+  "一款专业工具，可将 GIF 动图转换为 MOV 视频格式，并支持自定义参数。": "Kifaa cha kiufundi kinachoweza kubadilisha picha za GIF kuwa video za aina ya MOV na kusaidia viwango vya maagizo.",
+  "一款专业工具，可将 GIF 动图转换为 PNG 图像序列，并支持自定义参数。": "Kifaa cha kiufundi kinachoweza kubadilisha picha za GIF kuwa mfululizo wa picha za PNG na kusaidia viwango vya maagizo.",
+  "一款专业工具，可将 GIF 动图转换为 WEBP 图像序列，并支持自定义参数。": "Kifaa cha kiufundi kinachoweza kubadilisha picha za GIF kuwa mfululizo wa picha za WEBP na kusaidia viwango vya maagizo.",
+  "一款专业工具，可将AVI 视频文件转换为GIF动图，并支持自定义参数。": "Kifaa cha kiufundi kinachoweza kubadilisha faili za video za AVI kuwa picha za haraka za GIF na kusaidia viwango vya maagizo.",
+  "一款专业工具，可将AVI 视频文件转换为H264(MP4)视频格式，并支持自定义编码参数。": "Chombo cha kibinadamu kinachoweza kubadilisha faili za video AVI kuwa video ya aina H264(MP4), na inawezesha viwango vya usimbuaji maalum.",
+  "一款专业工具，可将AVI 视频文件转换为JPG图像序列，并支持自定义提取参数。": "Chombo cha kibinadamu kinachoweza kubadilisha faili za video AVI kuwa mfululizo wa picha JPG, na inawezesha viwango vya kuchimbua maalum.",
+  "一款专业工具，可将AVI 视频文件转换为MKV视频格式，并支持自定义编码参数。": "Chombo cha kibinadamu kinachoweza kubadilisha faili za video AVI kuwa video ya aina MKV, na inawezesha viwango vya usimbuaji maalum.",
+  "一款专业工具，可将AVI 视频文件转换为MOV视频格式，并支持自定义编码参数。": "Chombo cha kibinadamu kinachoweza kubadilisha faili za video AVI kuwa video ya aina MOV, na inawezesha viwango vya usimbuaji maalum.",
+  "一款专业工具，可将AVI 视频文件转换为MP4视频格式，并支持自定义编码参数。": "Chombo cha kibinadamu kinachoweza kubadilisha faili za video AVI kuwa video ya aina MP4, na inawezesha viwango vya usimbuaji maalum.",
+  "一款专业工具，可将AVI 视频文件转换为MPE视频格式，并支持自定义编码参数。": "Chombo cha kibinadamu kinachoweza kubadilisha faili za video AVI kuwa video ya aina MPE, na inawezesha viwango vya usimbuaji maalum.",
+  "一款专业工具，可将AVI 视频文件转换为PNG图像序列，并支持自定义提取参数。": "Chombo cha kibinadamu kinachoweza kubadilisha faili za video AVI kuwa mfululizo wa picha PNG, na inawezesha viwango vya kuchimbua maalum.",
+  "一款专业工具，可将AVI 视频文件转换为WEBM视频格式，并支持自定义编码参数。": "Chombo cha kibinadamu kinachoweza kubadilisha faili za video AVI kuwa video ya aina WEBM, na inawezesha viwango vya usimbuaji maalum.",
+  "一款在线${source}转${target}转换器，支持自定义参数，提供多种分辨率选项，助您轻松完成格式转换。": "Mbadilishi wa mtandao kutoka ${source} hadi ${target}, unaowezesha viwango vya maalum, hutoa chaguo mbalimbali za ukubwa wa skrini ili kurahisisha badiliko la aina.",
+  "一款在线{{source}}转{{target}}转换器，支持自定义参数，提供多种分辨率选项，助您轻松完成格式转换。": "Mbadilishi wa mtandao kutoka {{source}} hadi {{target}}, unaowezesha viwango vya maalum, hutoa chaguo mbalimbali za ukubwa wa skrini ili kurahisisha badiliko la aina.",
+  "下次再说": "Tunapoijia tena",
+  "下载失败: {str(e)}": "Imeshindwa kupakua: {str(e)}",
+  "专业级 WEBM 转 AVI 工具，支持批量转换和高质量输出。": "Chombo cha kiufundi kutoka WEBM hadi AVI, kinawezesha ubadilishaji wa kiasi kikubwa na pato la ubora wa juu.",
+  "专业级 WEBM 转 MP4 工具，支持批量转换和高质量输出。": "Chombo cha kiufundi kutoka WEBM hadi MP4, kinawezesha ubadilishaji wa kiasi kikubwa na pato la ubora wa juu.",
+  "中等质量": "Ubora wa wastani",
+  "从 AVI 视频提取 MP3 音频": "Toa sauti MP3 kutoka kwa video AVI",
+  "从 AVI 视频提取 WAV 音频": "Toa sauti WAV kutoka kwa video AVI",
+  "从 MOV 视频提取 MP3 音频": "Toa sauti MP3 kutoka kwa video MOV",
+  "从 MOV 视频提取 WAV 音频": "Toa sauti WAV kutoka kwa video MOV",
+  "从 MP4 视频提取 MP3 音频": "Toa sauti MP3 kutoka kwa video MP4",
+  "从 WEBM 视频中提取无损 WAV 音频，支持批量转换和音频设置。": "Toa sauti WAV isiyo na athari kutoka kwa video WEBM, kinawezesha ubadilishaji wa kiasi kikubwa na mipangilio ya sauti.",
+  "从 WEBM 视频中提取高质量 JPG 序列，支持自定义提取间隔和质量。": "Toa mfululizo wa JPG ubora wa juu kutoka kwa video WEBM, kinawezesha mipangilio ya kuchimbua ama kipindi na ubora.",
+  "从 WEBM 视频中提取高质量 MP3 音频，支持批量转换和音频质量设置。": "Toa sauti MP3 ubora wa juu kutoka kwa video WEBM, kinawezesha ubadilishaji wa kiasi kikubwa na mipangilio ya ubora wa sauti.",
+  "从 WEBM 视频中提取高质量 PNG 序列，支持自定义提取间隔和质量。": "Toa mfululizo wa PNG ubora wa juu kutoka kwa video WEBM, kinawezesha mipangilio ya kuchimbua ama kipindi na ubora.",
+  "从 WEBM 视频提取 MP3 音频": "Toa sauti MP3 kutoka kwa video WEBM",
+  "从 WEBM 视频提取 WAV 音频": "Toa sauti WAV kutoka kwa video WEBM",
+  "任务中断": "Kazi imepunguzwa",
+  "低质量": "Ubora mdogo",
+  "保持原样": "Endelea kama ilivyokuwa",
+  "全局配置": "Usanidi wa jumla",
+  "全部转换": "Badilisha zote",
+  "关于 GIF 转 BASE64": "Kuhusu ubadilishaji kutoka GIF hadi BASE64",
+  "关键帧与音频控制": "Kudhibiti kwa frame muhimu na sauti",
+  "关键帧间隔 (帧)": "Kipindi cha frame muhimu (frame)",
+  "关闭": "Funga",
+  "关闭窗口": "Funga dirisha",
+  "准备就绪": {
+    "": {
+      "": {
+        "": "Tayari..."
+      }
+    }
+  },
+  "分辨率": "Ukubwa wa skrini",
+  "切换浅色模式": "Badilisha mode nyepesi",
+  "切换深色模式": "Badilisha kwenye mdomo wa manane",
+  "功能演示区域": "Eneo la demo ya kazi",
+  "功能说明": "Maelezo ya kazi",
+  "加载中": "Inapakia",
+  "动态码率 (VBR)": "Kiwango cha mchanganyiko (VBR)",
+  "单声道 (1)": "Mono (1)",
+  "单声道 (1": {
+    "0)": "Mono (1.0)"
+  },
+  "单声道 (Mono)": "Mono (Mono)",
+  "原始方向 (Original)": "Mwelekeo asili (Original)",
+  "原视频分辨率": "Mpaka wa video ya awali",
+  "取消": "Ghairi",
+  "取消失败:": "Imeshindwa kughairi:",
+  "取消登录": "Ghairi kuingia",
+  "取消转换": "Ghairi ubadilishaji",
+  "取消转换时发生错误": "Hitilafu ilitokea wakati wa kughairi ubadilishaji",
+  "取消转换时发生错误: ": "Hitilafu ilitokea wakati wa kughairi ubadilishaji: ",
+  "取消转换时发生错误:": "Hitilafu ilitokea wakati wa kughairi ubadilishaji:",
+  "只支持 MP4 文件": "Inaunga mkono faili za MP4 tu",
+  "各种格式转换工具": "Zana za ubadilishaji aina mbalimbali",
+  "否": "Hapana",
+  "启动失败，请手动打开程序": "Imeshindwa kuanzisha, tafadhali fungua programu kwa mikono",
+  "启动登录界面失败: ${error": {
+    "message || '网络错误'}": "Imeshindwa kuanzisha uso wa kuingia: ${error.message || 'Hitilafu ya mtandao'}"
+  },
+  "启动登录界面失败: {{error": {
+    "message || '网络错误'}}": "启动登录界面失败: {{error.message || '网络错误'}}"
+  },
+  "启动错误": "Hitilafu ya kuanzisha",
+  "固定比特率": "Kiwango cha biti rahisi",
+  "固定码率 (CBR)": "Kiwango cha mara kwa mara (CBR)",
+  "图片类": "Aina ya picha",
+  "在 Web 模式下无法打开本地文件夹": "Haikuwezi kufungua folda ya mitambo ndani ya Web mode",
+  "在 Web 模式下无法选择目录": "Haikuwezi kuchagua saraka ndani ya Web mode",
+  "在 Web 模式下无法选择输出文件夹": "Haikuwezi kuchagua folda ya pato ndani ya Web mode",
+  "声道": "Nyuso za sauti",
+  "声道配置": "Usanidi wa nyuso za sauti",
+  "处理完成！成功: ${successCount} 个，失败: ${failCount} 个。": "Uchakataji umekamilika! Imefanikiwa: ${successCount} idadi, Imeshindwa: ${failCount} idadi.",
+  "处理完成！成功: {{successCount}} 个，失败: {{failCount}} 个。": "Uchakataji umekamilika! Imefanikiwa: {{successCount}} idadi, Imeshindwa: {{failCount}} idadi.",
+  "处理文件 ${file} 时出错: ${err": {
+    "message}": "Hitilafu ilitokea wakati wa kutengeneza faili ${file}: ${err.message}"
+  },
+  "处理文件 {{file}} 时出错: {{err": {
+    "message}}": "Hitilafu ilitokea wakati wa kutengeneza faili {{file}}: {{err.message}}"
+  },
+  "处理文件时出错: ${err": {
+    "message}": "Hitilafu ilitokea wakati wa kutengeneza faili: ${err.message}"
+  },
+  "处理文件时出错: {{err": {
+    "message}}": "Hitilafu ilitokea wakati wa kutengeneza faili: {{err.message}}"
+  },
+  "安装失败：文件被占用，请手动关闭程序后重试": "Ufungaji umeshindwa: faili imetolewa, tafadhali funga programu kwa mikono halafu jaribu tena",
+  "完成": "Imekamilika",
+  "导入文件夹": "Import folder",
+  "将 AVI 视频转换为 GIF 动图": "Badilisha video za AVI kuwa GIF za kusonga",
+  "将 AVI 视频转换为 H": {
+    "264 编码": "Badilisha video za AVI kuwa na msimbo wa H.264"
+  },
+  "将 AVI 视频转换为 JPG 图片序列": "Badilisha video za AVI kuwa mfululizo wa picha za JPG",
+  "将 AVI 视频转换为 MKV 格式": "Badilisha video za AVI kuwa aina ya MKV",
+  "将 AVI 视频转换为 MOV 格式": "Badilisha video za AVI kuwa aina ya MOV",
+  "将 AVI 视频转换为 MP4 格式": "Badilisha video za AVI kuwa aina ya MP4",
+  "将 AVI 视频转换为 MPE 格式": "Badilisha video za AVI kuwa aina ya MPE",
+  "将 AVI 视频转换为 MPF 格式": "Badilisha video za AVI kuwa aina ya MPF",
+  "将 AVI 视频转换为 MPF 格式，支持批量转换和参数自定义。": "Badilisha video za AVI kuwa aina ya MPF, inatumia ubadilishaji wa kundi na mpangilio wa desturi.",
+  "将 AVI 视频转换为 PNG 图片序列": "Badilisha video za AVI kuwa mfululizo wa picha za PNG",
+  "将 AVI 视频转换为 WEBM 格式": "Badilisha video za AVI kuwa aina ya WEBM",
+  "将 GIF 动图以 Base64 编码方式嵌入到 HTML 页面中，实现单文件分发，方便在任何浏览器中查看。": "Tunga picha za GIF katika ukurasa wa HTML kwa kutumia msimbo wa Base64, ili uhakikishe usambazaji wa faili moja, urahisi kujifunua katika kila kivinjari.",
+  "将 GIF 动图转换为 MOV 视频": "Badilisha picha za GIF kuwa video za MOV",
+  "将 GIF 动图转换为 MP4 视频": "Badilisha picha za GIF kuwa video za MP4",
+  "将 GIF 动图转换为 PDF 文档": "Badilisha picha za GIF kuwa nyaraka za PDF",
+  "将 GIF 动图转换为 PNG 图片序列": "Badilisha picha za GIF kuwa mfululizo wa picha za PNG",
+  "将 GIF 转换为 AVI 视频": "Badilisha GIF kuwa video za AVI",
+  "将 GIF 转换为 Base64 编码": "Badilisha GIF kuwa msimbo wa Base64",
+  "将 GIF 转换为 HTML 动画": "Badilisha GIF kuwa mzunguko wa HTML",
+  "将 GIF 转换为 JPG 图片序列": "Badilisha GIF kuwa mfululizo wa picha za JPG",
+  "将 GIF 转换为 WEBM 视频": "Badilisha GIF kuwa video za WEBM",
+  "将 GIF 转换为 WEBP 格式": "Badilisha GIF kuwa aina ya WEBP",
+  "将 MOV 视频转换为 AVI 格式": "Badilisha video za MOV kuwa aina ya AVI",
+  "将 MOV 视频转换为 GIF 动图": "Badilisha video za MOV kuwa picha za GIF",
+  "将 MOV 视频转换为 JPG 图片序列": "Badilisha video za MOV kuwa mfululizo wa picha za JPG",
+  "将 MOV 视频转换为 MP4 格式": "Badilisha video za MOV kuwa aina ya MP4",
+  "将 MOV 视频转换为 PDF 文档": "Badilisha video za MOV kuwa nyaraka za PDF",
+  "将 MOV 视频转换为 PNG 图片序列": "Badilisha video za MOV kuwa mfululizo wa picha za PNG",
+  "将 MOV 视频转换为 WEBM 格式": "Badilisha video za MOV kuwa aina ya WEBM",
+  "将 MP4 视频转换为 AVI 格式": "Badilisha video za MP4 kuwa aina ya AVI",
+  "将 MP4 视频转换为 GIF 动图": "Badilisha video za MP4 kuwa picha za GIF",
+  "将 MP4 视频转换为 JPG 图片序列": "Badilisha video za MP4 kuwa mfululizo wa picha za JPG",
+  "将 MP4 视频转换为 MOV 格式": "Badilisha video za MP4 kuwa aina ya MOV",
+  "将 MP4 视频转换为 PNG 图片序列": "Badilisha video za MP4 kuwa mfululizo wa picha za PNG",
+  "将 MP4 视频转换为 WEBM 格式": "Badilisha video za MP4 kuwa aina ya WEBM",
+  "将 WEBM 视频转换为 AVI 格式": "Badilisha video za WEBM kuwa aina ya AVI",
+  "将 WEBM 视频转换为 GIF 动图": "Badilisha video za WEBM kuwa picha za GIF",
+  "将 WEBM 视频转换为 JPG 图片序列": "Badilisha video za WEBM kuwa mfululizo wa picha za JPG",
+  "将 WEBM 视频转换为 MOV 格式": "Badilisha video za WEBM kuwa aina ya MOV",
+  "将 WEBM 视频转换为 MP4 格式": "Badilisha video za WEBM kuwa mpango wa MP4",
+  "将 WEBM 视频转换为 PNG 图片序列": "Badilisha video za WEBM kuwa mfululizo wa picha za PNG",
+  "将 WEBM 视频转换为高质量 GIF 动图，支持自定义质量、帧率和时间范围。": "Badilisha video za WEBM kuwa GIF ya hali ya juu, inawezesha uboreshaji wa ubora, kiwango cha frame na muda.",
+  "将 WebM 视频转换为 Apple 设备兼容性更好的 MOV 格式，支持自定义质量、分辨率和音频比特率。": "Badilisha video za WebM kuwa mpango wa MOV unaofaa zaidi kwa vifaa vya Apple, unaowezesha uboreshaji wa ubora, upanuzi na kiwango cha biti za sauti.",
+  "将您的 AVI 文件拖拽到此处": "Rusha faili zako za AVI hapa",
+  "将您的 GIF 文件拖拽到此处": "Rusha faili zako za GIF hapa",
+  "将您的 MOV 文件拖拽到此处": "Rusha faili zako za MOV hapa",
+  "将您的 MP4 文件拖拽到此处": "Rusha faili zako za MP4 hapa",
+  "将您的 WEBM 文件拖拽到此处": "Rusha faili zako za WEBM hapa",
+  "将您的AVI文件拖拽到此处": "Rusha faili zako za AVI hapa",
+  "将您的MOV文件拖拽到此处": "Rusha faili zako za MOV hapa",
+  "将您的WEBM文件拖拽到此处": "Rusha faili zako za WEBM hapa",
+  "将您的文件拖拽到此处": "Rusha faili zako hapa",
+  "工具": "Zana",
+  "已取消": "Imeghairiwa",
+  "已取消登录": "Uingiaji umeghairiwa",
+  "已取消转换并删除未完成文件": "Ubadilishaji umeghairiwa na faili ambazo hazijakamilika zimefutwa",
+  "已取消转换并删除本地文件": "Ubadilishaji umeghairiwa na faili za ndani zimefutwa",
+  "已登录鲲穹账户": "Umeingia katika akaunti ya Kunpeng",
+  "已设置自定义路径": "Njia ya maagizo yamewekwa",
+  "已退出登录": "Umeondoka kutoka kwenye akaunti",
+  "帧率": "Kiwango cha frame",
+  "应用配置": "Usimamizi wa programu",
+  "开始处理": "Anza usindikaji",
+  "开始时间 (秒)": "Muda wa kuanza (sekunde)",
+  "强制横向 (Landscape)": "Tatua kuwa landscape",
+  "强制纵向 (Portrait)": "Tatua kuwa portrait",
+  "当前全局路径: ${globalPath}": "Njia ya kimataifa sasa: ${globalPath}",
+  "当前全局路径: {{globalPath}}": "Njia ya kimataifa sasa: {{globalPath}}",
+  "当前已是最新版本": "Sasa ni toleo la hivi karibuni",
+  "快速预设": "Mapishi ya haraka",
+  "总时长": "Muda wa jumla",
+  "您确定要取消当前的转换任务吗？未完成的文件将被删除。": "Je, una uhakika unataka kughairi mradi wa ubadilishaji unaofanyika? Faili ambazo hazijakamilika zitafutwa.",
+  "成功": "Imefanikiwa",
+  "成功转换 ${selectedFiles": {
+    "length} 个文件！": "Imebadilishwa ${selectedFiles.length} faili!"
+  },
+  "成功转换 ${successCount} 个文件！": "Imebadilishwa ${successCount} faili!",
+  "成功转换 {{selectedFiles": {
+    "length}} 个文件！": "Imebadilishwa {{selectedFiles.length}} faili!"
+  },
+  "成功转换 {{successCount}} 个文件！": "Imebadilishwa {{successCount}} faili!",
+  "或者点击浏览文件": "Au bonyeza kupitia faili",
+  "所有 GIF 已成功转换为 AVI 视频！": "GIF zote zimebadilishwa kuwa video za AVI!",
+  "所有 GIF 已成功转换为 BASE64 文件！": "GIF zote zimebadilishwa kwa mafanikio kuwa faili za BASE64!",
+  "所有 GIF 已成功转换为 HTML 文件！": "GIF zote zimebadilishwa kwa mafanikio kuwa faili za HTML!",
+  "所有 GIF 已成功转换为 JPG 序列并打包为 ZIP！": "GIF zote zimebadilishwa kwa mafanikio kuwa mfululizo wa JPG na kufungwa kama ZIP!",
+  "所有 GIF 已成功转换为 MOV 文件！": "GIF zote zimebadilishwa kwa mafanikio kuwa faili za MOV!",
+  "所有 GIF 已成功转换为 MP4 文件！": "GIF zote zimebadilishwa kwa mafanikio kuwa faili za MP4!",
+  "所有 GIF 已成功转换为 PDF 文件！": "GIF zote zimebadilishwa kwa mafanikio kuwa faili za PDF!",
+  "所有 GIF 已成功转换为 PNG 序列并打包为 ZIP！": "GIF zote zimebadilishwa kwa mafanikio kuwa mfululizo wa PNG na kufungwa kama ZIP!",
+  "所有 GIF 已成功转换为 WEBM！": "GIF zote zimebadilishwa kwa mafanikio kuwa WEBM!",
+  "所有 GIF 已成功转换为 WEBP 文件！": "GIF zote zimebadilishwa kwa mafanikio kuwa faili za WEBP!",
+  "所有 MOV 已成功转换为 GIF！": "MOV zote zimebadilishwa kwa mafanikio kuwa GIF!",
+  "所有 MOV 已成功转换为 PDF 文件！": "MOV zote zimebadilishwa kwa mafanikio kuwa faili za PDF!",
+  "所有 MOV 已成功转换为 PNG 序列并打包！": "MOV zote zimebadilishwa kwa mafanikio kuwa mfululizo wa PNG na kufungwa!",
+  "所有 WEBM 已成功转换为 GIF！": "WEBM zote zimebadilishwa kwa mafanikio kuwa GIF!",
+  "所有 WEBM 已成功转换为 PNG 序列并打包！": "WEBM zote zimebadilishwa kwa mafanikio kuwa mfululizo wa PNG na kufungwa!",
+  "所有任务处理完成！": "Kazi zote zimekamilika!",
+  "所有文件转换完成": "Faili zote zimebadilishwa",
+  "所有文件转换成功！": "Faili zote zimebadilishwa kwa mafanikio!",
+  "打开结果文件夹": "Fungua folda ya matokeo",
+  "提取原 GIF 的 ${interval}% 帧": "Chuma kipimo cha ${interval}% kutoka kwa GIF ya awali",
+  "提取原 GIF 的 {{interval}}% 帧": "Chuma kipimo cha {{interval}}% kutoka kwa GIF ya awali",
+  "提取原视频的 ${frameInterval}% 帧": "Chuma kipimo cha ${frameInterval}% kutoka kwa video ya awali",
+  "提取原视频的 ${interval}% 帧": "Chuma kipimo cha ${interval}% kutoka kwa video ya awali",
+  "提取原视频的 {{frameInterval}}% 帧": "Chuma kipimo cha {{frameInterval}}% kutoka kwa video ya awali",
+  "提取原视频的 {{interval}}% 帧": "Chuma kipimo cha {{interval}}% kutoka kwa video ya awali",
+  "提取密度": "Kiwango cha kuchuma",
+  "提示": "Onyo",
+  "提示：Base64 编码会使文件体积增大约 33%，建议仅对较小的 GIF 或需要减少请求数的场景使用。": "Onyo: Encoding ya Base64 inaweza kuongeza ukubwa wa faili hadi asilimia 33%, tunaashauri kutumia tu kwa GIF ndogo au vitu ambapo unataka kupunguza idadi ya maombi.",
+  "提示：WAV 格式将采用无损 PCM (S16LE) 编码，提供最高保真度。": "Onyo: Aina ya WAV itatumia encoding ya PCM isiyo na hasara (S16LE), inatoa uzuri bora zaidi.",
+  "提示：WAV 格式通常存储为无损 PCM 音频，提供最高保真度，完美还原原始音质。": "Onyo: Aina ya WAV mara nyingi huwekwa kama sauti ya PCM isiyo na hasara, inatoa uzuri bora zaidi na kurudisha usawa wa asili kabisa.",
+  "提示：较高的比特率通常意味着更好的音质，但文件体积也会相应增大。": "Onyo: Kiwango cha juu cha bitrate kwa kawaida kinamaanisha ubora bora wa sauti, lakini ukubwa wa faili pia unavyoongezeka.",
+  "搜索功能": {
+    "": {
+      "": {
+        "": "Utafutaji wa kazi..."
+      }
+    }
+  },
+  "文件 ${baseName} 没有音轨，无法转换为音频格式。": "Faili ya ${baseName} haina nyendo ya sauti, haiwezi kubadilishwa kuwa aina ya sauti.",
+  "文件 ${file": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "Faili ya ${file.split(/[\\\\/]/).pop()} haina nyendo ya sauti, haiwezi kubadilishwa kuwa aina ya sauti."
+    }
+  },
+  "文件 ${filePath": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "Faili ya ${filePath.split(/[\\\\/]/).pop()} haina nyendo ya sauti, haiwezi kubadilishwa kuwa aina ya sauti."
+    }
+  },
+  "文件 ${key": {
+    "split(/[\\\\/]/)": {
+      "pop()} 没有音轨，无法转换为音频格式。": "Faili ya ${key.split(/[\\\\/]/).pop()} haina nyendo ya sauti, haiwezi kubadilishwa kuwa aina ya sauti."
+    }
+  },
+  "文件 {{baseName}} 没有音轨，无法转换为音频格式。": "Faili ya {{baseName}} haina nyendo ya sauti, haiwezi kubadilishwa kuwa aina ya sauti.",
+  "文件 {{file": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "Faili ya {{file.split(/[\\\\/]/).pop()}} haina nyendo ya sauti, haiwezi kubadilishwa kuwa aina ya sauti."
+    }
+  },
+  "文件 {{filePath": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "Faili ya {{filePath.split(/[\\\\/]/).pop()}} haina nyendo ya sauti, haiwezi kubadilishwa kuwa aina ya sauti."
+    }
+  },
+  "文件 {{key": {
+    "split(/[\\\\/]/)": {
+      "pop()}} 没有音轨，无法转换为音频格式。": "Faili ya {{key.split(/[\\\\/]/).pop()}} haina nyendo ya sauti, haiwezi kubadilishwa kuwa aina ya sauti."
+    }
+  },
+  "文件不存在": "Faili haipo",
+  "文件内容为空 (0字节)": "Maudhui ya faili yamekua tupu (0 baiti)",
+  "文件名": "Jina la faili",
+  "文件名: {filename}": {
+    "gif": "Jina la faili: {filename}.gif"
+  },
+  "文件大小": "Ukubwa wa faili",
+  "文档类": "Aina ya harakati",
+  "方向": "Mwelekeo",
+  "无法获取文件信息:": "Haikuweza kupata taarifa za faili:",
+  "无法获取视频信息:": "Haikuweza kupata taarifa za video:",
+  "无法获取视频时长，暂不支持裁剪": "Haikuweza kupata muda wa video, kwa sasa hakipatiwe mbadala wa upungufu",
+  "无法验证输出文件大小": "Haikuweza kuthibitisha ukubwa wa faili iliyotolewa",
+  "无音轨": "Hakuna nyambulizi za sauti",
+  "无音频": "Hakuna sauti",
+  "是": "Ndio",
+  "是否取消当前转换任务并删除未完成文件？": "Je, unataka kughairi kazi ya sasa ya ubadilishaji na kufuta faili ambazo hazijakamilika?",
+  "是否取消当前转换任务？": "Je, unataka kughairi kazi ya sasa ya ubadilishaji?",
+  "是否取消转换并删除本地文件？": "Je, unataka kughairi ubadilishaji na kufuta faili za ndani?",
+  "是否取消转换？": "Je, unataka kughairi ubadilishaji?",
+  "是否立即更新？": "Je, unataka kusasisha sasa?",
+  "更新出错: {str(e)}": "Hitilafu ya usasishaji: {str(e)}",
+  "更新功能不可用 (Electron environment missing)": "Usimamizi wa usasishaji haupatikani (Mazingira ya Electron yamesingizwa)",
+  "更新程序参数错误。\\n\\n原始参数: {sys": {
+    "argv}": "Hitilafu ya viashiria vya usasishaji.\\n\\nViashiria vilivyotoka: {sys.argv}"
+  },
+  "更新程序启动失败": "Msukumo wa usasishaji wa programu umeshindikana",
+  "更新错误": "Hitilafu ya usasishaji",
+  "最大化/还原": "Kubali/Kurudisha",
+  "最小化": "Kupunguza",
+  "最近使用": "Tetemeko la hivi punde",
+  "未找到主程序": "Mradi mkuu haupatikani",
+  "未找到相关功能": "Hatua husika haipatikani",
+  "未知": "Haijulikani",
+  "未知错误": "Hitilafu isiyojulikana",
+  "未设置输出路径": "Njia ya pato haijawekwa",
+  "未设置输出路径: ${file}": "Njia ya pato haijawekwa: ${file}",
+  "未设置输出路径: {{file}}": "Njia ya pato haijawekwa: {{file}}",
+  "校验失败：下载文件损坏": "Thibitisho limeanguka: Faili iliyopakuliwa imeharibika",
+  "检查更新": "Angalia usasishaji",
+  "检查更新中": {
+    "": {
+      "": {
+        "": "Inaangalia usasishaji..."
+      }
+    }
+  },
+  "检查更新出错: ": "Hitilafu ya kuangalia usasishaji: ",
+  "检查更新出错:": "Hitilafu ya kuangalia usasishaji:",
+  "检查更新失败: ": "Usasishaji wa kuangalia umeshindikana: ",
+  "检查更新失败:": "Usasishaji wa kuangalia umeshindikana:",
+  "检测到新版本，但下载地址无效。请联系客服。": "Imepatikana kuna toleo jipya, lakini anwani ya upakiaji si sahihi. Tafadhali wasiliana na msaada wa wateja.",
+  "正在下载更新包": {
+    "": {
+      "": {
+        "": "Inapakua kifurushi cha sasisha..."
+      }
+    }
+  },
+  "正在关闭主程序": {
+    "": {
+      "": {
+        "": "Inafunga programu kuu..."
+      }
+    }
+  },
+  "正在升级系统": "Inasasisha mfumo",
+  "正在启动更新程序，请留意 UAC 弹窗": {
+    "": {
+      "": {
+        "": "Inainizia programu ya sasisha, tafadhali angalia dirishani la UAC..."
+      }
+    }
+  },
+  "正在安装更新": {
+    "": {
+      "": {
+        "": "Inasakinisha sasisho..."
+      }
+    }
+  },
+  "正在更新": {
+    "": {
+      "": {
+        "": "Inasasisha..."
+      }
+    }
+  },
+  "正在生成预览": {
+    "": {
+      "": {
+        "": "Inatengeneza onyo la awali..."
+      }
+    }
+  },
+  "正在转换 ${convertCount?": {
+    "current || 0}/${convertCount?": {
+      "total || 0}": "Inabadilisha ${convertCount?.current || 0}/${convertCount?.total || 0}"
+    }
+  },
+  "正在转换 {{convertCount?": {
+    "current || 0}}/{{convertCount?": {
+      "total || 0}}": "Inabadilisha {{convertCount?.current || 0}}/{{convertCount?.total || 0}}"
+    }
+  },
+  "正在重试 ({i+1}/{max_retries})": {
+    "": {
+      "": {
+        "": "Inajaribu tena ({i+1}/{max_retries})..."
+      }
+    }
+  },
+  "此组件位于 src/components/features/DemoFeature": {
+    "jsx。": "Sehemu hii iko katika src/components/features/DemoFeature.jsx."
+  },
+  "浏览器不支持直接播放此 AVI 编码格式": "Kivinjari hakipati kuandaa moja kwa moja aina hii ya msimbo AVI",
+  "清理并重启": {
+    "": {
+      "": {
+        "": "Inasafisha na kuanza upya..."
+      }
+    }
+  },
+  "清空全部": "Usomee yote",
+  "生成的 ": {
+    "base64 文件包含完整的 Data URL（例如：data:image/gif;base64,": {
+      "": {
+        "": {
+          "），您可以直接将其复制到代码中使用。": "Faili ya .base64 iliotengenezwa inajumuisha Data URL kamili (kwa mfano: data:image/gif;base64,...), unaweza kui nakili moja kwa moja katika msimbo wako kutumia."
+        }
+      }
+    }
+  },
+  "界面渲染出错": "Hitilafu katika upelelezi wa kiolesura",
+  "登录": "Ingia",
+  "登录中": {
+    "": {
+      "": {
+        "": "Ingingia..."
+      }
+    }
+  },
+  "登录后即可保存您的个性设置并享受更多高级功能": "Baada ya kuingia unaweza kuhifadhi mipangilio yako ya mtu binafsi na kufurahia vipengele vingi vya juu",
+  "登录成功": "Umeingia kwa mafanikio",
+  "登录请求已超时，请重试": "Ombi la kuingia limepungua muda, tafadhali jaribu tena",
+  "登录鲲穹账户": "Ingia kwenye akaunti ya Kunqiong",
+  "目标视频码率": "Kiwango cha lengo cha video",
+  "确定": "Thibitisha",
+  "确定裁剪": "Thibitisha kupunguza",
+  "确定要取消当前的转换任务吗？": "Je, una uhakika kuacha kazi ya badiliko la sasa?",
+  "确定要取消当前的转换任务吗？已生成的文件可能会被删除。": "Je, una uhakika kuacha kazi ya badiliko la sasa? Faili zilizotengenezwa zinaweza kufutwa.",
+  "确定要取消当前的转换任务吗？已生成的文件将保留。": "Je, una uhakika kuacha kazi ya badiliko la sasa? Faili zilizotengenezwa zitatunzwa.",
+  "确定要取消当前的转换任务吗？已生成的文件将被删除。": "Je, una uhakika kuacha kazi ya badiliko la sasa? Faili zilizotengenezwa zitafutwa.",
+  "确定要取消当前的转换任务吗？已转换的部分将被删除。": "Je, una uhakika kuacha kazi ya badiliko la sasa? Sehemu iliyobadilishwa itafutwa.",
+  "确定要取消当前的转换任务吗？未完成的文件将被删除。": "Je, una uhakika kuacha kazi ya badiliko la sasa? Faili ambazo hazijakamilika zitafutwa.",
+  "确定要移除所有文件吗？": "Je, una uhakika kutoa faili zote?",
+  "确认取消": "Thibitisha kuondoa",
+  "确认清空": "Thibitisha usomeaji",
+  "示例工具": "Zana za mfano",
+  "社交媒体": "Vyombo vya habari mtandaoni",
+  "移除": "Toa",
+  "移除文件": "Toa faili",
+  "程序将自动关闭以完成安装": "Programu itafunga kwa kiasi yenyewe ili kumaliza usakinishaji",
+  "立体声 (2)": "Stereo (2)",
+  "立体声 (2": {
+    "0)": "Stereo (2.0)"
+  },
+  "立体声 (Stereo)": "Stereo (Stereo)",
+  "立即更新": "Sasisha sasa",
+  "立即登录": "Ingia sasa",
+  "等待登录": {
+    "": {
+      "": {
+        "": "Inasubiri kuingia..."
+      }
+    }
+  },
+  "简单、高效的在线文件格式转换工具集": "Chanzo rahisi na kipya cha badiliko la faili mtandaoni",
+  "终止任务": "Simamisha kazi",
+  "结束时间 (秒)": "Muda wa mwisho (sekunde)",
+  "结果文件夹": "Folder ya matokeo",
+  "继续导入": "Endelea na kuingiza",
+  "继续转换": "Endelea na ubadilishaji",
+  "自定义": "Custom",
+  "自定义采样率和声道": "Weka sampling rate na nyuso kwa ujumbe",
+  "获取文件信息失败:": "Imeshindwa kupata taarifa za faili:",
+  "获取视频信息失败:": "Imeshindwa kupata taarifa za video:",
+  "视频压缩模式": "Mpango wa kushona video",
+  "视频处理": "Usimamizi wa video",
+  "视频格式转换大师": "Bwana wa ubadilishaji wa aina za video",
+  "视频类": "Aina ya video",
+  "视频编码": "Kuandika msimbo wa video",
+  "视频裁剪": "Kukata video",
+  "视频质量": "Ubora wa video",
+  "视频预览与信息": "Ona kabla na taarifa ya video",
+  "让办公更高效": "Ili ofisi iweze bora zaidi",
+  "设置全局输出路径": "Weka njia ya pato la jumla",
+  "该 WEBM 文件没有音轨，无法导出音频": "Faili hii ya WEBM haipati kifaa cha sauti, haiwezi kutengeneza sauti",
+  "该功能尚未实现 UI，请先试用 AVI To JPG": "Kipengele hiki bado hakijafanikiwa UI, jaribu AVI To JPG kwanza",
+  "该视频包含 ${trackCount} 条音轨": "Video hii ina ${trackCount} nyendo za sauti",
+  "该视频包含 {{trackCount}} 条音轨": "Video hii ina {{trackCount}} nyendo za sauti",
+  "请先转换文件以确定输出目录": "Tafadhali ubadilishe faili kwanza ili uweze kuthibitisha saraka ya pato",
+  "请先选择 GIF 文件": "Tafadhali chagua faili ya GIF kwanza",
+  "请先选择 MOV 文件": "Tafadhali chagua faili ya MOV kwanza",
+  "请先选择 MP4 文件": "Tafadhali chagua faili ya MP4 kwanza",
+  "请先选择 WEBM 文件": "Tafadhali chagua faili ya WEBM kwanza",
+  "请先选择文件": "Tafadhali chagua faili kwanza",
+  "请先选择要转换的文件": "Tafadhali chagua faili unayotaka kubadilisha",
+  "请先选择输出目录或进行转换": "Tafadhali chagua saraka ya pato au ubadilishe",
+  "请先选择需要转换的 AVI 文件": "Tafadhali chagua faili ya AVI unayotaka kubadilisha",
+  "请关闭当前窗口后重新打开工具。": "Tafadhali funga dirisha la sasa halafu ufungue chombo tena.",
+  "请在浏览器中完成登录验证": "Tafadhali kamilisha uthibitishaji wa kuingia katika kivinjari.",
+  "请根据你的实际业务逻辑（如 PDF 处理、图像转换等）修改此文件，或创建新的组件并在 MainPage": {
+    "jsx 中进行路由映射。": "Tafadhali badilisha faili hii kulingana na mifumo ya kisasa yako (kama vile usimamizi wa PDF, ubadilishaji wa picha, n.k.) au undekeze sehemu mpya na uunganishe katika MainPage.jsx."
+  },
+  "请设置输出路径（全局或自定义）": "Tafadhali weka njia ya pato (kwa ujumla au ya maalum).",
+  "质量": "Ubora",
+  "转换中": {
+    "": {
+      "": {
+        "": "Inabadilishwa..."
+      }
+    }
+  },
+  "转换任务已取消并清理临时文件": "Kazi ya ubadilishaji imeghairiwa na faili za muda imefutwa.",
+  "转换任务已取消，相关文件已清理。": "Kazi ya ubadilishaji imeghairiwa, faili zinazohusiana zimefutwa.",
+  "转换器": "Mubadilishi",
+  "转换失败": "Ubadilishaji umeshindikana",
+  "转换失败:": "Ubadilishaji umeshindikana:",
+  "转换失败: {fileName}\\n{errorMessage}": "Ubadilishaji umeshindikana: {fileName}\\n{errorMessage}",
+  "转换完成": "Ubadilishaji umekamilika",
+  "转换完成（演示模式）": "Ubadilishaji umekamilika (modali ya demo)",
+  "转换成功:": "Ubadilishaji mafanikio:",
+  "转换文件失败: ${result": {
+    "error || result": {
+      "message}": "Ubadilishaji wa faili umeshindikana: ${result.error || result.message}"
+    }
+  },
+  "转换文件失败: {{result": {
+    "error || result": {
+      "message}}": "Ubadilishaji wa faili umeshindikana: {{result.error || result.message}}"
+    }
+  },
+  "转换设置": "Mpangilio wa ubadilishaji",
+  "转换说明": "Maelezo ya ubadilishaji",
+  "转换过程中出现错误: ${err": {
+    "message}": "Hitilafu ilitokea katika mchakato wa ubadilishaji: ${err.message}"
+  },
+  "转换过程中出现错误: {{err": {
+    "message}}": "Hitilafu ilitokea katika mchakato wa ubadilishaji: {{err.message}}"
+  },
+  "转换过程中发生错误: ": "Hitilafu ilitokea katika mchakato wa ubadilishaji: ",
+  "转换过程中发生错误:": "Hitilafu ilitokea katika mchakato wa ubadilishaji:",
+  "转换过程中发生错误: ${err": {
+    "message}": "Hitilafu ilitokea katika mchakato wa ubadilishaji: ${err.message}"
+  },
+  "转换过程中发生错误: {{err": {
+    "message}}": "Hitilafu ilitokea katika mchakato wa ubadilishaji: {{err.message}}"
+  },
+  "转换选项": "Chaguo za ubadilishaji",
+  "软件定制": "Programu ya kibinafsi",
+  "软件更新": "Sasisha programu",
+  "输出文件为空": "Faili ya pato ni tupu",
+  "输出文件落盘失败: {e}": "Imeshindwa kuweka faili ya pato kwenye diski: {e}",
+  "返回首页": "Rudi nyumbani",
+  "这是一个专业工具，用于 ${toolName}，支持批量处理和自定义参数设置。": "Hii ni chombo cha kifani, kinachotumika kwa ajili ya ${toolName}, inatumia usimamizi wa wingi na viwango vya maalum.",
+  "这是一个专业工具，用于 {{toolName}}，支持批量处理和自定义参数设置。": "Hii ni chombo cha kifani, kinachotumika kwa ajili ya {{toolName}}, inatumia usimamizi wa wingi na viwango vya maalum.",
+  "这是一个通用模板组件。当前选中的工具是：": "Huu ni kipengele cha kigezo cha jumla. Chombo lililo chaguliwa sasa ni:",
+  "退出当前账号": "Ondoka kutoka kwenye akaunti ya sasa",
+  "选择文件": "Chagua faili",
+  "选择音轨": "Chagua kifani sauti",
+  "部分文件已忽略，仅支持 AVI 格式": "Baadhi ya faili zimepitiwa, inawezesha tu aina ya AVI",
+  "部分文件已忽略，仅支持 GIF 格式": "Baadhi ya faili zimepitiwa, inawezesha tu aina ya GIF",
+  "部分文件已忽略，仅支持 MOV 格式": "Baadhi ya faili zimepitiwa, inawezesha tu aina ya MOV",
+  "部分文件已忽略，仅支持 MP4 格式": "Baadhi ya faili zimepitiwa, inawezesha tu aina ya MP4",
+  "部分文件已忽略，仅支持 WEBM 格式": "Baadhi ya faili zimepoozwa, unaunga mkono tu aina ya WEBM",
+  "部分文件转换失败，已完成 {finishedCount}/{totalCount} 个。": "Baadhi ya faili hazijafanikiwa kubadilishwa, imekamilika {finishedCount}/{totalCount}.",
+  "采样率": "Kiwango cha sampuli",
+  "错误": "Kosa",
+  "问题反馈": "Wasilisha maoni",
+  "音轨 ${i + 1}": "Saraka ya sauti ${i + 1}",
+  "音轨 ${i + 1} ${i === 0 ? '(默认)' : ''}": "Saraka ya sauti ${i + 1} ${i === 0 ? '(chaguo-msingi)' : ''}",
+  "音轨 ${i + 2}": "Saraka ya sauti ${i + 2}",
+  "音轨 ${idx + 1}": "Saraka ya sauti ${idx + 1}",
+  "音轨 ${index + 1} ${index === 0 ? '(默认)' : ''}": "Saraka ya sauti ${index + 1} ${index === 0 ? '(chaguo-msingi)' : ''}",
+  "音轨 1 (默认)": "Saraka ya sauti 1 (chaguo-msingi)",
+  "音轨 {{i + 1}}": "Saraka ya sauti {{i + 1}}",
+  "音轨 {{i + 1}} {{i === 0 ? '(默认)' : ''}}": "音轨 {{i + 1}} {{i === 0 ? '(默认)' : ''}}",
+  "音轨 {{i + 2}}": "Saraka ya sauti {{i + 2}}",
+  "音轨 {{idx + 1}}": "Saraka ya sauti {{idx + 1}}",
+  "音轨 {{index + 1}} {{index === 0 ? '(默认)' : ''}}": "音轨 {{index + 1}} {{index === 0 ? '(默认)' : ''}}",
+  "音轨选择": "Chaguo la saraka za sauti",
+  "音频比特率": "Kiwango cha bits za sauti",
+  "音频比特率 (kbps)": "Kiwango cha bits za sauti (kbps)",
+  "音频类": "Aina ya sauti",
+  "音频编码": "Msimbo wa sauti",
+  "音频采样率": "Kiwango cha sampuli za sauti",
+  "预览生成失败，但您可以正常查看信息并设置裁剪范围": "Uundaaji wa kihakiki usiofanikiwa, lakini unaweza kuangalia taarifa kwa njia ya kawaida na kujiepusha kikomo cha kupunguza",
+  "预览视频": "Hakiki video",
+  "预设": "Mpangilio wa awali",
+  "高级编码参数": "Vipengele vya juu vya msimbo",
+  "高级设置": "Mipangilio ya juu",
+  "高质量": "Ubora mrefu",
+  "鲲穹AI": "Kunq AI",
+  "鲲穹AI旗下产品": "Bidhaa za chini ya Kunq AI",
+  "默认": "Chaguo-msingi",
+  "🌐 全局配置": "🌐 Mpangilio wa jumla",
+  "🎧 {trackCount}音轨": "🎧 {trackCount} saraka za sauti",
+  "👨‍💻 开发者提示:": "👨‍💻 Miongozo ya mtaalamu:",
+  "📂 导入文件夹": "📂 Pangilia folda",
+  "📂 结果文件夹": "📂 Folda ya matokeo",
+  "📍 设置路径 ({selectedForPath": {
+    "size})": "📍 Weka njia ({selectedForPath.size})"
+  },
+  "🗑️ 清空全部": "🗑️ Ondoa yote"
+}

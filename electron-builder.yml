@@ -1,0 +1,43 @@
+appId: com.converttool.app
+productName: 视频格式转换大师
+directories:
+  output: release/${version}
+  buildResources: build
+files:
+  - from: .
+    filter:
+      - package.json
+      - electron/**/*
+  - from: frontend/dist
+    to: frontend/dist
+    filter:
+      - "**/*"
+extraResources:
+  - from: backend/dist/api
+    to: backend
+win:
+  extraFiles:
+    - from: dist/updater.exe
+      to: .
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+nsis:
+  oneClick: false
+  perMachine: true
+  allowToChangeInstallationDirectory: true
+  unicode: true
+  artifactName: installer/${productName}-Setup-${version}.${ext}
+portable:
+  artifactName: portable/${productName}-Portable-${version}.${ext}
+
+mac:
+  identity: null
+  target:
+    - zip
+  artifactName: portable/${productName}-mac-${arch}-${version}.${ext}
+  category: public.app-category.video
