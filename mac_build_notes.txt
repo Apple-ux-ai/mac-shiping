@@ -34,6 +34,7 @@ GitHub Actions 云端构建（推荐无 Mac 时使用）
 - 使用矩阵：macos-latest（arm64）与 macos-15-intel（x64），各生成一个 zip，在运行结果页「Artifacts」下载 mac-portable-arm64 / mac-portable-x64
 - 私有仓库会消耗 Actions 分钟数；公开仓库使用标准运行器按 GitHub 规则计费/免费额度
 - 若 Intel 任务因运行器不可用失败，可编辑 workflow 去掉 macos-15-intel 那一行，仅保留 arm64
+- 构建进行途中请勿连续 push 同一分支并依赖「取消旧运行」：旧版 workflow 曾用 cancel-in-progress，会导致 electron-builder 报 “The operation was canceled”；当前已关闭该行为
 
 GitHub
 - 远程示例：https://github.com/Apple-ux-ai/mac-shiping.git

@@ -16,12 +16,15 @@ on:
       - "build_backend.py"
       - "api.spec"
 
+# 勿对整次 workflow 使用 cancel-in-progress: true：新 push 会 SIGTERM 正在打 zip 的 job，日志表现为
+# “The operation was canceled”。若需限制排队，可改为按架构分组或关闭 cancel-in-progress。
 concurrency:
   group: mac-portable-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   mac-portable:
+    timeout-minutes: 45
     strategy:
       fail-fast: false
       matrix:
