@@ -1,0 +1,70 @@
+# 在无本地 Mac 时，由 GitHub Actions 在 macOS 运行器上打出便携版 zip，并上传为 Artifact。
+name: 构建 macOS 便携版 zip
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/build-mac-portable.yml"
+      - "electron/**"
+      - "frontend/**"
+      - "backend/**"
+      - "package.json"
+      - "package-lock.json"
+      - "electron-builder.yml"
+      - "build_backend.py"
+      - "api.spec"
+
+concurrency:
+  group: mac-portable-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  mac-portable:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: macos-latest
+            arch_label: arm64
+          - runner: macos-15-intel
+            arch_label: x64
+
+    runs-on: ${{ matrix.runner }}
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装 ffmpeg
+        run: brew install ffmpeg
+
+      - name: 安装 Python 构建依赖
+        run: pip install -r backend/requirements-build.txt
+
+      - name: 安装 Node 依赖
+        run: npm ci
+
+      - name: 构建 macOS 应用（zip）
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: "false"
+        run: npm run build:mac
+
+      - name: 上传便携版 zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: mac-portable-${{ matrix.arch_label }}
+          path: release/**/portable/*.zip
+          if-no-files-found: error

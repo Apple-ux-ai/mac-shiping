@@ -11,7 +11,8 @@ Windows
 - 内置更新：updater.exe 由 build_backend.py 构建并复制到 dist/updater.exe 供 electron-builder 打包
 
 macOS 便携 zip（未签名）
-- 必须在 macOS 上执行完整构建（无法在 Windows 上产出可用的 .app）
+- 本地无 Mac 时：使用 GitHub Actions（见下文「GitHub Actions 云端构建」）
+- 有 Mac 时本地构建：无法在 Windows 上产出可用的 .app
 - 依赖：Node.js、Python 3、PyInstaller；系统需安装 ffmpeg / ffprobe（且在打包后的环境中仍在 PATH 中可用，或使用自备二进制并自行接入）
 - 步骤：
   1. cd 到本目录（含 package.json）
@@ -26,6 +27,13 @@ macOS 便携 zip（未签名）
 可选资源
 - build/icon.icns：Dock/窗口图标（无则使用默认）
 - Windows 窗口图标：build/icon.ico
+
+GitHub Actions 云端构建（推荐无 Mac 时使用）
+- 工作流文件：.github/workflows/build-mac-portable.yml
+- 触发：push 到 main 且变更命中 workflow 中 paths 所列目录；或在 Actions 里手动「Run workflow」
+- 使用矩阵：macos-latest（arm64）与 macos-15-intel（x64），各生成一个 zip，在运行结果页「Artifacts」下载 mac-portable-arm64 / mac-portable-x64
+- 私有仓库会消耗 Actions 分钟数；公开仓库使用标准运行器按 GitHub 规则计费/免费额度
+- 若 Intel 任务因运行器不可用失败，可编辑 workflow 去掉 macos-15-intel 那一行，仅保留 arm64
 
 GitHub
 - 远程示例：https://github.com/Apple-ux-ai/mac-shiping.git
