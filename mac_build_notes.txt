@@ -35,6 +35,7 @@ GitHub Actions 云端构建（推荐无 Mac 时使用）
 - 私有仓库会消耗 Actions 分钟数；公开仓库使用标准运行器按 GitHub 规则计费/免费额度
 - 若 Intel 任务因运行器不可用失败，可编辑 workflow 去掉 macos-15-intel 那一行，仅保留 arm64
 - 构建进行途中请勿连续 push 同一分支并依赖「取消旧运行」：旧版 workflow 曾用 cancel-in-progress，会导致 electron-builder 报 “The operation was canceled”；当前已关闭该行为
+- electron-builder：配置里使用 publish: null（不是 publish: never）；never 会被当成 provider 名并在 build/ 下查找 electron-publisher-never.js 导致报错；命令行用 --publish never 表示「不执行上传」
 
 GitHub
 - 远程示例：https://github.com/Apple-ux-ai/mac-shiping.git

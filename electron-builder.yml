@@ -1,7 +1,7 @@
 appId: com.converttool.app
 productName: 视频格式转换大师
-# CI 下 electron-builder 会尝试走 GitHub 发布并要求 GH_TOKEN；仅打本地/Artifact 包时关闭发布
-publish: never
+# 禁用发布配置（勿写 publish: never，会被当成 provider=never 并在 build/ 下找 electron-publisher-never.js）
+publish: null
 directories:
   output: release/${version}
   buildResources: build
